@@ -1,127 +1,122 @@
 ---
-description: Kennenlernen der Microsoft Edge-Entwickler Tools (EdgeHTML)
-title: Microsoft Edge (EdgeHTML)-Entwickler Tools
+description: Einführung in die Microsoft Edge (EdgeHTML)-Entwicklertools
+title: Microsoft Edge (EdgeHTML)-Entwicklertools 
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 05/05/2020
+ms.date: 09/01/2020
 ms.topic: article
 ms.prod: microsoft-edge
 ms.technology: devtools
-keywords: Microsoft Edge, Web-Entwicklung, F12-Tools, devtools
+keywords: microsoft edge, web development, f12 tools, devtools
 experimental: true
-experiment_id: 51fe4b97-3e55-41
-localization_priority: Priority
-ms.openlocfilehash: 56edfa3aa39fc20d37d95fb8fde029a702732336
-ms.sourcegitcommit: 985cfb79a64951afd5beb7981b26afbed30a8972
-ms.translationtype: MT
-ms.contentlocale: de-DE
-ms.lasthandoff: 05/07/2020
-ms.locfileid: "10629504"
+experiment_id: "51fe4b97-3e55-41"
+ms.localizationpriority: high
 ---
-# Microsoft Edge (EdgeHTML)-Entwickler Tools  
+
+# Microsoft Edge (EdgeHTML)-Entwicklertools  
 
 [!INCLUDE [new-devtools-version-note](includes/new-devtools-version-note.md)]  
 
-Die Microsoft Edge \ (EdgeHTML \) devtools [sind mit einer][|::ref1::|Index]von [Open Source][GithubMicrosoftChakracore]unterstützten, für moderne Front-End-Workflows optimierten und jetzt als [eigenständige Windows 10-App][MicrosoftStoreEdgeDevtoolsPreview] im Microsoft Store verfügbaren Version erstellt.  
+Die Microsoft Edge (EdgeHTML)-Entwicklertools (DevTools) wurden mit [TypeScript][TypeScriptIndex] erstellt, basieren auf [Open Source][GithubMicrosoftChakracore], die für moderne Front-End-Workflows optimiert sind, und sind jetzt als [eigenständige Windows 10-App][MicrosoftStoreEdgeDevtoolsPreview] im Microsoft Store verfügbar!  
 
-Weitere Informationen zu den neuesten Features finden Sie unter [devtools im neuesten Update von Windows 10 (EdgeHTML 18)][DevtoolsGuideEdgehtmlWhatsnew].  
+Wenn Sie mehr über die neuesten Funktionen erfahren möchten, lesen Sie [Entwicklertools in der neuesten Version von Windows 10 (EdgeHTML 18)][DevtoolsGuideEdgehtmlWhatsnew].  
 
-## Kern Tools  
+## Grundlegende Tools  
 
-:::image type="complex" source="./devtools-guide/media/devtools.png" alt-text="Microsoft Edge (EdgeHTML) devtools":::
-   Microsoft Edge (EdgeHTML) devtools
+:::image type="complex" source="./devtools-guide/media/devtools.png" alt-text="Microsoft Edge (EdgeHTML) DevTools":::
+  Microsoft Edge (EdgeHTML) DevTools
 :::image-end:::
 
 <!--![Microsoft Edge \(EdgeHTML\) DevTools][ImageDevtoolsEdgehtml]  -->  
 
-Zu den Microsoft Edge \ (EdgeHTML \) devtools gehören:  
+Die Microsoft Edge (EdgeHTML) DevTools umfassen:  
 
-*   Ein [Element][DevtoolsGuideEdgehtml|::ref2::|] Panel zum Bearbeiten von HTML und CSS, untersuchen von Barrierefreiheitseigenschaften, Anzeigen von ereignislistern und Festlegen von Haltepunkten für DOM-Mutationen  
-*   Eine [Konsole][DevtoolsGuideEdgehtml|::ref3::|] zum Anzeigen und Filtern von Protokollmeldungen, zum Überprüfen von JavaScript-Objekten und DOM-Knoten sowie zum Ausführen von JavaScript im Kontext des ausgewählten Fensters oder Rahmens  
-*   Ein [Debugger][DevtoolsGuideEdgehtml|::ref4::|] zum Durchlaufen von Code, Festlegen von Überwachungen und Haltepunkten, Live Bearbeiten des Codes und untersuchen der Webspeicher-und Cookie-Caches  
-*   [Netzwerk][DevtoolsGuideEdgehtml|::ref5::|] Fenster zum Überwachen und prüfen von Anforderungen und Antworten aus dem Netzwerk-und Browsercache  
-*   Ein [Leistungs][DevtoolsGuideEdgehtml|::ref6::|] Panel, in dem die von Ihrer Website benötigten Zeit-und Systemressourcen angezeigt werden  
-*   Ein [Speicher][DevtoolsGuideEdgehtml|::ref7::|] Panel zum Messen der Verwendung von Speicherressourcen und zum Vergleichen von Heap-Snapshots in verschiedenen Zuständen der Code Laufzeit  
-*   Ein [Speicher][DevtoolsGuideEdgehtml|::ref8::|] Panel zum Überprüfen und Verwalten Ihres Webspeichers, IndexedDB, Cookies und Cache-Daten  
-*   Ein [Dienstmitarbeiter][DevtoolsGuideEdgehtmlServiceworkers] -Panel zum Verwalten und Debuggen von Servicemitarbeitern  
-*   Ein [Emulations][DevtoolsGuideEdgehtml|::ref9::|] Panel zum Testen Ihrer Website mit unterschiedlichen Browser Profilen, Bildschirmauflösungen und GPS-Positionskoordinaten  
+*   Einen [Elemente][DevtoolsGuideEdgehtmlElements]-Bereich zum Bearbeiten von HTML und CSS, Untersuchen von Barrierefreiheitseigenschaften, Anzeigen von Ereignislistenern und Festlegen von DOM-Mutation-Haltepunkten  
+*   Eine [Konsole][DevtoolsGuideEdgehtmlConsole] zum Anzeigen und Filtern von Protokollmeldungen, Überprüfen von JavaScript-Objekten und DOM-Knoten sowie zum Ausführen von JavaScript im Kontext des ausgewählten Fensters oder Frames  
+*   Einen [Debugger][DevtoolsGuideEdgehtmlDebugger] zum Durchlaufen von Code, Festlegen von Überwachungen und Haltepunkten, Bearbeiten von Code und Überprüfen von Webspeicher- und Cookie-Caches  
+*   Einen [Netzwerk][DevtoolsGuideEdgehtmlNetwork]-Bereich zum Überwachen und Überprüfen von Anforderungen und Antworten aus dem Netzwerk und Browsercache  
+*   Einen [Leistungsbereich][DevtoolsGuideEdgehtmlPerformance], um die Zeit und Systemressourcen zu ermitteln, die für Ihre Website erforderlich sind  
+*   Einen [Arbeitsspeicher][DevtoolsGuideEdgehtmlMemory]-Bereich zum Messen der Nutzung von Speicherressourcen und Vergleichen von Heap-Momentaufnahmen in unterschiedlichen Code-Runtime-Phasen  
+*   Einen [Speicher][DevtoolsGuideEdgehtmlStorage]-Bereich für die Überprüfung und Verwaltung von Webspeicher, IndexedDB, Cookies und Cachedaten  
+*   Einen [Dienstmitarbeiter][DevtoolsGuideEdgehtmlServiceworkers]-Bereich zum Verwalten und Debuggen Ihrer Servicemitarbeiter  
+*   Einen [Emulations][DevtoolsGuideEdgehtmlEmulation]-Bereich zum Testen Ihrer Website mit unterschiedlichen Browserprofilen, Bildschirmauflösungen und GPS-Positionskoordinaten  
 
-Bitte senden Sie Ihr [Feedback und ihre Funktionswünsche](#feedback)weiter!  
+Bitte senden Sie uns weiterhin [Ihr Feedback und Ihre Wünsche zu Features](#getting-in-touch-with-the-microsoft-edge-devtools-team)!  
 
-> [!TIP]
-> [Testen Sie Microsoft Edge \ (EdgeHTML \) kostenlos in einem beliebigen Browser][BrowserstackEdgehtml].  
-> Das Microsoft Edge-Team hat sich mit [BrowserStack][BrowserstackEdgehtml] zusammengetan, um ﻿kostenlose Live-und automatisierte Tests für Microsoft Edge (EdgeHTML \) bereitzustellen.  
+> [! Tipp]
+> [In Microsoft Edge (EdgeHTML) kostenlos über jeden Browser testen][BrowserstackEdgehtml].  
+> Das Microsoft Edge-Team ist eine Partnerschaft mit [BrowserStack][BrowserstackEdgehtml] eingegangen, um ﻿kostenlose automatisierte und Live-Tests in Microsoft Edge (EdgeHTML) zu ermöglichen.  
 
 ## Microsoft Store-App  
 
-Die **Microsoft Edge \ (EdgeHTML \)-devtools** sind [nun][DevtoolsGuideEdgehtmlWhatsnew] als eigenständige [Windows 10-App aus dem Microsoft Store][MicrosoftStoreEdgeDevtoolsPreview]sowie über die in-Browser- `F12` Tooling-Umgebung verfügbar.  Bei der Store-Version wird ein **Auswahl** Bereich für das Anfügen zum Öffnen von lokalen und Remote Seiten Zielen sowie ein Layout mit Registerkarten zum einfachen Umschalten zwischen devtools-Instanzen geliefert.  
+Die **Microsoft Edge (EdgeHTML)-Entwicklertools** sind jetzt [als eigenständige][DevtoolsGuideEdgehtmlWhatsnew] [Windows 10-App im Microsoft Store][MicrosoftStoreEdgeDevtoolsPreview] zusätzlich zum Tooling-Feature (`F12`) innerhalb des Browsers verfügbar. Die Store-Version verfügt über einen **Auswahl**-Bereich zum Anfügen für das Öffnen von lokalen und Remote-Seitenzielen sowie über ein Layout im Tab-Format für den einfachen Wechsel zwischen Entwicklertool-Instanzen.  
 
-### Lokales Debuggen  
+### Lokales Debugging  
 
-Wenn Sie eine Seite lokal debuggen möchten, starten Sie einfach die Microsoft Edge devtools-app.  Der **lokale** Teil des Auswahlfelds zeigt alle aktiven EdgeHTML-Inhalts Prozesse an, einschließlich der geöffneten Edge-Browser-Registerkarten, mit [PWAs][PwasEdgehtmlIndex] \ ( `WWAHost.exe` Prozesse \) und [WebView][HostingWebview] -Steuerelementen.  Wählen Sie das gewünschte Ziel aus, um eine neue Registerkarten Instanz des devtools anzufügen und zu öffnen.  
+Um eine Seite lokal zu debuggen, starten Sie einfach die Microsoft Edge-Entwicklertool-App. Im Bereich **Lokal** der Auswahl werden alle aktiven EdgeHTML-Inhaltsprozesse angezeigt, einschließlich geöffneter Edge Browser-Tabs, die, [PWAs][PwasEdgehtmlIndex] (`WWAHost.exe`-Prozesse) und [webview][HostingWebview]-Steuerelemente ausführen. Wählen Sie das gewünschte Ziel zum Anfügen aus, und öffnen Sie eine neue Tab-Instanz der Entwicklertools.  
 
-:::image type="complex" source="./devtools-guide/media/chooser_local.png" alt-text="Lokales Panel der devtools-App":::
-   Lokales Panel der devtools-App
-:::image-end:::
+:::image type="complex" source="./devtools-guide/media/chooser_local.png" alt-text="Bereich ‚Lokal‘ in der Entwicklertools-App":::
+  Bereich ‚Lokal‘ in der Entwicklertools-App
+::: Image-End:::
 
 <!--![DevTools app Local panel][ImageDevtoolsGuideEdgehtmlChooselocal]  -->  
 
-### Remote Debuggen  
+### Remotedebugging  
 
-Die Microsoft Edge devtools-App bietet grundlegende Unterstützung für das Debuggen von Seiten auf einem Remotecomputer über unser neu veröffentlichtes [devtools-Protokoll][DevtoolsProtocolEdgehtmlIndex].  Mit der neuesten Version wird der Remotezugriff auf die Kernfunktionalität des [Debuggers][DevtoolsGuideEdgehtml|::ref10::|], [Elemente][DevtoolsGuideEdgehtml|::ref11::|] \ (für schreibgeschützte Vorgänge \) und [Konsolen][DevtoolsGuideEdgehtml|::ref12::|] Panels ausgeführt.  Das Remote Debuggen ist auf Microsoft Edge \ (EdgeHTML \), auf dem Desktop Hosts ausgeführt werden, mit Unterstützung für andere EdgeHTML-Hosts und Windows 10-Geräte in zukünftigen Versionen limitiert.  
+Die Microsoft Edge-Entwicklertools-App bietet grundlegende Unterstützung beim Debuggen von Seiten auf einem Remotecomputer über unser neu veröffentlichtes [DevTools-Protokoll][DevtoolsProtocolEdgehtmlIndex]. Mit der neuesten Version wird der Remotezugriff auf die Kernfunktionen der Bereiche [Debugger][DevtoolsGuideEdgehtmlDebugger], [Elemente][DevtoolsGuideEdgehtmlElements] (für Vorgänge mit reinem Lesezugriff) und [Konsole][DevtoolsGuideEdgehtmlConsole] möglich. Das Remotedebugging ist auf Microsoft Edge (EdgeHTML) ausführende Desktop-Hosts beschränkt. Die Unterstützung weiterer EdgeHTML-Hosts und Windows 10-Geräte wird mit zukünftigen Versionen eingeführt.  
 
-Um zu beginnen, lesen Sie den Abschnitt [*Microsoft Edge devtools*][DevtoolsProtocolEdgehtmlClientsEdgePreview] der [devtools-Protokoll][DevtoolsProtocolEdgehtmlIndex] Dokumentation.  
+Lesen Sie für die ersten Schritte den Abschnitt [*Microsoft Edge DevTool*][DevtoolsProtocolEdgehtmlClientsEdgePreview] der [DevTools-Protokoll][DevtoolsProtocolEdgehtmlIndex]-Dokumente.  
 
-:::image type="complex" source="./devtools-guide/media/chooser_remote.png" alt-text="DevTools-App-Remote Panel":::
-   DevTools-App-Remote Panel
-:::image-end:::
+:::image type="complex" source="./devtools-guide/media/chooser_remote.png" alt-text="Bereich ‚Remote‘ in der Entwicklertools-App":::
+  Bereich ‚Remote‘ in der Entwicklertools-App
+::: Image-End:::
 
 <!--![DevTools app Remote panel][ImageDevtoolsGuideEdgehtmlRemote]  -->  
 
-## Allgemeine Tastenkombinationen  
+## Allgemeine Tastaturkurzbefehle  
 
-> [!IMPORTANT]
-> Alle Tastenkombinationen wurden in der neuesten Version von Windows überprüft.  
-> Wenn Sie eine Verknüpfung nicht verwenden können, aktualisieren Sie Ihre Kopie von Windows.  
+> [! WICHTIG]
+> Sämtliche Tastaturkurzbefehle wurden in der aktuellsten Windows-Version überprüft.  
+> Sollte ein Tastaturkurzbefehl bei Ihnen nicht funktionieren, aktualisieren Sie Ihre Windows-Kopie.  
 
-Diese Tastenkombinationen steuern das Hauptfenster von devtools und sollten über alle Tools hinweg funktionieren.  
+Mit diesen Tastaturkurzbefehlen wird das DevTools-Hauptfenster gesteuert. Sie sollten für alle Tools funktionieren.  
 
-| Aktion | Tastenkombination |  
+| Aktion | Tastaturkurzbefehl |  
 |:--- |:--- |  
-| DevTools anzeigen/ausblenden \ (wird zum zuletzt angezeigten Fenster geöffnet) | `F12`, `Ctrl`+`Shift`+`I` |  
-| Umschalten der Docking-Taste \ (Abdocken/unten/rechts \) | `Ctrl`+`Shift`+`D` |  
-| Datei öffnen | `Ctrl`+`P`, `Ctrl`+`O` |  
-| Anzeigen des nicht bearbeitbaren HTML-Quellcodes im Debugger | `Ctrl`+`U` |  
-| Konsole am unteren Rand eines beliebigen anderen Tools einblenden/ausblenden  | `Ctrl`+`` ` `` |  
-| Wechseln zu Elementen \ (DOM-Explorer \) | `Ctrl`+`1` |  
-| Zur Konsole wechseln |  `Ctrl`+`2` |  
-| Wechseln zu Debugger | `Ctrl`+`3` |  
-| Zum Netzwerk wechseln | `Ctrl`+`4` |  
-| Wechseln zur Leistung | `Ctrl`+`5` |  
-| Wechseln zum Arbeitsspeicher | `Ctrl`+`6` |  
-| Wechseln zur Emulation | `Ctrl`+`7` |  
-| Hilfedokument | `F1` |  
-| Nächstes Tool | `Ctrl`+`F6` |  
-| Vorheriges Tool | `Ctrl`+`Shift`+`F6` |  
-| Vorheriges Tool \ (aus Verlauf \) | `Ctrl`+`Shift`+`[` |  
-| Nächstes Tool \ (aus Verlauf \) | `Ctrl`+`Shift`+`]` |  
-| Nächster teilframe | `F6` |  
-| Vorheriger teilframe | `Shift`+`F6` |  
+| Einblenden/Ausblenden der DevTools (es wird der zuletzt angezeigte Bereich geöffnet) | `F12` `STRG`+`UMSCHALT`+`I` |  
+| Andocken umschalten (Abdocken/unten/rechts) | `STRG`+`UMSCHALT`+`D` |  
+| Datei öffnen | `STRG`+`P`, `STRG`+`O` |  
+| Nicht bearbeitbaren HTML-Quellcode im Debugger anzeigen | `STRG`+`U` |  
+| Ein-/Ausblenden der Konsole unterhalb eines beliebigen anderen Tools | `STRG`+``  ` `` |  
+| Zu "Elementen" wechseln (DOM-Explorer) | `STRG`+`1` |  
+| Zu "Konsole" wechseln | `STRG`+`2` |  
+| Zu "Debugger" wechseln | `STRG`+`3` |  
+| Zu "Netzwerk" wechseln | `STRG`+`4` |  
+| Zu "Leistung" wechseln | `STRG`+`5` |  
+| Zu "Speicher" wechseln | `STRG`+`6` |  
+| Zu "Emulation" wechseln | `STRG`+`7` |  
+| Hilfedokumentation | `F1` |  
+| Nächstes Tool | `STRG`+`F6` |  
+| Vorheriges Tool | `STRG`+`UMSCHALT`+`F6` |  
+| Vorheriges Tool (aus Verlauf) | `STRG`+`UMSCHALT`+`[` |  
+| Nächstes Tool (aus Verlauf) | `STRG`+`UMSCHALT`+`]` |  
+| Nächster Subframe | `F6` |  
+| Vorheriger Subframe | `UMSCHALT`+`F6` |  
 | Nächste Übereinstimmung im Suchfeld | `F3` |  
-| Vorherige Übereinstimmung im Suchfeld | `Shift`+`F3` |  
-| Suchen im Suchfeld | `Ctrl`+`F` |  
-| Konzentrieren Sie sich am unteren Rand auf die Konsole. | `Alt`+`Shift`+`I` |  
-| Starten von devtools to Console | `Ctrl`+`Shift`+`J` |  
-| Seite aktualisieren | `Ctrl`+`Shift`+`F5`, `Ctrl`+`R` |  
+| Vorherige Übereinstimmung im Suchfeld | `UMSCHALT`+`F3` |  
+| Im Suchfeld suchen | `STRG`+`F` |  
+| Fokus auf Konsole am unteren Rand legen | `ALT`+`UMSCHALT`+`I` |  
+| DevTools in Konsole starten | `STRG`+`UMSCHALT`+`J` |  
+| Seite aktualisieren | `STRG`+`UMSCHALT`+`F5`, `STRG`+`R` |  
 
-> [!NOTE]
-> Wenn Sie das Debuggen durchgeführt und an einem Haltepunkt angehalten haben, setzt die Aktion **Seite aktualisieren** die Laufzeit zuerst fort.  
+> [! HINWEIS]
+> Wenn Sie während des Debuggens bei einem Haltepunkt pausiert haben, wird durch die Aktion **Seite aktualisieren** zuerst die Runtime fortgesetzt.  
 
-## Feedback senden  
+## Mit dem Microsoft Edge DevTools-Team Kontakt aufnehmen  
 
-Bitte senden Sie Ihr Feedback, damit Sie die Microsoft Edge \ (EdgeHTML \) devtools für Sie verbessern können.  Öffnen Sie einfach die Tools \ ( `F12` \), und wählen Sie die Schaltfläche [Feedback senden](#microsoft-edge-edgehtml-developer-tools) aus.  
+Bitte senden Sie uns Ihr Feedback, um uns bei der Verbesserung der Microsoft Edge (EdgeHTML)-Entwicklertools zu helfen! Öffnen Sie einfach die Tools (`F12`), und klicken Sie dann auf die Schaltfläche [Feedback senden](#microsoft-edge-edgehtml-developer-tools).  
 
-Werden Sie [Windows-Insider][WindowsInsiderProgram] , um eine Vorschau der [neuesten Features in devtools][DevtoolsGuideEdgehtmlWhatsnew]anzuzeigen.  Verwenden Sie die Windows-Feedback-Hub-App zum Posten, nach oben abstimmen, Nachverfolgung und Support für allgemeine Windows-Vorschläge und-Probleme.  
+Werden Sie [Windows-Insider][WindowsInsiderProgram], um die [neuesten DevTools-Funktionen][DevtoolsGuideEdgehtmlWhatsnew] in der Vorschauversion ausprobieren zu können. Verwenden Sie die Windows-Feedback-Hub-App, um allgemeine Windows-Vorschläge und -Probleme zu veröffentlichen, zu bewerten, zu verfolgen und diesbezüglich Support zu erhalten.  
 
 <!-- image links  -->  
 
@@ -135,23 +130,23 @@ Werden Sie [Windows-Insider][WindowsInsiderProgram] , um eine Vorschau der [neue
 [DevtoolsGuideEdgehtmlDebugger]: /microsoft-edge/devtools-guide/debugger "Debugger"  
 [DevtoolsGuideEdgehtmlElements]: /microsoft-edge/devtools-guide/elements "Elemente"  
 [DevtoolsGuideEdgehtmlEmulation]: /microsoft-edge/devtools-guide/emulation "Emulation"  
-[DevtoolsGuideEdgehtmlMemory]: /microsoft-edge/devtools-guide/memory "Speicher"  
+[DevtoolsGuideEdgehtmlMemory]: /microsoft-edge/devtools-guide/memory "Arbeitsspeicher"  
 [DevtoolsGuideEdgehtmlNetwork]: /microsoft-edge/devtools-guide/network "Netzwerk"  
 [DevtoolsGuideEdgehtmlPerformance]: /microsoft-edge/devtools-guide/performance "Leistung"  
 [DevtoolsGuideEdgehtmlServiceworkers]: /microsoft-edge/devtools-guide/service-workers "Dienstmitarbeiter"  
 [DevtoolsGuideEdgehtmlStorage]: /microsoft-edge/devtools-guide/storage "Speicher"  
 [DevtoolsGuideEdgehtmlWhatsnew]: /microsoft-edge/devtools-guide/whats-new "DevTools im neuesten Windows 10-Update (EdgeHTML 18)"  
-[DevtoolsProtocolEdgehtmlIndex]: /microsoft-edge/devtools-protocol/index "Microsoft Edge (EdgeHTML) devtools-Protokoll"  
-[DevtoolsProtocolEdgehtmlClientsEdgePreview]: /microsoft-edge/devtools-protocol/0.1/clients.md#microsoft-edge-devtools-preview "Microsoft Edge devtools Preview – devtools-Protokoll Clients"  
-[HostingWebview]: /microsoft-edge/hosting/webview "WebView (EdgeHTML) für Windows 10-apps"  
-[PwasEdgehtmlIndex]: /microsoft-edge/progressive-web-apps-edgehtml/index "Progressive Web-Apps (EdgeHTML) unter Windows"  
+[DevtoolsProtocolEdgehtmlIndex]: /microsoft-edge/devtools-protocol/index "Microsoft Edge (EdgeHTML) DevTools-Protokoll"  
+[DevtoolsProtocolEdgehtmlClientsEdgePreview]: /microsoft-edge/devtools-protocol/0.1/clients.md#microsoft-edge-devtools-preview "Microsoft Edge-DevTools (Vorschau) – DevTools-Protokoll-Clients"  
+[HostingWebview]: /microsoft-edge/hosting/webview "WebView (EdgeHTML) für Windows 10-Apps"  
+[PwasEdgehtmlIndex]: /microsoft-edge/progressive-web-apps-edgehtml/index "Progressive Web Apps (EdgeHTML) unter Windows"  
 
-[MicrosoftStoreEdgeDevtoolsPreview]: https://www.microsoft.com/store/p/microsoft-edge-devtools-preview/9mzbfrmz0mnj "Microsoft Edge devtools Preview"  
+[MicrosoftStoreEdgeDevtoolsPreview]: https://www.microsoft.com/store/p/microsoft-edge-devtools-preview/9mzbfrmz0mnj "Microsoft Edge DevTools (Vorschau)"  
 
 [WindowsInsiderProgram]: https://insider.windows.com "Windows-Insider-Programm"  
 
-[BrowserstackEdgehtml]: https://www.browserstack.com/test-on-microsoft-edge-browser "Testen des Microsoft Edge-Browsers kostenlos | BrowserStack"  
+[BrowserstackEdgehtml]: https://www.browserstack.com/test-on-microsoft-edge-browser "Kostenloser Microsoft Edge-Browsertest | BrowserStack"  
 
-[GithubMicrosoftChakracore]: https://github.com/Microsoft/ChakraCore "Microsoft/ChakraCore | GitHub"  
+[GithubMicrosoftChakracore]: https://github.com/Microsoft/ChakraCore "microsoft/ChakraCore | GitHub"  
 
 [TypeScriptIndex]: https://www.typescriptlang.org "TypeScript"  
