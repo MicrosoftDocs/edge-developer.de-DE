@@ -34,9 +34,10 @@
       "breadcrumb_path": "/microsoft-edge/breadcrumbs/toc.json",
       "titleSuffix": "Microsoft Edge Development",
       "uhfHeaderId": "MSDocsHeader-MSEdge",
-      "feedback_system": "GitHub",
+      "feedback_system": "None",
+      "hide_comments": true,
       "feedback_github_repo": "MicrosoftDocs/edge-developer",
-      "feedback_product_url": "https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer",
+      "feedback_product_url": "https://microsoftedge.uservoice.com",
       "extendBreadcrumb": true
     },
     "fileMetadata": {
@@ -49,7 +50,7 @@
         "extensions-chromium/**.md": "extensions",
         "hosting/chakra-hosting/**.md": "chakra",
         "hosting/webview/**.md": "webview",
-        "hosting/webview2/**.md": "webview2",
+        "webview2/**.md": "webview2",
         "progressive-web-apps-edgehtml/**.md": "pwa",
         "progressive-web-apps-chromium/**.md": "pwa",
         "windows-runtime/**.md": "windows-integration"
