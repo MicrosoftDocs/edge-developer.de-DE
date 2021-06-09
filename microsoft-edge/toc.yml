@@ -87,9 +87,51 @@
           items:
             - name: Barrierefreiheit
               items:
-                - name: Referenz zur Barrierefreiheit
+                - name: Features für Barrierefreiheitstests in DevTools
                   href: devtools-guide-chromium/accessibility/reference.md
-                - name: Navigieren in DevTools mit Hilfstechnologie
+                - name: Übersicht über Barrierefreiheitstests mit DevTools
+                  href: devtools-guide-chromium/accessibility/accessibility-testing-in-devtools.md
+                - name: Probleme-Tool
+                  items:
+                    - name: Automatisches Testen einer Webseite auf Barrierefreiheitsprobleme
+                      href: devtools-guide-chromium/accessibility/test-issues-tool.md
+                - name: Inspect-Tool
+                  items:
+                    - name: 'Verwenden Sie das Inspect-Tool, um Barrierefreiheitsprobleme zu erkennen, indem Sie auf die Webseite zeigen'
+                      href: devtools-guide-chromium/accessibility/test-inspect-tool.md
+                    - name: Überprüfen Sie die Tastaturunterstützung mithilfe der Tab- und Eingabetasten
+                      href: devtools-guide-chromium/accessibility/test-tab-enter-keys.md
+                    - name: Analysieren Sie die fehlenden Anzeige des Tastaturfokus in einem Randleistenmenü
+                      href: devtools-guide-chromium/accessibility/test-analyze-no-focus-indicator.md
+                    - name: Analysieren Sie die fehlende Tastaturunterstützung in einem Formular
+                      href: devtools-guide-chromium/accessibility/test-analyze-no-keyboard-support.md
+                - name: Registerkarte "Barrierefreiheit"
+                  items:
+                    - name: Überprüfen Sie die Barrierefreiheitsstruktur auf Tastatur- und Sprachausgabeunterstützung
+                      href: devtools-guide-chromium/accessibility/test-accessibility-tree.md
+                    - name: Testen Sie die Tastaturunterstützung mithilfe des Source Order Viewers
+                      href: devtools-guide-chromium/accessibility/test-tab-key-source-order-viewer.md
+                    - name: Testen Sie die Barrierefreiheit mithilfe der Registerkarte "Barrierefreiheit"
+                      href: devtools-guide-chromium/accessibility/accessibility-tab.md
+                - name: Registerkarte "Formatvorlagen"
+                  items:
+                    - name: Überprüfen Sie die Barrierefreiheit aller Zustände von Elementen
+                      href: devtools-guide-chromium/accessibility/test-inspect-states.md
+                    - name: Testen Sie den Kontrast von Text und Farbe mithilfe des Farbwählers
+                      href: devtools-guide-chromium/accessibility/color-picker.md
+                - name: Rendering-Tool
+                  items:
+                    - name: Überprüfen Sie auf Kontrastprobleme mit dunklem Design und hellem Design
+                      href: devtools-guide-chromium/accessibility/test-dark-mode.md
+                    - name: 'Stellen Sie sicher, dass die Seite von Personen mit Farbblindheit verwendet werden kann'
+                      href: devtools-guide-chromium/accessibility/test-color-blindness.md
+                    - name: 'Überprüfen Sie, ob die Seite mit verschwommener Sicht verwendet werden kann'
+                      href: devtools-guide-chromium/accessibility/test-blurred-vision.md
+                    - name: 'Stellen Sie sicher, dass die Seite mit deaktivierter UI-Animation verwendet werden kann'
+                      href: devtools-guide-chromium/accessibility/test-reduced-ui-motion.md
+                - name: Testen Sie die Barrierefreiheit mithilfe von Lighthouse
+                  href: devtools-guide-chromium/accessibility/lighthouse.md
+                - name: Navigieren Sie in DevTools mit Hilfstechnologie
                   href: devtools-guide-chromium/accessibility/navigation.md
                 - name: 'Nachverfolgen, welches Element den Fokus hat'
                   href: devtools-guide-chromium/accessibility/focus.md
