@@ -317,6 +317,8 @@
               href: extensions-chromium/getting-started/part1-simple-extension.md
             - name: Erstellen eines Erweiterungslernprogramms (Teil 2)
               href: extensions-chromium/getting-started/part2-content-scripts.md
+            - name: Manifestdateiformat
+              href: extensions-chromium/getting-started/manifest-format.md
             - name: Eine Erweiterung querladen
               href: extensions-chromium/getting-started/extension-sideloading.md
         - name: Entwicklerhandbuch
