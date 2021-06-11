@@ -47,14 +47,14 @@ Das **Tool "Probleme"** in Microsoft Edge DevTools reduziert die Benachrichtigun
        :::column span="":::
           Klicken Sie auf der gelben Warnleiste auf die Schaltfläche **"Zu Problemen wechseln".**  
           
-          :::image type="complex" source="../media/issues-open-issues-tab.msft.png" alt-text="Wechseln Sie zur Schaltfläche "Probleme" in der gelben Warnleiste, wenn Probleme erkannt werden." lightbox="../media/issues-open-issues-tab.msft.png":::
+          :::image type="complex" source="../media/issues-open-issues-tab.msft.png" alt-text="Wechseln Sie zur Schaltfläche Probleme in der gelben Warnleiste, wenn Probleme erkannt werden." lightbox="../media/issues-open-issues-tab.msft.png":::
              Die Schaltfläche **"Zu Problemen wechseln"** in der gelben Warnleiste, wenn Probleme erkannt werden.  
           :::image-end:::  
        :::column-end:::
        :::column span="":::
           Alternativ können Sie im Menü **"Weitere Tools"** die Option **"Probleme"** auswählen.  
           
-          :::image type="complex" source="../media//issues-more-tools-menu.msft.png" alt-text="Problemtool im Menü "Weitere Tools"" lightbox="../media//issues-more-tools-menu.msft.png":::
+          :::image type="complex" source="../media//issues-more-tools-menu.msft.png" alt-text="Problemtool im Menü Weitere Tools" lightbox="../media//issues-more-tools-menu.msft.png":::
              **Problemtool** im Menü **"Weitere Tools"**  
           :::image-end:::  
        :::column-end:::
@@ -62,7 +62,7 @@ Das **Tool "Probleme"** in Microsoft Edge DevTools reduziert die Benachrichtigun
     
 1.  Wählen Sie bei Bedarf die Schaltfläche **"Seite neu laden"** aus.  
     
-    :::image type="complex" source="../media/issues-tab-before-refresh.msft.png" alt-text="Problemtool in der DevTools-Schublade mit der Schaltfläche "Seite neu laden"" lightbox="../media/issues-tab-before-refresh.msft.png":::
+    :::image type="complex" source="../media/issues-tab-before-refresh.msft.png" alt-text="Problemtool in der DevTools-Schublade mit der Schaltfläche Seite neu laden" lightbox="../media/issues-tab-before-refresh.msft.png":::
        **Problemtool** in der DevTools-Schublade mit der Schaltfläche **"Seite neu laden"**  
     :::image-end:::  
 
@@ -78,7 +78,7 @@ Das Tool **"Probleme"** in der DevTools-Schublade zeigt Warnungen strukturiert, 
 
 1.  Wählen Sie ein Element im **Tool "Probleme"** aus, um Anleitungen zum Beheben des Problems und zum Auffinden betroffener Ressourcen zu erhalten.  
     
-    :::image type="complex" source="../media/issues-tab-issue-open.msft.png" alt-text="Markieren websiteübergreifender Cookies als sicheres Problem im Tool "Probleme"" lightbox="../media/issues-tab-issue-open.msft.png":::
+    :::image type="complex" source="../media/issues-tab-issue-open.msft.png" alt-text="Markieren websiteübergreifender Cookies als sicheres Problem im Tool Probleme" lightbox="../media/issues-tab-issue-open.msft.png":::
        **Markieren websiteübergreifender Cookies als sicheres** Problem im **Tool "Probleme"**  
     :::image-end:::  
     
@@ -91,7 +91,7 @@ Das Tool **"Probleme"** in der DevTools-Schublade zeigt Warnungen strukturiert, 
     
 1.  Wählen Sie Elemente in **BETROFFENEN RESSOURCEN** aus, um Details anzuzeigen.  Im folgenden Beispiel betrifft das Problem **"Websiteübergreifende Cookies als sicher** markieren" ein Cookie und zwei Anforderungen.  
     
-    :::image type="complex" source="../media/issues-tab-affected-resources.msft.png" alt-text="Betroffene Ressourcen im Tool "Probleme" geöffnet" lightbox="../media/issues-tab-affected-resources.msft.png":::
+    :::image type="complex" source="../media/issues-tab-affected-resources.msft.png" alt-text="Betroffene Ressourcen im Tool Probleme geöffnet" lightbox="../media/issues-tab-affected-resources.msft.png":::
        Betroffene Ressourcen im **Tool "Probleme"** in der DevTools-Schublade geöffnet  
     :::image-end:::  
     

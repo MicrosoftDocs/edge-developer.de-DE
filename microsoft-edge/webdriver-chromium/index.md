@@ -62,7 +62,7 @@ Führen Sie die folgenden Schritte aus, um die Automatisierung von Tests zu star
 1.  Navigieren Sie zu **"Aktuelle Version abrufen".**  
 1.  Wählen Sie den Build des Kanals aus, der Ihrer Versionsnummer von Microsoft Edge entspricht.  
     
-    :::image type="complex" source="./media/microsoft-edge-driver-install.msft.png" alt-text="Der Abschnitt "Aktuelle Version abrufen" auf der Webseite "Microsoft Edge Treiber"" lightbox="./media/microsoft-edge-driver-install.msft.png":::
+    :::image type="complex" source="./media/microsoft-edge-driver-install.msft.png" alt-text="Der Abschnitt Aktuelle Version abrufen auf der Webseite Microsoft Edge Treiber" lightbox="./media/microsoft-edge-driver-install.msft.png":::
        The **Get the latest version** section on the Microsoft Edge [Driver][MicrosoftDeveloperMicrosoftEdgeToolsWebdriver] webpage  
     :::image-end:::  
     

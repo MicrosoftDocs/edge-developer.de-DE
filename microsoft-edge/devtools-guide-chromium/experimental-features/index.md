@@ -45,7 +45,7 @@ Führen Sie die folgenden Schritte aus, um experimentelle Features in Microsoft 
     *   Wählen Sie `Shift` + `?` .  Navigieren Sie für weitere Informationen zu [Microsoft Edge DevTools-Tastenkombinationen.][DevtoolsShortcutsIndex]  
 1.  Wählen Sie auf der linken Seite des **Einstellungen** Bereichs den Abschnitt **"Experimente"** aus.  
     
-    :::image type="complex" source="../media/experiments-devtools.msft.png" alt-text="Seite "Experimente" in Einstellungen" lightbox="../media/experiments-devtools.msft.png":::
+    :::image type="complex" source="../media/experiments-devtools.msft.png" alt-text="Seite Experimente in Einstellungen" lightbox="../media/experiments-devtools.msft.png":::
        Seite **"Experimente"** in **Einstellungen**  
     :::image-end:::  
     
@@ -83,7 +83,7 @@ In den folgenden Abschnitten werden die neuen experimentellen Features beschrieb
     
 Das [Webhint-Experiment][WebhintMain] zeigt das Webhint-Feedback im [Bereich "Probleme"][DevtoolsIssuesIndex] an.  Wählen Sie ein Problem aus, um die Lösungsdokumentation und eine Liste der betroffenen Ressourcen auf Ihrer Website anzuzeigen.  Wählen Sie einen Ressourcenlink aus, um den relevanten **Bereich "Netzwerk",** **"Quellen"** oder **"Elemente"** in DevTools zu öffnen.  
 
-:::image type="complex" source="../media/experiments-webhint.msft.png" alt-text="Webhint-Feedback im Bereich "Probleme"" lightbox="../media/experiments-webhint.msft.png":::
+:::image type="complex" source="../media/experiments-webhint.msft.png" alt-text="Webhint-Feedback im Bereich Probleme" lightbox="../media/experiments-webhint.msft.png":::
    Webhint-Feedback im **Bereich "Probleme"**  
 :::image-end:::  
 
@@ -118,7 +118,8 @@ Stellen Sie nach dem Aktivieren des Experiments sicher, dass Sie die DevTools ne
 1.  Aktivieren Sie im **Source Order Viewer** Abschnitt das Kontrollkästchen **"Quellreihenfolge anzeigen".**  
 1.  Markieren Sie jedes HTML-Element, um eine Überlagerung anzuzeigen, die in der Reihenfolge in der Webseitenquelle angegeben ist.  
     
-:::image type="complex" source="../media/experiments-source-order-viewer.msft.png" alt-text="Source Order Viewer in the Accessibility pane" lightbox=". /media/experiments-source-order-viewer.msft.png"::: im **Source Order Viewer** Bereich **"Barrierefreiheit"**  
+:::image type="complex" source="../media/experiments-source-order-viewer.msft.png" alt-text="Source Order Viewer in the Accessibility pane" lightbox="../media/experiments-source-order-viewer.msft.png":::
+    im **Source Order Viewer** Bereich **"Barrierefreiheit"**  
 :::image-end:::  
 
 <!--Available in Microsoft Edge version 86 and later.  -->  

@@ -35,7 +35,7 @@ So erkunden Sie die Verwendung der Barrierefreiheitsstruktur mit der Demoseite:
 
 1.  Wählen Sie rechts neben der Registerkarte **"Formatvorlagen"** die Registerkarte **"Barrierefreiheit"** aus.  Die **Barrierefreiheitsstruktur** für das Element wird angezeigt und erweitert.
 
-:::image type="complex" source="../media/a11y-testing-accessibility-tree.msft.png" alt-text="Schaltfläche Schenkungsformular im Tool "Barrierefreiheitsstruktur"" lightbox="../media/a11y-testing-accessibility-tree.msft.png":::
+:::image type="complex" source="../media/a11y-testing-accessibility-tree.msft.png" alt-text="Schaltfläche Schenkungsformular im Tool Barrierefreiheitsstruktur" lightbox="../media/a11y-testing-accessibility-tree.msft.png":::
     Schaltfläche "Schenkungsformular" im Tool "Barrierefreiheitsstruktur"
 :::image-end:::
 

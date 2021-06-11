@@ -29,7 +29,7 @@ ms.locfileid: "11590867"
 
 In Microsoft Edge Version 91 oder früheren Versionen wird die Schaltfläche **"Schließen",** um DevTools zu schließen, nicht angezeigt, wenn der DevTools-Viewport schmal ist.  In Microsoft Edge Version 92 ist die Schaltfläche **"Schließen"** in den DevTools immer vorhanden, unabhängig von der Breite des DevTools-Viewports.
 
-:::image type="complex" source="../../media/2021/05/close-devtools-button-always-displayed.msft.png" alt-text="Die Schaltfläche "DevTools schließen" ist jetzt auch dann vorhanden, wenn der Viewport schmal ist." lightbox="../../media/2021/05/close-devtools-button-always-displayed.msft.png":::
+:::image type="complex" source="../../media/2021/05/close-devtools-button-always-displayed.msft.png" alt-text="Die Schaltfläche DevTools schließen ist jetzt auch dann vorhanden, wenn der Viewport schmal ist." lightbox="../../media/2021/05/close-devtools-button-always-displayed.msft.png":::
    Die Schaltfläche **"DevTools schließen"** ist jetzt auch dann vorhanden, wenn der Viewport schmal ist.  
 :::image-end:::  
 
@@ -45,11 +45,11 @@ Um die Registerkarten auf beiden Symbolleisten neu anzuordnen, wählen Sie die R
 
 Das Menü **"Weitere Tools"** war in Microsoft Edge Version 89 als Experiment verfügbar und ist jetzt immer vorhanden.
 
-:::image type="complex" source="../../media/2021/05/more-tools-button.msft.png" alt-text="Die Schaltfläche "Weitere Tools" auf der oberen Symbolleiste und der Schublade-Symbolleiste" lightbox="../../media/2021/05/more-tools-button.msft.png":::
+:::image type="complex" source="../../media/2021/05/more-tools-button.msft.png" alt-text="Die Schaltfläche Weitere Tools auf der oberen Symbolleiste und der Schublade-Symbolleiste" lightbox="../../media/2021/05/more-tools-button.msft.png":::
    Die Schaltfläche **"Weitere Tools"** auf der oberen Symbolleiste und der Schublade-Symbolleiste
 :::image-end:::  
 
-:::image type="complex" source="../../media/2021/05/more-tools-menu.msft.png" alt-text="Das Menü "Weitere Tools"" lightbox="../../media/2021/05/more-tools-menu.msft.png":::
+:::image type="complex" source="../../media/2021/05/more-tools-menu.msft.png" alt-text="Das Menü Weitere Tools" lightbox="../../media/2021/05/more-tools-menu.msft.png":::
    Das Menü **"Weitere Tools"**
 :::image-end:::  
 

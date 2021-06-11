@@ -241,7 +241,7 @@ In der Tabelle "Anforderungen" wird jetzt eine neue Spalte mit der Kopfzeile **R
       :::image-end:::  
    :::column-end:::
    :::column span="":::
-      :::image type="complex" source="../../media/2021/02/network-requests-remote-address-space.msft.png" alt-text="In der Tabelle "Anforderungen" wird jetzt die Spalte "Remote-Adressraum" angezeigt." lightbox="../../media/2021/02/network-requests-remote-address-space.msft.png":::
+      :::image type="complex" source="../../media/2021/02/network-requests-remote-address-space.msft.png" alt-text="In der Tabelle Anforderungen wird jetzt die Spalte Remote-Adressraum angezeigt." lightbox="../../media/2021/02/network-requests-remote-address-space.msft.png":::
          In der Tabelle "Anforderungen" wird jetzt die Spalte **Remote-Adressraum** angezeigt. :::image-end:::  
    :::column-end:::
 :::row-end:::  
