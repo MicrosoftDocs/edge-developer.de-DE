@@ -133,7 +133,7 @@ Stellen Sie nach dem Aktivieren des Experiments sicher, dass Sie die DevTools ne
 1.  Öffnen Sie den Bereich **"Zusammengesetzte Ebenen".**  
 1.  Alle gezeichneten Ebenen der App werden angezeigt.  Testen Sie dieses Feature mit Ihren eigenen Web-Apps.  
     
-:::image type="complex" source="../media/experiments-layers.msft.png" alt-text="Bereich „Zusammengesetzte Ebenen“" lightbox="../media/experiments-layers.msft.png":::
+:::image type="complex" source="../media/experiments-layers.msft.png" alt-text="Bereich Zusammengesetzte Ebenen" lightbox="../media/experiments-layers.msft.png":::
    Bereich **Zusammengesetzte Ebenen**  
 :::image-end:::  
 

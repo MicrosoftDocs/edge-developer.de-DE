@@ -53,7 +53,7 @@ In DevTools besteht eine Möglichkeit zum Anzeigen des Kontrastverhältnisses ei
     
 1.  Untersuchen Sie den Abschnitt **"Kontrastverhältnis"** der Farbauswahl.  Ein Häkchen bedeutet, dass das Element die [Mindestempfehlung][W3CContrastMinimum]erfüllt.  Zwei Häkchen bedeuten, dass die [erweiterte Empfehlung][W3CContrastEnhanced]erfüllt wird.  
     
-    :::image type="complex" source="../media/accessibility-elements-styles-paragraph-highlight-color-picker.msft.png" alt-text="Im Abschnitt "Kontrastverhältnis" der Farbauswahl werden zwei Häkchen und ein Wert von 13,97 angezeigt." lightbox="../media/accessibility-elements-styles-paragraph-highlight-color-picker.msft.png":::
+    :::image type="complex" source="../media/accessibility-elements-styles-paragraph-highlight-color-picker.msft.png" alt-text="Im Abschnitt Kontrastverhältnis der Farbauswahl werden zwei Häkchen und ein Wert von 13,97 angezeigt." lightbox="../media/accessibility-elements-styles-paragraph-highlight-color-picker.msft.png":::
        Im Abschnitt **"Kontrastverhältnis"** der Farbauswahl werden 2 Häkchen und ein Wert von `13.97`  
     :::image-end:::  
     

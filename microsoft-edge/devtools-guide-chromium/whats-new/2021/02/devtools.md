@@ -126,7 +126,7 @@ DevTools verfügt jetzt über dedizierte CSS-Flexbox-Debuggingtools.  Wenn der `
       :::image-end:::  
    :::column-end:::
    :::column span="":::
-      :::image type="complex" source="../../media/2021/02/elements-layout-flexbox-flexbox-overlays.msft.png" alt-text="Abschnitt "Flexbox" im Layoutbereich" lightbox="../../media/2021/02/elements-layout-flexbox-flexbox-overlays.msft.png":::
+      :::image type="complex" source="../../media/2021/02/elements-layout-flexbox-flexbox-overlays.msft.png" alt-text="Abschnitt Flexbox im Layoutbereich" lightbox="../../media/2021/02/elements-layout-flexbox-flexbox-overlays.msft.png":::
          Abschnitt **Flexbox** im Bereich **Layout**  
       :::image-end:::  
    :::column-end:::
@@ -258,7 +258,7 @@ In der Frame-Detailansicht wird jetzt eine Liste der zulässigen und nicht zulä
 
 Im Bereich **Cookies** im Tool **Anwendung** wird jetzt das `SameParty` Attribut für jedes Cookie angezeigt.  Das `SameParty` Attribut ist ein neues boolesches Attribut, das angibt, ob ein Cookie in Anforderungen an Ursprünge derselben [First-Party-Sets][GithubPrivacycgFirstPartySets] enthalten ist.  Navigieren Sie zu Problem [1161427][CR1161427], um den Verlauf dieses Features im Open-Source-Projekt Chromium zu überprüfen.  
 
-:::image type="complex" source="../../media/2021/02/application-storage-cookies-sameparty.msft.png" alt-text="SameParty-Spalte im Bereich "Cookies"" lightbox="../../media/2021/02/application-storage-cookies-sameparty.msft.png":::
+:::image type="complex" source="../../media/2021/02/application-storage-cookies-sameparty.msft.png" alt-text="SameParty-Spalte im Bereich Cookies" lightbox="../../media/2021/02/application-storage-cookies-sameparty.msft.png":::
    **SameParty**-Spalte im Bereich **Cookies**  
 :::image-end:::  
 

@@ -117,7 +117,7 @@ Wenn Sie CSS für Ihr Flexbox-Layout bearbeiten, werden bei automatischen CSS-Ve
 :::row-end:::  
 :::row:::
    :::column span="":::
-      :::image type="complex" source="../../media/2021/01/elements-flex-container-align.msft.png" alt-text="Das Menü "AutoVervollständigung" wird für CSS-Eigenschaften hervorgehoben, die mit ausrichten- beginnen" lightbox="../../media/2021/01/elements-flex-container-align.msft.png":::
+      :::image type="complex" source="../../media/2021/01/elements-flex-container-align.msft.png" alt-text="Das Menü AutoVervollständigung wird für CSS-Eigenschaften hervorgehoben, die mit ausrichten- beginnen" lightbox="../../media/2021/01/elements-flex-container-align.msft.png":::
          Das Menü "AutoVervollständigung" wird für CSS-Eigenschaften hervorgehoben, die beginnen mit `align-`  
       :::image-end:::  
    :::column-end:::

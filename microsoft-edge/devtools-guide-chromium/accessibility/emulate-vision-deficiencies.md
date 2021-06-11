@@ -43,13 +43,13 @@ Das **Menü "Rendern"** wird in der Schublade angezeigt.
 
 1.  Scrollen Sie nach unten zum `Emulate vision deficiencies` Menüelement, und wählen Sie das Dropdownmenü aus, um die Optionen anzuzeigen.  
     
-    :::image type="complex" source="../media/accessibility-emulate-vision-menu.msft.png" alt-text="Menü "Sehschwächen emulieren" im Renderingtool" lightbox="../media/accessibility-emulate-vision-menu.msft.png":::
+    :::image type="complex" source="../media/accessibility-emulate-vision-menu.msft.png" alt-text="Menü Sehschwächen emulieren im Renderingtool" lightbox="../media/accessibility-emulate-vision-menu.msft.png":::
        Menü **"Sehschwächen emulieren"** im **Renderingtool**
     :::image-end:::  
     
 1.  Wählen Sie eine Option aus.  
     
-    :::image type="complex" source="../media/accessibility-emulate-vision-menu-options.msft.png" alt-text="Die Menüoptionen "Sehschwächen emulieren"" lightbox="../media/accessibility-emulate-vision-menu-options.msft.png":::
+    :::image type="complex" source="../media/accessibility-emulate-vision-menu-options.msft.png" alt-text="Die Menüoptionen Sehschwächen emulieren" lightbox="../media/accessibility-emulate-vision-menu-options.msft.png":::
        Menüoptionen zum **Emulieren von Sehschwächen**  
     :::image-end:::  
     
@@ -57,7 +57,7 @@ Das **Menü "Rendern"** wird in der Schublade angezeigt.
     
     :::row:::
        :::column span="":::
-          :::image type="complex" source="../media/accessibility-blurred-vision-emulation.msft.png" alt-text="Anzeigen mit der Simulation "Verschwommenes Sehen"" lightbox="../media/accessibility-blurred-vision-emulation.msft.png":::
+          :::image type="complex" source="../media/accessibility-blurred-vision-emulation.msft.png" alt-text="Anzeigen mit der Simulation Verschwommenes Sehen" lightbox="../media/accessibility-blurred-vision-emulation.msft.png":::
              Anzeigen mithilfe einer Simulation der **verschwommenen Sehkraft**  
           :::image-end:::  
        :::column-end:::

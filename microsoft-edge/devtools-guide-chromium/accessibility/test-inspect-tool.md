@@ -36,7 +36,7 @@ Wenn das **Inspect-Tool** aktiv ist, wird beim Bewegen des Mauszeigers auf ein b
 
 1.  Wählen Sie in der oberen linken Ecke von DevTools die Schaltfläche **"Überprüfen** \( ![ Überprüfen ](../media/inspect-icon.msft.png) \)" aus, damit das Symbol hervorgehoben wird (blau).
 
-    :::image type="complex" source="../media/a11y-testing-basics-inspector.msft.png" alt-text="Um das Inspect-Tool zu aktivieren, wählen Sie die Schaltfläche "Überprüfen" aus." lightbox="../media/a11y-testing-basics-inspector.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-basics-inspector.msft.png" alt-text="Um das Inspect-Tool zu aktivieren, wählen Sie die Schaltfläche Überprüfen aus." lightbox="../media/a11y-testing-basics-inspector.msft.png":::
         Um das **Inspect-Tool** zu aktivieren, wählen Sie die Schaltfläche **"Überprüfen"** aus.
     :::image-end:::
 
@@ -102,15 +102,15 @@ Um die Rasterüberlagerung oder Flexboxüberlagerung zu konfigurieren, wählen S
 
 1.  Wählen Sie das Elementtool **aus.**
 
-1.  Wenn das **Inspect-Tool** aktiv ist, bewegen Sie den Mauszeiger über verschiedene Teile der gerenderten Webseite.  Im **Elementtool** wird die HTML-DOM-Struktur automatisch erweitert, um Informationen zu dem Element anzuzeigen, auf das Sie zeigen.  Wenn Sie mit dem Mauszeiger darauf zeigen, wird der Bereich **"Formatvorlagen&quot;** nicht aktualisiert.
+1.  Wenn das **Inspect-Tool** aktiv ist, bewegen Sie den Mauszeiger über verschiedene Teile der gerenderten Webseite.  Im **Elementtool** wird die HTML-DOM-Struktur automatisch erweitert, um Informationen zu dem Element anzuzeigen, auf das Sie zeigen.  Wenn Sie mit dem Mauszeiger darauf zeigen, wird der Bereich **"Formatvorlagen"** nicht aktualisiert.
 
-1.  Wählen Sie nun ein beliebiges Element auf der gerenderten Webseite aus.  Das **** Elementtool wird automatisch geöffnet und zeigt den HTML-Code des Elements in der DOM-Struktur an. Das Tool zeigt auch das angewendete CSS für das Element im Bereich **&quot;Formatvorlagen&quot;** an.  Wenn Sie ein Element auf der gerenderten Webseite auswählen, wird das **Inspect-Tool** deaktiviert.
+1.  Wählen Sie nun ein beliebiges Element auf der gerenderten Webseite aus.  Das **** Elementtool wird automatisch geöffnet und zeigt den HTML-Code des Elements in der DOM-Struktur an. Das Tool zeigt auch das angewendete CSS für das Element im Bereich **"Formatvorlagen"** an.  Wenn Sie ein Element auf der gerenderten Webseite auswählen, wird das **Inspect-Tool** deaktiviert.
 
-:::image type=&quot;complex&quot; source=&quot;../media/a11y-testing-basics-inspector-selected-element.msft.png&quot; alt-text=&quot;Details zum ausgewählten Element werden im Elementtool angezeigt.&quot; lightbox=&quot;../media/a11y-testing-basics-inspector-selected-element.msft.png&quot;:::
+:::image type="complex" source="../media/a11y-testing-basics-inspector-selected-element.msft.png" alt-text="Details zum ausgewählten Element werden im Elementtool angezeigt." lightbox="../media/a11y-testing-basics-inspector-selected-element.msft.png":::
     Details zum ausgewählten Element werden **im** Elementtool angezeigt.
 :::image-end:::
 
-Nachdem Sie ein Element auf der gerenderten Seite ausgewählt haben, können Sie die **Barrierefreiheitsregisterkarte** (in der Nähe der Registerkarte **&quot;Formatvorlagen")** verwenden, um die **Barrierefreiheitsstruktur** anzuzeigen und die **Quellreihenfolgeanzeige**zu verwenden.
+Nachdem Sie ein Element auf der gerenderten Seite ausgewählt haben, können Sie die **Barrierefreiheitsregisterkarte** (in der Nähe der Registerkarte **"Formatvorlagen")** verwenden, um die **Barrierefreiheitsstruktur** anzuzeigen und die **Quellreihenfolgeanzeige**zu verwenden.
 
 
 ## <a name="see-also"></a>Weitere Informationen:

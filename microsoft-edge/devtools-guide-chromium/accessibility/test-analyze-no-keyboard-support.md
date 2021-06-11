@@ -65,7 +65,7 @@ So verwenden Sie das Tool Inspect und die Registerkarte "Ereignislistener", um d
 
 1.  Wählen Sie den `buttons.js:18` Link aus.  Das **Tool "Quellen"** wird mit dem angewendeten JavaScript geöffnet.
 
-    :::image type="complex" source="../media/a11y-testing-form-handling-javascript.msft.png" alt-text="Der JavaScript-Code, der für die Funktionalität des Schenkungsformulars verantwortlich ist, dargestellt im Tool "Quellen"." lightbox="../media/a11y-testing-form-handling-javascript.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-form-handling-javascript.msft.png" alt-text="Der JavaScript-Code, der für die Funktionalität des Schenkungsformulars verantwortlich ist, dargestellt im Tool Quellen." lightbox="../media/a11y-testing-form-handling-javascript.msft.png":::
         Der JavaScript-Code, der für die Funktionalität des Schenkungsformulars verantwortlich ist, dargestellt im Tool "Quellen".
     :::image-end:::
 

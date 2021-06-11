@@ -47,7 +47,7 @@ So emulieren Sie die Auswahl des bevorzugten Farbdesigns eines Benutzers:
     
     Auf unserer Demoseite ist der Abschnitt **"Schenkungsstatus"** der Seite im Lichtmodus unlesbar und muss sich ändern. 
     
-    :::image type="complex" source="../media/a11y-testing-donation-state-light-contrast.msft.png" alt-text="Der Abschnitt "Schenkungsstatus" weist Kontrastprobleme im Lichtmodus auf." lightbox="../media/a11y-testing-donation-state-light-contrast.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-donation-state-light-contrast.msft.png" alt-text="Der Abschnitt Schenkungsstatus weist Kontrastprobleme im Lichtmodus auf." lightbox="../media/a11y-testing-donation-state-light-contrast.msft.png":::
         Der Abschnitt **"Schenkungsstatus"** weist Kontrastprobleme im Lichtmodus auf.
     :::image-end:::
     

@@ -38,7 +38,7 @@ So öffnen Sie die Registerkarte **"Barrierefreiheit":**
 1.  Wählen Sie in der **DOM-Struktur**das Element aus, das Sie überprüfen möchten.  
 1.  Wählen Sie die Registerkarte **"Barrierefreiheit" aus.**  Möglicherweise müssen Sie zuerst die Schaltfläche **"Weitere Registerkarten** \( ![ die Schaltfläche "Weitere Registerkarten"\) ](../media/more-tabs-icon.msft.png) rechts neben der Registerkarte **"Formatvorlagen"** auswählen.
 
-:::image type="complex" source="../media/accessibility-elements-accessibility.msft.png" alt-text="Überprüfen Sie das h1-Element der DevTools-Startseite auf der Registerkarte "Barrierefreiheit"." lightbox="../media/accessibility-elements-accessibility.msft.png":::
+:::image type="complex" source="../media/accessibility-elements-accessibility.msft.png" alt-text="Überprüfen Sie das h1-Element der DevTools-Startseite auf der Registerkarte Barrierefreiheit." lightbox="../media/accessibility-elements-accessibility.msft.png":::
    Überprüfen Sie das `h1` Element der DevTools-Startseite auf der Registerkarte **"Barrierefreiheit".**
 :::image-end:::  
 
@@ -49,7 +49,7 @@ Die [Barrierefreiheitsstruktur][MDNAccessibilityTree] ist eine Teilmenge der DOM
 
 Überprüfen Sie die Position eines Elements in der Barrierefreiheitsstruktur auf der Registerkarte **"Barrierefreiheit".**  
 
-:::image type="complex" source="../media/accessibility-elements-accessibility-tree.msft.png" alt-text="Abschnitt "Barrierefreiheitsstruktur"" lightbox="../media/accessibility-elements-accessibility-tree.msft.png":::
+:::image type="complex" source="../media/accessibility-elements-accessibility-tree.msft.png" alt-text="Abschnitt Barrierefreiheitsstruktur" lightbox="../media/accessibility-elements-accessibility-tree.msft.png":::
    Abschnitt **"Barrierefreiheitsstruktur"**  
 :::image-end:::  
 
@@ -60,7 +60,7 @@ ARIA-Attribute stellen sicher, dass Hilfstechnologien wie Bildschirmleseprogramm
 
 Zeigen Sie die ARIA-Attribute eines Elements auf der Registerkarte **Barrierefreiheit an.**
 
-:::image type="complex" source="../media/accessibility-elements-accessibility-aria-attributes.msft.png" alt-text="Abschnitt "ARIA Attributes"" lightbox="../media/accessibility-elements-accessibility-aria-attributes.msft.png":::
+:::image type="complex" source="../media/accessibility-elements-accessibility-aria-attributes.msft.png" alt-text="Abschnitt ARIA Attributes" lightbox="../media/accessibility-elements-accessibility-aria-attributes.msft.png":::
    Abschnitt **"ARIA Attributes"**  
 :::image-end:::  
 
@@ -75,7 +75,7 @@ Zeigen Sie die berechneten Barrierefreiheitseigenschaften eines Elements auf der
 > [!NOTE]
 > Verwenden Sie für berechnete CSS-Eigenschaften die Registerkarte ["Berechnet".][DevtoolsCssReferenceViewActuallyAppliedElements]
 
-:::image type="complex" source="../media/accessibility-elements-accessibility-computed-properties.msft.png" alt-text="Der Abschnitt "Berechnete Eigenschaften" der Registerkarte "Barrierefreiheit"" lightbox="../media/accessibility-elements-accessibility-computed-properties.msft.png":::
+:::image type="complex" source="../media/accessibility-elements-accessibility-computed-properties.msft.png" alt-text="Der Abschnitt Berechnete Eigenschaften der Registerkarte Barrierefreiheit" lightbox="../media/accessibility-elements-accessibility-computed-properties.msft.png":::
    Der Abschnitt **"Berechnete Eigenschaften"** der Registerkarte **"Barrierefreiheit"**  
 :::image-end:::  
 
