@@ -1,14 +1,29 @@
 ---
-description: Feature differences between Microsoft Edge and WebView2
-title: Feature differences between Microsoft Edge and WebView2
-author: MSEdgeTeam
-ms.author: msedgedevrel
-ms.date: 05/06/2021
-ms.topic: conceptual
-ms.prod: microsoft-edge
-ms.technology: webview
-keywords: IWebView2, IWebView2WebView, WebView2, webview, wpf apps, wpf, edge, ICoreWebView2, ICoreWebView2Host, browser control, edge html
-no-loc: ["Autofill for Addresses", "Autofill for Passwords", Autofill for Payments", Browser Extensions", "Browser Task Manager", "Collections", "Continue-where-I-left-off prompt", "Downloads", "Edge Shopping", "Family Safety", "Favorites", "Hotkeys", "IE Mode" ,"Immersive Reader", "Intrusive Ads", "Read Aloud", "Smart Screen", "Translate", "Tracking Prevention", "Profile and Identity", "Web Payment API", "Windows Defender Application Guard","edge:// URLs"]  
+description: Feature differences between Microsoft Edge and WebView2 title: Feature differences between Microsoft Edge and WebView2 author: MSEdgeTeam ms.author: msedgedevrel ms.date: 06/05/2021 ms.topic: conceptual ms.prod: microsoft-edge ms.technology: webview keywords: IWebView2, IWebView2WebView, WebView2, Webview, wpf apps, wpf, edge, ICoreWebView2, ICoreWebView2Host, browser control, edge html no-loc:
+- "Autofill for Addresses"
+- "Autofill for Passwords"
+- "Autofill for Payments""
+- "Browser Extensions""
+- "Browser Task Manager"
+- "Collections"
+- "Continue-where-I-left-off prompt"
+- "Downloads"
+- "Edge Shopping"
+- "Family Safety"
+- "Favorites"
+- "Hotkeys"
+- "IE Mode"
+- "Immersive Reader"
+- "Intrusive Ads"
+- "Read Aloud"
+- "Smart Screen"
+- "Translate"
+- "Tracking Prevention"
+- "Profile and Identity"
+- "Web Payment API"
+- "Windows Defender Application Guard"
+- "edge:// URLs"
+
 ---
 # <a name="browser-feature-differences-between-microsoft-edge-and-webview2"></a>Unterschiede bei den Browserfeatures zwischen Microsoft Edge und WebView2  
 
@@ -33,7 +48,7 @@ In der folgenden Tabelle werden die WebView2-Features angezeigt, die sich vom Mi
 *   **Konfigurierbar** gibt an, dass Sie das Feature mithilfe von WebView2-APIs oder Befehlszeilenoptionen aktivieren oder deaktivieren können.  
     
 > [!NOTE]  
-> In diesem Artikel wird das Ändern von Features mithilfe von Befehlszeilenoptionen nicht behandelt.  Weitere Informationen zum Aktivieren und Deaktivieren von Features mit Befehlszeilenoptionen, navigieren Sie zu [Liste der Chromium Befehlszeilenoptionen.][PeterExperimentsChromiumCommandLineSwitches]  
+> In diesem Artikel wird das Ändern von Features mithilfe von Befehlszeilenoptionen nicht behandelt.  For more information about turning on and off features with command-line switches, navigate to [List of Chromium Command Line Switches][PeterExperimentsChromiumCommandLineSwitches].  
     
 | Feature | Standardzustand | Konfigurierbar | Details |  
 |:--- |:--- |:--- | :--- |  
@@ -48,10 +63,10 @@ In der folgenden Tabelle werden die WebView2-Features angezeigt, die sich vom Mi
 | Edge Shopping | Deaktiviert | Nein | Dieses Feature ist deaktiviert.  |  
 | Family Safety | Deaktiviert | Nein | Dieses Feature ist deaktiviert.  |  
 | Favorites | Deaktiviert | Nein | Dieses Feature ist deaktiviert.  |  
-| IE Mode | Deaktiviert | Nein | Dieses Feature ist deaktiviert. WebView2 unterstützt den IE-Modus nicht und weist Unterschiede im Verhalten im Vergleich zu IE auf (z. B. MHT-Unterstützung). |  
+| IE Mode | Deaktiviert | Nein | Dieses Feature ist deaktiviert. WebView2 unterstützt den IE-Modus nicht und weist Unterschiede im Verhalten im Vergleich zu IE auf (z. B. MHT- oder BIN-Unterstützung). |  
 | Immersive Reader | Deaktiviert | Nein | Dieses Feature hängt von der Browser-Benutzeroberfläche für die Interaktion ab.  Dieses Feature ist deaktiviert.  |  
 | Intrusive Ads | Deaktiviert | Nein | Dieses Feature ist deaktiviert.  |  
-| Tastenkombinationen | Details überprüfen | Details überprüfen | Die Tastenkombinationen, die standardmäßig deaktiviert sind, machen entweder keinen Sinn oder verursachen Probleme in WebView2.  Sie dürfen diese Verknüpfungen nicht aktivieren oder deaktivieren.  Stattdessen können Sie mithilfe des Ereignisses auf eine Tastenkombination lauschen `AcceleratorKeyPressed` und bei Bedarf eine benutzerdefinierte Antwort erstellen.  Weitere Informationen finden Sie unter "Weitere Informationen zu [Tastenkombinationen".](#additional-keyboard-shortcuts-information) |  
+| Tastenkombinationen | Details überprüfen | Details überprüfen | Die tastenkombinationen, die standardmäßig deaktiviert sind, sind entweder nicht sinnvoll oder verursachen Probleme in WebView2.  Sie dürfen diese Verknüpfungen nicht aktivieren oder deaktivieren.  Stattdessen können Sie mithilfe des Ereignisses auf eine Tastenkombination lauschen `AcceleratorKeyPressed` und bei Bedarf eine benutzerdefinierte Antwort erstellen.  Weitere Informationen finden Sie unter "Weitere Informationen zu [Tastenkombinationen".](#additional-keyboard-shortcuts-information) |  
 | Pushbenachrichtigungen | Deaktiviert | Nein | Dieses Feature ist in WebView2 nicht implementiert.  Weitere Informationen erhalten Sie, wenn Sie zu ["Unterstützung für HTML5-Benachrichtigungs-API (#308)][GithubMicrosoftedgeWebview2feedbackIssues308]hinzufügen" navigieren. |  
 | Read Aloud | Deaktiviert | Nein | Dieses Feature ist deaktiviert.  |  
 | Smart Screen | Ein`*` | Nein | `*` Die Benutzeroberfläche für dieses Feature wurde entfernt, die zugrunde liegende Funktionalität ist jedoch weiterhin verfügbar.  Darüber hinaus können Sie die Option Smart Screen mithilfe eines Befehlszeilenschalters deaktivieren.  |  
@@ -84,7 +99,7 @@ Die folgenden Webseiten für Microsoft Edge- und Google Chrome-Einstellungen sin
     
 ## <a name="additional-keyboard-shortcuts-information"></a>Zusätzliche Informationen zu Tastenkombinationen  
 
-Tastenkombinationen oder Tastenkombinationen werden in Microsoft Edge und WebView2 unterstützt.  Wenn Microsoft Edge aktualisiert wird, können sich die Standardschlüsselbindungen ändern.  Darüber hinaus kann eine standardmäßig deaktivierte Tastenkombination aktiviert werden, wenn das Feature jetzt in WebView2 unterstützt wird.  Um Änderungen an den Tastenkombinationen zu vermeiden, können Sie dies festlegen, `AreBrowserAcceleratorKeysEnabled` `FALSE` wodurch alle Tastenkombinationen deaktiviert werden, die auf Browserfeatures zugreifen, aber alle einfachen Textbearbeitungs- und Bewegungsverknüpfungen aktiviert bleiben.  
+Tastenkombinationen oder Tastenbindungen werden in Microsoft Edge und WebView2 unterstützt.  Wenn Microsoft Edge aktualisiert wird, können sich die Standardschlüsselbindungen ändern.  Darüber hinaus kann eine standardmäßig deaktivierte Tastenkombination aktiviert werden, wenn das Feature jetzt in WebView2 unterstützt wird.  Um Änderungen an den Tastenkombinationen zu vermeiden, können Sie dies festlegen, `AreBrowserAcceleratorKeysEnabled` `FALSE` wodurch alle Tastenkombinationen deaktiviert werden, die auf Browserfeatures zugreifen, aber alle einfachen Textbearbeitungs- und Bewegungsverknüpfungen aktiviert bleiben.  
 
 In der folgenden Tabelle sind die Verknüpfungen aufgeführt, die in WebView2 immer deaktiviert sind.  Ein Sternchen \( `*` \) gibt an, dass die Verknüpfung nicht deaktiviert ist, aber das Feature, auf das sie zugreift, ist deaktiviert oder gilt nicht für WebView2.  
 
@@ -165,7 +180,7 @@ Wenn Sie `AreBrowserAcceleratorKeysEnabled` `FALSE` dies festlegen, werden die f
 > [!Note] 
 > Um die Tasten einzeln anzupassen, verwenden Sie das [AcceleratorKeyPressed-Ereignis.][DotnetApiMicrosoftWebWebview2CoreCorewebview2controllerAcceleratorkeypressedViewWebview2Dotnet1077444]  
 
-## <a name="getting-in-touch-with-the-microsoft-edge-webview2-team"></a>Kontakt mit dem Microsoft Edge WebView2-Team aufnehmen  
+## <a name="getting-in-touch-with-the-microsoft-edge-webview2-team"></a>Erste Schritte mit dem Microsoft Edge WebView2-Team  
 
 [!INCLUDE [contact WebView2 team note](../includes/contact-webview-team-note.md)]  
 
