@@ -1,18 +1,18 @@
 ---
-description: Alle Möglichkeiten, wie Sie die DevTools Microsoft Edge öffnen.
+description: Alle Möglichkeiten zum Öffnen der Microsoft Edge DevTools.
 title: Öffnen Microsoft Edge DevTools
 author: MSEdgeTeam
 ms.author: msedgedevrel
 ms.date: 05/04/2021
 ms.topic: article
 ms.prod: microsoft-edge
-keywords: Microsoft Edge, Webentwicklung, F12-Tools, Entwicklungstools
-ms.openlocfilehash: f5e011edd9889f226d705e51838e5d73c2a3b98d
-ms.sourcegitcommit: 7945939c29dfdd414020f8b05936f605fa2b640e
+keywords: Microsoft Edge, Webentwicklung, F12-Tools, DevTools
+ms.openlocfilehash: 00bb5a2c11fcadd4a0eba22c29ac5a2652b9edb6
+ms.sourcegitcommit: 2b225426e90b017f9766ea8568713b95d267cd6f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "11564735"
+ms.lasthandoff: 06/15/2021
+ms.locfileid: "11607315"
 ---
 <!-- Copyright Kayce Basques 
 
@@ -31,54 +31,54 @@ ms.locfileid: "11564735"
 
 Es gibt viele Möglichkeiten, Microsoft Edge DevTools zu öffnen, da unterschiedliche Benutzer schnellen Zugriff auf verschiedene Teile der DevTools-Benutzeroberfläche wünschen.  
 
-## <a name="open-the-elements-panel-to-inspect-the-dom-or-css"></a>Öffnen Sie den Bereich Elemente, um das DOM oder die CSS zu überprüfen.  
+## <a name="open-the-elements-panel-to-inspect-the-dom-or-css"></a>Öffnen sie den Bereich "Elemente", um das DOM oder CSS zu überprüfen.  
 
 Mit jeder der folgenden Aufgaben können Sie die Formatvorlagen oder Attribute eines DOM-Knotens überprüfen.
 
-*   Zeigen Sie auf das Element, öffnen Sie das Kontextmenü \(klicken Sie mit der rechten Maustaste\), und wählen Sie **Überprüfen aus.**  
-*   Wählen `Control` + `Shift` + `C` Sie \(Windows, Linux\) oder `Command` + `Option` + `C` \(macOS\).  Weitere Informationen finden Sie unter [Microsoft Edge DevTools-Tastenkombinationen][DevtoolsShortcutsIndex].  
+*   Zeigen Sie auf das Element, öffnen Sie das Kontextmenü \(rechtsklick\), und wählen Sie **"Überprüfen"** aus.  
+*   Wählen Sie `Control` + `Shift` + `C` \(Windows, Linux\) oder `Command` + `Option` + `C` \(macOS\) aus.  Navigieren Sie für weitere Informationen zu [Microsoft Edge DevTools-Tastenkombinationen.][DevtoolsShortcutsIndex]  
 
-:::image type="complex" source="../media/bing-right-click-inspect.msft.png" alt-text="Die Option Inspect" lightbox="../media/bing-right-click-inspect.msft.png":::
-   Die **Option Inspect**  
+:::image type="complex" source="../media/bing-right-click-inspect.msft.png" alt-text="Die Inspect-Option" lightbox="../media/bing-right-click-inspect.msft.png":::
+   Die **** Inspect-Option  
 :::image-end:::  
 
 <!--Navigate to [Get Started With Viewing And Changing CSS][GetStartedCSS].  -->  
 
 ## <a name="open-the-console-panel"></a>Öffnen des Konsolenbereichs  
 
-Mit jeder der folgenden Aufgaben [][DevtoolsConsoleIndex] können Sie den Konsolenbereich öffnen, um protokollierte Nachrichten anzuzeigen oder JavaScript auszuführen.  
+Mit jeder der folgenden Aufgaben können Sie den [Konsolenbereich][DevtoolsConsoleIndex] öffnen, um protokollierte Nachrichten anzuzeigen oder JavaScript auszuführen.  
 
-*   Verwenden Sie die folgenden Schritte, um den [Konsolenbereich zu][DevtoolsConsoleIndex] öffnen.  
+*   Führen Sie die folgenden Schritte aus, um den [Konsolenbereich][DevtoolsConsoleIndex] zu öffnen.  
     
     1.  [Öffnen Sie DevTools](#open-microsoft-edge-devtools).  
-    1.  Wählen Sie den [Bereich Konsole][DevtoolsConsoleIndex] aus.  
+    1.  Wählen Sie den [Konsolenbereich][DevtoolsConsoleIndex] aus.  
 
-*   Um direkt in [][DevtoolsConsoleIndex] den Konsolenbereich zu springen, wählen Sie `Control` + `Shift` + `J` \(Windows, Linux\) oder `Command` + `Option` + `J` \(macOS\).  Weitere Informationen finden Sie unter [Microsoft Edge DevTools-Tastenkombinationen][DevtoolsShortcutsIndex].  
+*   Um direkt in den [Konsolenbereich][DevtoolsConsoleIndex] zu springen, wählen Sie `Control` + `Shift` + `J` \(Windows, Linux\) oder `Command` + `Option` + `J` \(macOS\) aus.  Navigieren Sie für weitere Informationen zu [Microsoft Edge DevTools-Tastenkombinationen.][DevtoolsShortcutsIndex]  
 
 <!--Navigate to [Get Started With The Console][ConsoleGetStarted].  -->
 
-## <a name="open-the-previous-panel"></a>Öffnen des vorherigen Panels  
+## <a name="open-the-previous-panel"></a>Öffnen des vorherigen Bereichs  
 
-Um zum vorherigen Bereich zu springen, den Sie geöffnet haben, wählen Sie `Control` + `Shift` + `I` \(Windows, Linux\) oder `Command` + `Option` + `I` \(macOS\).  Weitere Informationen finden Sie unter [Microsoft Edge DevTools-Tastenkombinationen][DevtoolsShortcutsIndex].  
+Um zum vorherigen Bereich zu wechseln, den Sie geöffnet hatten, wählen Sie `Control` + `Shift` + `I` \(Windows, Linux\) oder `Command` + `Option` + `I` \(macOS\) aus.  Navigieren Sie für weitere Informationen zu [Microsoft Edge DevTools-Tastenkombinationen.][DevtoolsShortcutsIndex]  
 
 ## <a name="open-microsoft-edge-devtools"></a>Öffnen Microsoft Edge DevTools  
 
-Verwenden Sie eine der folgenden Optionen, um DevTools zu öffnen.  
+Um DevTools zu öffnen, verwenden Sie eine der folgenden Optionen.  
 
 *   Verwenden Sie die Microsoft Edge Benutzeroberfläche.  
     
-    1.  Wählen Sie **Einstellungen und mehr** \( `...` \) symbol > Weitere **Tools**Developer  >   **Tools aus.**  
+    1.  Wählen Sie das **Symbol Einstellungen und mehr** \( `...` \) > Weitere **Tools**  >   **Entwicklertools**aus.  
     
 *   Verwenden Sie die Tastatur.  
-    *   Wählen `F12` Oder `Control` + `Shift` + `I` \(Windows, Linux\) oder `Command` + `Option` + `I` \(macOS\).  
+    *   Select `F12` or `Control` + `Shift` + `I` \(Windows, Linux\) or `Command` + `Option` + `I` \(macOS\).  
 
-Weitere Informationen finden Sie unter [Microsoft Edge DevTools-Tastenkombinationen][DevtoolsShortcutsIndex].  
+Navigieren Sie für weitere Informationen zu [Microsoft Edge DevTools-Tastenkombinationen.][DevtoolsShortcutsIndex]  
 
-:::image type="complex" source="../media/bing-customize-more-tools-developer-tools-transparent.msft.png" alt-text="Öffnen Sie DevTools im Microsoft Edge Hauptmenü" lightbox="../media/bing-customize-more-tools-developer-tools-transparent.msft.png":::
-   Öffnen Sie DevTools im Microsoft Edge Hauptmenü  
+:::image type="complex" source="../media/bing-customize-more-tools-developer-tools-transparent.msft.png" alt-text="Öffnen von DevTools im Microsoft Edge Hauptmenü" lightbox="../media/bing-customize-more-tools-developer-tools-transparent.msft.png":::
+   Öffnen von DevTools im Microsoft Edge Hauptmenü  
 :::image-end:::  
 
-## <a name="auto-open-devtools-on-every-new-tab"></a>Automatisches Öffnen von DevTools auf jeder neuen Registerkarte  
+## <a name="auto-open-devtools-on-every-new-tab"></a>DevTools automatisch auf jeder neuen Registerkarte öffnen  
 
 Öffnen Sie zum automatischen Öffnen von DevTools auf jeder neuen Registerkarte Microsoft Edge über die Befehlszeile, und übergeben Sie das `--auto-open-devtools-for-tabs` Flag.  
 
@@ -118,28 +118,17 @@ microsoft-edge-dev --auto-open-devtools-for-tabs
 
 ## <a name="toggle-the-f12-keyboard-shortcut-on-or-off"></a>Ein- oder Ausschalten der F12-Tastenkombination  
 
-Führen Sie die folgenden Aktionen aus, um die Tastenkombinationseinstellung zu ändern, mit der `F12` die DevTools geöffnet werden.  
+Führen Sie die folgenden Aktionen aus, um die `F12` Tastenkombinationseinstellung zu ändern, mit der die DevTools geöffnet werden.  
 
-1.  Wählen Sie das Symbol **Einstellungen und** mehr \( \) symbol > `...` **Einstellungen**.  
-1.  Geben **Sie unter Sucheinstellungen** `Developer Tools` ein.  
-    
-    :::image type="complex" source="../media/settings-developer-tools-f12-on.msft.png" alt-text="Öffnen Sie die DevTools, wenn die F12-TASTE gedrückt wird." lightbox="../media/settings-developer-tools-f12-on.msft.png":::
-       Öffnen **Sie die DevTools, wenn die F12-TASTE gedrückt** wird.  
-    :::image-end:::  
-    
-1.  Wählen **Sie DevTools öffnen aus, wenn die F12-Taste** gedrückt wird, um die Einstellung auf \(oder ein\) zu schalten.  Umschalten Sie die Einstellung auf aus, um zu `F12` verhindern, dass die Tastenkombination DevTools öffnet.  
-    
-    :::image type="complex" source="../media/settings-developer-tools-f12-off.msft.png" alt-text="The Open the DevTools when the F12 key is pressed setting is turned off" lightbox="../media/settings-developer-tools-f12-off.msft.png":::
-       The **Open the DevTools when the F12 key is pressed** setting is turned off  
-    :::image-end:::  
-    
-1.  Nachdem Sie den Umschalter auf deaktiviert festgelegt haben, wählen Sie aus, um `F12` zu bestätigen, dass DevTools nicht mehr geöffnet ist.  
+1.  Navigieren Sie zu `edge://settings/system`.  
+1.  Wählen Sie in `Developer Tools` DevTools **öffnen aus, wenn die F12-Taste gedrückt wird,** um die Einstellung zu deaktivieren oder zu aktivieren.  Schalten Sie die Einstellung auf "Aus", um zu verhindern, dass die `F12` Tastenkombination DevTools öffnet.  
+1.  Nachdem Sie die Umschaltfläche deaktiviert haben, stellen Sie sicher, dass `F12` DevTools nicht mehr geöffnet wird.  
     
     > [!NOTE]
-    > Nachdem Sie die Einstellung DevTools öffnen deaktiviert haben, wenn die **F12-TASTE** gedrückt wird, führen Sie eine der folgenden Aktionen aus, um die DevTools zu öffnen.  
+    > Nachdem Sie devTools beim **Drücken der F12-Taste**deaktiviert haben, führen Sie eine der folgenden Aktionen aus, um die DevTools zu öffnen.  
     > 
-    > *   Wählen Sie `Ctrl` + `Shift` + `I` aus.  
-    > *   Öffnen Sie das Kontextmenü \(mit der rechten Maustaste\) > **Überprüfen**.  
+    > *   Wählen Sie `Ctrl` + `Shift` + `I` .  
+    > *   Öffnen Sie das Kontextmenü \(Rechtsklick\) > **Überprüfen.**  
     
 ## <a name="getting-in-touch-with-the-microsoft-edge-devtools-team"></a>Mit dem Microsoft Edge-Entwicklungstools-Team Kontakt aufnehmen  
 
@@ -148,14 +137,14 @@ Führen Sie die folgenden Aktionen aus, um die Tastenkombinationseinstellung zu 
 <!-- links -->  
 
 [DevtoolsConsoleIndex]: ../console/index.md "Übersicht über die Konsole | Microsoft Docs"  
-[DevtoolsShortcutsIndex]: ../shortcuts/index.md "Microsoft Edge DevTools-Tastenkombinationen | Microsoft Docs"  
+[DevtoolsShortcutsIndex]: ../shortcuts/index.md "Microsoft Edge DevTools-Tastenkombinationen | Microsoft-Dokumente"  
 
 <!--[ConsoleGetStarted]: /microsoft-edge/devtools-guide-chromium/console/get-started ""  -->  
 <!--[GetStartedCSS]: /microsoft-edge/devtools-guide-chromium/css "CSS"  -->
 
 > [!NOTE]
 > Teile dieser Seite sind Änderungen, die auf [von Google erstellten und freigegebenen][GoogleSitePolicies] Werken basieren und gemäß den in der [Creative Commons Attribution 4.0 International License][CCA4IL] beschriebenen Bestimmungen verwendet werden.  
-> Die ursprüngliche Seite befindet sich [hier](https://developers.google.com/web/tools/chrome-devtools/open) und wird von [Kayce Basken][KayceBasques] \(Technical Writer, Chrome DevTools \& Lighthouse\) verfasst.  
+> Die ursprüngliche Seite ist [hier](https://developers.google.com/web/tools/chrome-devtools/open) zu finden und wurde von [Baskisch (Technical][KayceBasques] Writer, Chrome DevTools \& Ausrufebereich\) verfasst.  
 
 [![Creative Commons License][CCby4Image]][CCA4IL]  
 Diese Arbeit unterliegt einer [Creative Commons Attribution 4.0 International License][CCA4IL].  
