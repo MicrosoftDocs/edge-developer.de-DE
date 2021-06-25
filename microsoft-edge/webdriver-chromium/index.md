@@ -3,17 +3,17 @@ description: Erfahren Sie, wie Sie Ihre Website oder App in Microsoft Edge teste
 title: Verwenden von WebDriver (Chromium) für die Testautomatisierung
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 04/20/2021
+ms.date: 06/24/2021
 ms.topic: article
 ms.prod: microsoft-edge
 ms.technology: devtools
 keywords: Microsoft Edge, Webentwicklung, HTML, CSS, Javascript, Entwickler, WebDriver, Selenium, Tests, Tools, Automatisierung, Test
-ms.openlocfilehash: 3865162b8227db2f0cfa051801a5de28ecf4b9d1
-ms.sourcegitcommit: 3094c972532bc89dcb429d26880c873809fd1ab8
+ms.openlocfilehash: c68a16aebcfdc6ade8838145368d32ad84a82209
+ms.sourcegitcommit: d0a6959c5338cf1927093b4a9ed29a0bc0390b43
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/09/2021
-ms.locfileid: "11599457"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "11615428"
 ---
 # <a name="use-webdriver-chromium-for-test-automation"></a>Verwenden von WebDriver (Chromium) für die Testautomatisierung  
 
@@ -30,7 +30,7 @@ Um Microsoft Edge mit WebDriver zu automatisieren, um Benutzerinteraktionen zu s
 
 *  Microsoft Edge
 *  Microsoft Edge-Treiber
-*  Ein WebDriver-Testframework, z. B. Selenium
+*  WebDriver-Testframework
 
 Die funktionale Beziehung zwischen WebDriver, Microsoft Edge Driver, Selenium und Internet Explorer Driver lautet wie folgt.
 
@@ -62,8 +62,8 @@ Führen Sie die folgenden Schritte aus, um die Automatisierung von Tests zu star
 1.  Navigieren Sie zu **"Aktuelle Version abrufen".**  
 1.  Wählen Sie den Build des Kanals aus, der Ihrer Versionsnummer von Microsoft Edge entspricht.  
     
-    :::image type="complex" source="./media/microsoft-edge-driver-install.msft.png" alt-text="Der Abschnitt Aktuelle Version abrufen auf der Webseite Microsoft Edge Treiber" lightbox="./media/microsoft-edge-driver-install.msft.png":::
-       The **Get the latest version** section on the Microsoft Edge [Driver][MicrosoftDeveloperMicrosoftEdgeToolsWebdriver] webpage  
+    :::image type="complex" source="./media/microsoft-edge-driver-install.msft.png" alt-text="Der Abschnitt "Aktuelle Version abrufen" auf der Webseite "Microsoft Edge Treiber"" lightbox="./media/microsoft-edge-driver-install.msft.png":::
+       Der Abschnitt **"Aktuelle Version abrufen"** auf der Webseite ["Microsoft Edge Treiber"][MicrosoftDeveloperMicrosoftEdgeToolsWebdriver]  
     :::image-end:::  
     
     <!--  
@@ -75,7 +75,7 @@ Führen Sie die folgenden Schritte aus, um die Automatisierung von Tests zu star
 
 Die letzte Komponente, die Sie herunterladen müssen, ist ein sprachspezifischer Client-Treiber, um Ihren Code \(Python, Java, C\#, Ruby, JavaScript\) in Befehle zu übersetzen, die der Microsoft Edge-Treiber in Microsoft Edge \(Chromium\) ausführt.  
 
-[Laden Sie die WebDriver-Sprachbindung Ihrer Wahl herunter][SeleniumDownloads].  Das Microsoft Edge Team empfiehlt [Selenium 4.0.0-beta2][NugetPackagesSeleniumWebdriver400beta02] oder höher, da es Microsoft Edge \(Chromium\) unterstützt.  Sie können jedoch Microsoft Edge \(Chromium\) in allen älteren Versionen von Selenium steuern, einschließlich der aktuellen stabilen Selenium 3-Version.  
+[Laden Sie die WebDriver-Sprachbindung Ihrer Wahl herunter][SeleniumDownloads].  Das Microsoft Edge-Team empfiehlt [Selenium 4.0.0-beta2][NugetPackagesSeleniumWebdriver400beta02] oder höher, da es Microsoft Edge \(Chromium\) unterstützt.  Sie können jedoch Microsoft Edge \(Chromium\) in allen älteren Versionen von Selenium steuern, einschließlich der aktuellen stabilen Selenium 3-Version.  
 
 > [!IMPORTANT]
 > Wenn Sie zuvor Microsoft Edge \(Chromium\) mit `ChromeDriver` und `ChromeOptions` Klassen automatisiert oder getestet haben, automatisiert oder getestet haben, wird Ihr WebDriver-Code nicht unter Microsoft Edge Version 80 oder höher ausgeführt.  Um das Problem zu beheben, aktualisieren Sie Ihre Tests, um die Klasse `EdgeOptions` verwenden, und laden Sie [Microsoft Edge-Treiber][MicrosoftDeveloperMicrosoftEdgeToolsWebdriver] herunter.  
@@ -84,7 +84,7 @@ Die letzte Komponente, die Sie herunterladen müssen, ist ein sprachspezifischer
 
 Selenium 4 bietet integrierte Unterstützung für Microsoft Edge (Chromium).  Navigieren Sie zum Installieren von Selenium 4 zu ["Selenium-Bibliotheken installieren".][SeleniumInstallingLibraries]
 
-Wenn Sie Selenium 4 verwenden, müssen Sie selenium-Tools nicht für Microsoft Edge verwenden.  Selenium-Tools für Microsoft Edge gelten nur für Selenium 3.  If you try to use Selenium 4 with Selenium Tools for Microsoft Edge and try to create a new `EdgeDriver` instance, you get the following error: `System.MissingMethodException: 'Method not found: 'OpenQA.Selenium.Remote.DesiredCapabilities OpenQA.Selenium.DriverOptions.GenerateDesiredCapabilities(Boolean)'` .  
+Wenn Sie Selenium 4 verwenden, müssen Sie keine Selenium-Tools für Microsoft Edge verwenden.  Selenium Tools for Microsoft Edge are for Selenium 3 only.  If you try to use Selenium 4 with Selenium Tools for Microsoft Edge and try to create a new `EdgeDriver` instance, you get the following error: `System.MissingMethodException: 'Method not found: 'OpenQA.Selenium.Remote.DesiredCapabilities OpenQA.Selenium.DriverOptions.GenerateDesiredCapabilities(Boolean)'` .  
 
 Wenn Sie Selenium 4 verwenden und diesen Fehler erhalten, entfernen `Microsoft.Edge.SeleniumTools` Sie es aus Ihrem Projekt, und stellen Sie sicher, dass Sie den Offiziellen und die Klassen aus dem Namespace `EdgeOptions` `EdgeDriver` `OpenQA.Selenium.Edge` verwenden.
 
@@ -312,7 +312,7 @@ let driver = edge.Driver.createSession(options, service);
 
 ### <a name="use-chromium-specific-options"></a>Verwenden von Chromium-spezifischer Optionen  
 
-Wenn Sie die `UseChromium` Eigenschaft auf `true` festlegen, können Sie mithilfe der `EdgeOptions` Klasse auf dieselben [Chromium-spezifischen Eigenschaften und Methoden][WebdriverCapabilitiesEdgeOptions] zugreifen, die verwendet werden, wenn Sie andere Chromium Browser automatisieren.  
+Wenn Sie die `UseChromium` Eigenschaft auf `true` festlegen, können Sie mithilfe der `EdgeOptions` Klasse auf dieselben Chromium [spezifischen Eigenschaften und Methoden][WebdriverCapabilitiesEdgeOptions] zugreifen, die verwendet werden, wenn Sie andere Chromium Browser automatisieren.  
 
 #### [<a name="c"></a>C#](#tab/c-sharp/)  
 
@@ -376,7 +376,20 @@ Weitere Informationen finden Sie im [msedgedriver-Container auf Docker Hub][Dock
 
 ## <a name="testing-internet-explorer"></a>Testen von Internet Explorer
 
-Obwohl Microsoft Edge den IE-Modus unterstützt, können Sie Microsoft Edge Treiber nicht mit Microsoft Edge verwenden, um Websites im IE-Modus zu testen.  Um Websites zu testen, die Internet Explorer erfordern, verwenden Sie [Internet Explorer-Treiber][GithubSeleniumHqWikiIEDriver] mit Internet Explorer.
+Obwohl Microsoft Edge den IE-Modus unterstützt, können Sie Microsoft Edge Treiber mit Microsoft Edge nicht verwenden, um Websites im IE-Modus zu testen.  Um Websites zu testen, die Internet Explorer erfordern, verwenden Sie [Internet Explorer-Treiber][GithubSeleniumHqWikiIEDriver] mit Internet Explorer.
+
+## <a name="application-guard"></a>Application Guard
+
+Vertrauenswürdige Websites, die Microsoft Defender Application Guard (Application Guard) verwenden, können mithilfe Microsoft Edge Treibers automatisiert werden.
+
+Nicht vertrauenswürdige Websites, die Application Guard verwenden, können nicht mit Microsoft Edge Driver automatisiert oder bearbeitet werden.  Application Guard startet nicht vertrauenswürdige Websites in einem Container, und dieser Container macht den Remotedebuggingport, den Microsoft Edge Treiber für die Kommunikation mit der Website benötigt, nicht verfügbar.
+
+Ihr Unternehmensadministrator definiert, was vertrauenswürdige Websites sind, einschließlich Cloudressourcen und internen Netzwerken.  Websites, die nicht in der Liste der vertrauenswürdigen Websites enthalten sind, gelten als nicht vertrauenswürdig.  Microsoft Edge Der Treiber kann sowohl InPrivate-Fenster als auch Websites in der Liste der vertrauenswürdigen Websites automatisieren.
+
+Weitere Informationen zu Application Guard, navigieren Sie zu: 
+
+*  [Microsoft Edge-Unterstützung für Microsoft Defender Application Guard](/deployedge/microsoft-edge-security-windows-defender-application-guard)
+*  [Übersicht über Microsoft Defender Application Guard][WindowsSecurityThreatProtectionMicrosoftDefenderApplicationGuardWindows10]
 
 ## <a name="next-steps"></a>Nächste Schritte  
 
@@ -386,7 +399,7 @@ Weitere Informationen zu WebDriver und zum Schreiben automatisierter WebDriver-T
 
 Das Microsoft Edge-Team freut sich über Ihr Feedback zur Verwendung von WebDriver, Selenium und Microsoft Edge.  Um dem Team Ihre Fragen und Kommentare zu senden, wählen Sie das Symbol **Feedback senden** in den Microsoft Edge DevTools aus, oder senden Sie einen Tweet [@EdgeDevTools][TwitterTweetEdgeDevTools].  
 
-:::image type="complex" source="../devtools-guide-chromium/media/bing-devtools-send-feedback.msft.png" alt-text="Das Symbol Feedback senden in den Microsoft Edge-Entwicklungstools" lightbox="../devtools-guide-chromium/media/bing-devtools-send-feedback.msft.png":::
+:::image type="complex" source="../devtools-guide-chromium/media/bing-devtools-send-feedback.msft.png" alt-text="Das Symbol „Feedback senden“ in den Microsoft Edge-Entwicklungstools" lightbox="../devtools-guide-chromium/media/bing-devtools-send-feedback.msft.png":::
    Das Symbol **Feedback senden** in den Microsoft Edge DevTools  
 :::image-end:::  
 
@@ -397,7 +410,9 @@ Das Microsoft Edge-Team freut sich über Ihr Feedback zur Verwendung von WebDriv
 
 <!--[Webdriver]: /archive/microsoft-edge/legacy/developer/webdriver/index "WebDriver (EdgeHTML) | Microsoft Docs"  -->  
 
-[DeployedgeMicrosoftEdgePoliciesDevelopertoolsavailability]: /deployedge/microsoft-edge-policies#developertoolsavailability "DeveloperToolsAvailability – Microsoft Edge – Richtlinien | Microsoft Docs"  
+[DeployedgeMicrosoftEdgePoliciesDevelopertoolsavailability]: /deployedge/microsoft-edge-policies#developertoolsavailability "DeveloperToolsAvailability – Microsoft Edge – Richtlinien | Microsoft-Dokumente"  
+[WindowsSecurityThreatProtectionMicrosoftDefenderApplicationGuardWindows10]: /windows/security/threat-protection/microsoft-defender-application-guard/md-app-guard-overview "Microsoft Defender Application Guard (Windows 10) – Windows | Microsoft-Dokumente"  
+[DeployedgeMicrosoftEdgeSecurityWindowsDefenderApplicationGuard]: /deployedge/microsoft-edge-security-windows-defender-application-guard "Microsoft Edge Unterstützung für Microsoft Defender Application Guard | Microsoft-Dokumente"
 
 [DockerHub]: https://hub.docker.com "Docker Hub"  
 [DockerHubMsedgedriver]: https://hub.docker.com/_/microsoft-msedge-msedgedriver?tab=description "msedgedriver | Docker hub"  

@@ -6,13 +6,13 @@ ms.author: msedgedevrel
 ms.date: 05/04/2021
 ms.topic: article
 ms.prod: microsoft-edge
-keywords: Microsoft Edge, Webentwicklung, F12-Tools, Entwicklungstools
-ms.openlocfilehash: ec0d1a003e621ecc2220c3eb0d03992bcd8fffa1
-ms.sourcegitcommit: 7945939c29dfdd414020f8b05936f605fa2b640e
+keywords: Microsoft Edge, Webentwicklung, F12-Tools, DevTools
+ms.openlocfilehash: 71e71555940d74f2071178be2e6daf0ec2f49dfd
+ms.sourcegitcommit: d0a6959c5338cf1927093b4a9ed29a0bc0390b43
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "11565022"
+ms.lasthandoff: 06/24/2021
+ms.locfileid: "11615421"
 ---
 <!-- Copyright Kayce Basques 
 
@@ -30,63 +30,58 @@ ms.locfileid: "11565022"
 # <a name="view-application-cache-data-with-microsoft-edge-devtools"></a>Anzeigen von Anwendungscachedaten mit Microsoft Edge DevTools  
 
 > [!WARNING]
-> Die Anwendungscache-API [wird von der Webplattform entfernt.][HTMLStandardOfflineWebApplications]  
+> Der Anwendungscache ist veraltet, und Sie sollten die Verwendung vermeiden.  Die Anwendungscache-API wird von der Webplattform entfernt.  Navigieren Sie für weitere Informationen zu ["Vorbereiten der AppCache-Entfernung".][WebDevAppcacheRemoval]
 
-<!--todo: Replace [HTMLStandardOfflineWebApplications] with [WebDevAppcacheRemoval].  -->  
-
-In diesem Handbuch erfahren Sie, wie Sie [Microsoft Edge DevTools verwenden,][MicrosoftEdgeDevTools] um Anwendungscacheressourcen [zu][MDNWebAPIsWindowApplicationCache] überprüfen.  
+In diesem Leitfaden erfahren Sie, wie Sie [Microsoft Edge DevTools][MicrosoftEdgeDevTools] verwenden, um [Anwendungscacheressourcen][MDNWebAPIsWindowApplicationCache] zu überprüfen.  
 
 ## <a name="view-application-cache-data"></a>Anzeigen von Anwendungscachedaten  
 
-1.  Wählen Sie oben in DevTools das **Tool Anwendung** aus.  
+1.  Wählen Sie oben in DevTools das **Anwendungstool** aus.  
     
     :::image type="complex" source="../media/storage-application-manifest.msft.png" alt-text="Der Manifestbereich" lightbox="../media/storage-application-manifest.msft.png":::
        Der **Manifestbereich**  
     :::image-end:::  
 
-1.  Erweitern Sie den **Abschnitt Anwendungscache,** und wählen Sie einen Cache aus, um die Ressourcen anzeigen zu können.  
+1.  Erweitern Sie den Abschnitt **"Anwendungscache",** und wählen Sie einen Cache aus, um die Ressourcen anzuzeigen.  
     
-    :::image type="complex" source="../media/storage-cache-pane-cache-storage-resources.msft.png" alt-text="Der Bereich Anwendungscache" lightbox="../media/storage-cache-pane-cache-storage-resources.msft.png":::
-       Der **Bereich Anwendungscache**  
+    :::image type="complex" source="../media/storage-cache-pane-cache-storage-resources.msft.png" alt-text="Bereich "Anwendungscache"" lightbox="../media/storage-cache-pane-cache-storage-resources.msft.png":::
+       Bereich **"Anwendungscache"**  
     :::image-end:::  
 
 Jede Zeile der Tabelle stellt eine zwischengespeicherte Ressource dar.  
 
-Die **Spalte Type** stellt die Kategorie der Ressource [dar.][MDNHTMLResourcesInAnApplicationCache]  
+Die **Spalte Type ** stellt die [Kategorie der Ressource][MDNHTMLResourcesInAnApplicationCache]dar.  
 
 | Kategorie | Details |  
 |:--- |:--- |  
 | `Explicit` | Diese Ressource wurde explizit im Manifest aufgeführt. |  
 | `Fallback` | Die URL ist ein Fallback für eine andere Ressource.  Die URL der anderen Ressource ist in DevTools nicht aufgeführt. |  
 | `Master` | Das `manifest` Attribut für die Ressource gibt an, dass der Cache das übergeordnete Element der Ressource ist. |  
-| `Network` | Das Manifest hat angegeben, dass die Ressource aus dem Netzwerk stammen muss. |  
+| `Network` | Das Manifest gibt an, dass die Ressource aus dem Netzwerk stammen muss. |  
 
 <!--todo:  replace "Master" phrasing if possible.  -->  
 
-Am unteren Rand der Tabelle befinden sich Statussymbole, die Ihre Netzwerkverbindung und den Status des **Anwendungscaches angeben.**  Der **Anwendungscache** kann die folgenden Zustände haben.  
+Am unteren Rand der Tabelle befinden sich Statussymbole, die Ihre Netzwerkverbindung und den Status des **Anwendungscaches**angeben.  Der **Anwendungscache** kann die folgenden Zustände aufweisen.  
 
 | Status | Details |  
 |:--- |:--- |  
 | `CHECKING` | Das Manifest wird abgerufen und auf Updates überprüft. |  
-| `DOWNLOADING` | Dem Cache werden Ressourcen hinzugefügt. |  
+| `DOWNLOADING` | Ressourcen werden dem Cache hinzugefügt. |  
 | `IDLE` | Der Cache hat keine neuen Änderungen. |  
 | `OBSOLETE` | Der Cache wird gelöscht. |  
 | `UPDATEREADY` |  Eine neue Version des Caches ist verfügbar. |  
 
 <!-- links -->  
-
 [MicrosoftEdgeDevTools]: ../../devtools-guide-chromium/index.md "Microsoft Edge (Chromium) -Entwicklertools | Microsoft Docs"  
+<!-- external links: -->
+[MDNHTMLResourcesInAnApplicationCache]: https://developer.mozilla.org/docs/Web/HTML/Using_the_application_cache#Resources_in_an_application_cache "Ressourcen in einem Anwendungscache | Mdn"  
+[MDNWebAPIsWindowApplicationCache]: https://developer.mozilla.org/docs/Web/API/Window/applicationCache "Window.applicationCache – Web-APIs | Mdn"  
 
-[HTMLStandardOfflineWebApplications]: https://html.spec.whatwg.org/multipage/offline.html#offline "Offlinewebanwendungen – HTML Standard"  
-
-[MDNHTMLResourcesInAnApplicationCache]: https://developer.mozilla.org/docs/Web/HTML/Using_the_application_cache#Resources_in_an_application_cache "Ressourcen in einem Anwendungscache | MDN"  
-[MDNWebAPIsWindowApplicationCache]: https://developer.mozilla.org/docs/Web/API/Window/applicationCache "Window.applicationCache – Web-APIs | MDN"  
-
-[WebDevAppcacheRemoval]: https://web.dev/appcache-removal "Vorbereiten der AppCache-| web.dev"  
+[WebDevAppcacheRemoval]: https://web.dev/appcache-removal "Vorbereiten der AppCache-Entfernung | web.dev"  
 
 > [!NOTE]
 > Teile dieser Seite sind Änderungen, die auf [von Google erstellten und freigegebenen][GoogleSitePolicies] Werken basieren und gemäß den in der [Creative Commons Attribution 4.0 International License][CCA4IL] beschriebenen Bestimmungen verwendet werden.  
-> Die ursprüngliche Seite befindet sich [hier](https://developers.google.com/web/tools/chrome-devtools/storage/applicationcache) und wird von [Kayce Basken][KayceBasques] \(Technical Writer, Chrome DevTools \& Lighthouse\) verfasst.  
+> Die ursprüngliche Seite ist [hier](https://developers.google.com/web/tools/chrome-devtools/storage/applicationcache) zu finden und wurde von [Baskisch (Technical][KayceBasques] Writer, Chrome DevTools \& Ausrufebereich\) verfasst.  
 
 [![Creative Commons License][CCby4Image]][CCA4IL]  
 Diese Arbeit unterliegt einer [Creative Commons Attribution 4.0 International License][CCA4IL].  
