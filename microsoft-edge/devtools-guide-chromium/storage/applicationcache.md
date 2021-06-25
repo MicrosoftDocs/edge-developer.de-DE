@@ -44,7 +44,7 @@ In diesem Leitfaden erfahren Sie, wie Sie [Microsoft Edge DevTools][MicrosoftEdg
 
 1.  Erweitern Sie den Abschnitt **"Anwendungscache",** und wählen Sie einen Cache aus, um die Ressourcen anzuzeigen.  
     
-    :::image type="complex" source="../media/storage-cache-pane-cache-storage-resources.msft.png" alt-text="Bereich "Anwendungscache"" lightbox="../media/storage-cache-pane-cache-storage-resources.msft.png":::
+    :::image type="complex" source="../media/storage-cache-pane-cache-storage-resources.msft.png" alt-text="Bereich Anwendungscache" lightbox="../media/storage-cache-pane-cache-storage-resources.msft.png":::
        Bereich **"Anwendungscache"**  
     :::image-end:::  
 

@@ -62,7 +62,7 @@ Führen Sie die folgenden Schritte aus, um die Automatisierung von Tests zu star
 1.  Navigieren Sie zu **"Aktuelle Version abrufen".**  
 1.  Wählen Sie den Build des Kanals aus, der Ihrer Versionsnummer von Microsoft Edge entspricht.  
     
-    :::image type="complex" source="./media/microsoft-edge-driver-install.msft.png" alt-text="Der Abschnitt "Aktuelle Version abrufen" auf der Webseite "Microsoft Edge Treiber"" lightbox="./media/microsoft-edge-driver-install.msft.png":::
+    :::image type="complex" source="./media/microsoft-edge-driver-install.msft.png" alt-text="Der Abschnitt Aktuelle Version abrufen auf der Webseite Microsoft Edge Treiber" lightbox="./media/microsoft-edge-driver-install.msft.png":::
        Der Abschnitt **"Aktuelle Version abrufen"** auf der Webseite ["Microsoft Edge Treiber"][MicrosoftDeveloperMicrosoftEdgeToolsWebdriver]  
     :::image-end:::  
     
@@ -399,7 +399,7 @@ Weitere Informationen zu WebDriver und zum Schreiben automatisierter WebDriver-T
 
 Das Microsoft Edge-Team freut sich über Ihr Feedback zur Verwendung von WebDriver, Selenium und Microsoft Edge.  Um dem Team Ihre Fragen und Kommentare zu senden, wählen Sie das Symbol **Feedback senden** in den Microsoft Edge DevTools aus, oder senden Sie einen Tweet [@EdgeDevTools][TwitterTweetEdgeDevTools].  
 
-:::image type="complex" source="../devtools-guide-chromium/media/bing-devtools-send-feedback.msft.png" alt-text="Das Symbol „Feedback senden“ in den Microsoft Edge-Entwicklungstools" lightbox="../devtools-guide-chromium/media/bing-devtools-send-feedback.msft.png":::
+:::image type="complex" source="../devtools-guide-chromium/media/bing-devtools-send-feedback.msft.png" alt-text="Das Symbol Feedback senden in den Microsoft Edge-Entwicklungstools" lightbox="../devtools-guide-chromium/media/bing-devtools-send-feedback.msft.png":::
    Das Symbol **Feedback senden** in den Microsoft Edge DevTools  
 :::image-end:::  
 
