@@ -139,7 +139,7 @@ Desktop-PWAs werden auf allen Plattformen unterstützt, Microsoft Edge \(Chromiu
     
 *   Apps können auch über das Menü **Einstellungen**  >  **Apps** installiert, ausgeführt und verwaltet werden.  
     
-    :::image type="complex" source="./media/app-menus.png" alt-text="App-Menüelemente unter "Einstellungen"" lightbox="./media/app-menus.png":::
+    :::image type="complex" source="./media/app-menus.png" alt-text="App-Menüelemente unter Einstellungen" lightbox="./media/app-menus.png":::
        App-Menüelemente unter "Einstellungen"  
     :::image-end:::  
     
