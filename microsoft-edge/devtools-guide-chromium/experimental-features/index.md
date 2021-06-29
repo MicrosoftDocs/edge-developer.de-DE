@@ -22,12 +22,12 @@ no-loc:
 - Edit keyboard shortcuts for any action in the DevTools
 - Turn on new CSS grid debugging features
 - 'Emulation: Support dual screen mode'
-ms.openlocfilehash: 82d547c8c1ed0606bda9ade27d0dbddbfa2ca800
-ms.sourcegitcommit: 34feec6ae6241c598911dac7b63c28d655691233
+ms.openlocfilehash: dec4b4d111c0eb8dc9cc3963bac7339df1d9b6f6
+ms.sourcegitcommit: e150d798161277fd3fc610838ef2611dc08f5cf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "11596994"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "11624752"
 ---
 # <a name="experimental-features"></a>Experimentelle Features  
 
@@ -37,15 +37,15 @@ Obwohl experimentelle Features in allen Kanälen von Microsoft Edge verfügbar s
 
 ## <a name="turn-on-experimental-features"></a>Aktivieren experimenteller Features  
 
-Führen Sie die folgenden Schritte aus, um experimentelle Features in Microsoft Edge zu aktivieren.  
+Führen Sie die folgenden Schritte aus, um experimentelle Features in Microsoft Edge zu aktivieren( oder zu deaktivieren).  
 
 1.  [Öffnen Sie DevTools][DevtoolsOpenIndex].  
-    *   Wählen Sie `Control` + `Shift` + `I` \(Windows, Linux\) oder `Command` + `Option` + `I` \(macOS\) aus.  Navigieren Sie für weitere Informationen zu [Microsoft Edge DevTools-Tastenkombinationen.][DevtoolsShortcutsIndex]  
+    *   Wählen Sie `Control` + `Shift` + `I` \(Windows, Linux\) oder `Command` + `Option` + `I` \(macOS\) aus.  Navigieren Sie zu [Microsoft Edge DevTools-Tastenkombinationen,][DevtoolsShortcutsIndex]um weitere Informationen zu erfahren.  
 1.  Öffnen Sie den [bereich Einstellungen.][DevToolsCustomizeIndexSettings]  
-    *   Wählen Sie `Shift` + `?` .  Navigieren Sie für weitere Informationen zu [Microsoft Edge DevTools-Tastenkombinationen.][DevtoolsShortcutsIndex]  
+    *   Wählen Sie `Shift` + `?` .  Navigieren Sie zu [Microsoft Edge DevTools-Tastenkombinationen,][DevtoolsShortcutsIndex]um weitere Informationen zu erfahren.  
 1.  Wählen Sie auf der linken Seite des **Einstellungen** Bereichs den Abschnitt **"Experimente"** aus.  
     
-    :::image type="complex" source="../media/experiments-devtools.msft.png" alt-text="Seite Experimente in Einstellungen" lightbox="../media/experiments-devtools.msft.png":::
+    :::image type="complex" source="../media/experiments-devtools.msft.png" alt-text="Seite "Experimente" in Einstellungen" lightbox="../media/experiments-devtools.msft.png":::
        Seite **"Experimente"** in **Einstellungen**  
     :::image-end:::  
     
@@ -83,7 +83,7 @@ In den folgenden Abschnitten werden die neuen experimentellen Features beschrieb
     
 Das [Webhint-Experiment][WebhintMain] zeigt das Webhint-Feedback im [Bereich "Probleme"][DevtoolsIssuesIndex] an.  Wählen Sie ein Problem aus, um die Lösungsdokumentation und eine Liste der betroffenen Ressourcen auf Ihrer Website anzuzeigen.  Wählen Sie einen Ressourcenlink aus, um den relevanten **Bereich "Netzwerk",** **"Quellen"** oder **"Elemente"** in DevTools zu öffnen.  
 
-:::image type="complex" source="../media/experiments-webhint.msft.png" alt-text="Webhint-Feedback im Bereich Probleme" lightbox="../media/experiments-webhint.msft.png":::
+:::image type="complex" source="../media/experiments-webhint.msft.png" alt-text="Webhint-Feedback im Bereich "Probleme"" lightbox="../media/experiments-webhint.msft.png":::
    Webhint-Feedback im **Bereich "Probleme"**  
 :::image-end:::  
 
@@ -118,8 +118,7 @@ Stellen Sie nach dem Aktivieren des Experiments sicher, dass Sie die DevTools ne
 1.  Aktivieren Sie im **Source Order Viewer** Abschnitt das Kontrollkästchen **"Quellreihenfolge anzeigen".**  
 1.  Markieren Sie jedes HTML-Element, um eine Überlagerung anzuzeigen, die in der Reihenfolge in der Webseitenquelle angegeben ist.  
     
-:::image type="complex" source="../media/experiments-source-order-viewer.msft.png" alt-text="Source Order Viewer in the Accessibility pane" lightbox="../media/experiments-source-order-viewer.msft.png":::
-    im **Source Order Viewer** Bereich **"Barrierefreiheit"**  
+:::image type="complex" source="../media/experiments-source-order-viewer.msft.png" alt-text="Source Order Viewer in the Accessibility pane" lightbox=". /media/experiments-source-order-viewer.msft.png"::: im **Source Order Viewer** Bereich **"Barrierefreiheit"**  
 :::image-end:::  
 
 <!--Available in Microsoft Edge version 86 and later.  -->  
@@ -134,7 +133,7 @@ Stellen Sie nach dem Aktivieren des Experiments sicher, dass Sie die DevTools ne
 1.  Öffnen Sie den Bereich **"Zusammengesetzte Ebenen".**  
 1.  Alle gezeichneten Ebenen der App werden angezeigt.  Testen Sie dieses Feature mit Ihren eigenen Web-Apps.  
     
-:::image type="complex" source="../media/experiments-layers.msft.png" alt-text="Bereich Zusammengesetzte Ebenen" lightbox="../media/experiments-layers.msft.png":::
+:::image type="complex" source="../media/experiments-layers.msft.png" alt-text="Bereich „Zusammengesetzte Ebenen“" lightbox="../media/experiments-layers.msft.png":::
    Bereich **Zusammengesetzte Ebenen**  
 :::image-end:::  
 
@@ -177,7 +176,7 @@ Das **Inspect-Tool** bietet eine schnelle Möglichkeit, CSS Flexbox-Layouts in e
 
 #### <a name="display-persistent-overlays-on-flexbox-layouts"></a>Anzeigen persistenter Überlagerungen in Flexbox-Layouts  
 
-In Microsoft Edge Version 89 oder höher bietet das experimentelle CSS-Flexbox-Feature auch die Möglichkeit, dauerhafte Überlagerungen für Flexbox-Layouts zu aktivieren.  Persistente Überlagerungen bieten die folgenden Vorteile.  
+In Microsoft Edge Version 89 oder höher bietet das experimentelle CSS-Flexbox-Feature auch die Möglichkeit, persistente Überlagerungen für Flexbox-Layouts zu aktivieren.  Persistente Überlagerungen bieten die folgenden Vorteile.  
 
 *   Persistente Überlagerungen bleiben auf der Webseite sichtbar, während Sie scrollen, die Maus bewegen und andere Features der DevTools verwenden.
 *   Mehrere persistente Überlagerungen können gleichzeitig verwendet werden, damit Sie mehrere Flexbox-Layouts gleichzeitig überprüfen können.  
@@ -258,22 +257,19 @@ Um Feedback zu Microsoft Edge DevTools-Experimenten oder zu anderen mit DevTools
 -->  
 
 <!-- links -->  
-
 [Devtools3dViewIndex]: ../3d-view/index.md "3D View | Microsoft-Dokumente"  
 [DevtoolsCssGrid]: ../css/grid.md "Untersuchen des CSS-Rasters in Microsoft Edge DevTools-| Microsoft-Dokumente"  
-[DevtoolsCustomizeIndex]: ../customize/index.md "Anpassen der Microsoft Edge DevTools-| Microsoft-Dokumente"  
+[DevtoolsCustomizeIndex]: ../customize/index.md "Anpassen Microsoft Edge DevTools-| Microsoft-Dokumente"  
 [DevToolsCustomizeIndexSettings]: ../customize/index.md#settings "Einstellungen – Anpassen von Microsoft Edge DevTools | Microsoft Docs"  
 [DevtoolsCustomizeShortcutsEditKeyboardShortcutsForAnyActionDevtools]: ../customize/shortcuts.md#edit-keyboard-shortcuts-for-any-action-in-the-devtools "Edit keyboard shortcuts for any action in the DevTools | Microsoft-Dokumente"  
 [DevtoolsCustomizeShortcutsMatchKeyboardShortcutsDevtoolsMicrosoftVisualStudioCode]: ../customize/shortcuts.md#match-keyboard-shortcuts-in-the-devtools-to-microsoft-visual-studio-code "Match keyboard shortcuts in the DevTools to Microsoft Visual Studio Code | Microsoft-Dokumente"  
 [DevtoolsDeviceModeDualScreenAndFoldables]: ../device-mode/dual-screen-and-foldables.md "Emulieren von Geräten mit dualem Bildschirm und faltbaren Geräten in Microsoft Edge DevTools | Microsoft-Dokumente"  
-[DevtoolsDeviceModeIndexSimulateMobileViewport]: ../device-mode/index.md#simulate-a-mobile-viewport "Simulieren mobiler Geräte mit dem Gerätemodus in Microsoft Edge DevTools | Microsoft Edge"  
+[DevtoolsDeviceModeIndexSimulateMobileViewport]: ../device-mode/index.md#simulate-a-mobile-viewport "Simulieren mobiler Geräte mit gerätemodus in Microsoft Edge DevTools | Microsoft Edge"  
 [DevtoolsInspectStylesEditFonts]: ../inspect-styles/edit-fonts.md "Bearbeiten von CSS-Schriftartenstilen und -einstellungen im Bereich „Formatvorlagen“ in DevTools | Microsoft Docs"  
-[DevtoolsIssuesIndex]: ../issues/index.md "Erkennen und Beheben von Problemen mit dem Microsoft Edge DevTools-Tool „Probleme“ | Microsoft Docs"  
+[DevtoolsIssuesIndex]: ../issues/index.md "Suchen und Beheben von Problemen mithilfe des Tools &quot;Probleme&quot; | Microsoft-Dokumente"  
 [DevtoolsOpenIndex]: ../open/index.md "Öffnen sie Microsoft Edge DevTools-| Microsoft-Dokumente"  
 [DevtoolsShortcutsIndex]: ../shortcuts/index.md "Microsoft Edge DevTools-Tastenkombinationen | Microsoft-Dokumente"  
-
+<!-- external links: -->
 [MicrosoftEdgeMain]: https://www.microsoft.com/edge "Microsoft Edge"  
-
 [TwitterEdgedevtools]: https://www.twitter.com/EdgeDevTools "Microsoft Edge DevTools | Twitter"  
-
 [WebhintMain]: https://webhint.io "webhint"  

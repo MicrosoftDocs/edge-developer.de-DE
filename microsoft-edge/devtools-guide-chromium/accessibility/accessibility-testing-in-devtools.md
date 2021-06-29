@@ -7,12 +7,12 @@ ms.date: 06/07/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: Microsoft Edge, Webentwicklung, F12-Tools, DevTools
-ms.openlocfilehash: 50661f68c7b3269d003bdc25f6a8098ae0e3ec89
-ms.sourcegitcommit: 34feec6ae6241c598911dac7b63c28d655691233
+ms.openlocfilehash: f6ec0652bbbb7d7e60a69877a9d44a7a2fd636a5
+ms.sourcegitcommit: e150d798161277fd3fc610838ef2611dc08f5cf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "11597481"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "11624794"
 ---
 # <a name="overview-of-accessibility-testing-using-devtools"></a>Übersicht über Barrierefreiheitstests mit DevTools
 
@@ -27,13 +27,13 @@ In diesem Artikel behandeln wir einige der Features, die Sie in DevTools verwend
 
 Wenn Sie die Demoseite im Browser öffnen und DevTools öffnen, beachten Sie, dass einige Probleme automatisch im **Problemzähler**erkannt werden.  Wählen Sie den **Problemindikator** \( ![ Problemzähler ](../media/issues-counter-icon.msft.png) \) aus, um das [Problemtool][DevToolsIssuesTool] zu öffnen, um die Probleme und weitere Informationen anzuzeigen.
 
-:::image type="complex" source="../media/a11y-testing-issues-tracker.msft.png" alt-text="Der Problemindikator zeigt, wie viele Probleme auf der aktuellen Webseite vorhanden sind, und öffnet das Tool Probleme." lightbox="../media/a11y-testing-issues-tracker.msft.png":::
+:::image type="complex" source="../media/a11y-testing-issues-tracker.msft.png" alt-text="Der Problemindikator zeigt, wie viele Probleme auf der aktuellen Webseite vorhanden sind, und öffnet das Tool "Probleme"." lightbox="../media/a11y-testing-issues-tracker.msft.png":::
     Der Problemindikator zeigt, wie viele Probleme auf der aktuellen Webseite vorhanden sind, und öffnet das Tool "Probleme".
 :::image-end:::
 
 In diesem Artikel konzentrieren wir uns auf den Abschnitt **"Barrierefreiheit"** des **Tools "Probleme".**
 
-:::image type="complex" source="../media/a11y-testing-accessibility-issues.msft.png" alt-text="Warnungen zur Barrierefreiheit, die im Tool Probleme angezeigt werden" lightbox="../media/a11y-testing-accessibility-issues.msft.png":::
+:::image type="complex" source="../media/a11y-testing-accessibility-issues.msft.png" alt-text="Warnungen zur Barrierefreiheit, die im Tool "Probleme" angezeigt werden" lightbox="../media/a11y-testing-accessibility-issues.msft.png":::
     Warnungen zur Barrierefreiheit, die im Tool "Probleme" angezeigt werden
 :::image-end:::
 
@@ -46,7 +46,7 @@ Die erste angezeigte Warnung ist `Form elements must have labels: Element has no
 
 Für detaillierte exemplarische Vorgehensweisen navigieren Sie zu [Überprüfen, ob Eingabefelder Beschriftungen aufweisen.][DevtoolsAccessibilityTestIssuesToolCheckFieldsLabels]
 
-:::image type="complex" source="../media/a11y-testing-inspect-problematic-element.msft.png" alt-text="Elementtool, das den problematischen HTML-Code zeigt, nachdem der Link im Tool Probleme ausgewählt wurde" lightbox="../media/a11y-testing-inspect-problematic-element.msft.png":::
+:::image type="complex" source="../media/a11y-testing-inspect-problematic-element.msft.png" alt-text="Elementtool, das den problematischen HTML-Code zeigt, nachdem der Link im Tool "Probleme" ausgewählt wurde" lightbox="../media/a11y-testing-inspect-problematic-element.msft.png":::
     Elementtool, das den problematischen HTML-Code zeigt, nachdem der Link im Tool "Probleme" ausgewählt wurde
 :::image-end:::
 
@@ -73,7 +73,7 @@ Sie können auch die erläuternden Links im **Tool "Probleme"** auswählen, um d
 
 Das andere automatisch erkannte Problem besteht darin, dass viele der Bilder auf der Seite keinen alternativen Text haben.  Wenn Sie die `Images must have alternate text: Element has no title attribute` Warnung erweitern, erhalten Sie vier Instanzen von Bildern mit diesem Problem.
 
-:::image type="complex" source="../media/a11y-testing-images-without-alt.msft.png" alt-text="Das Tool Probleme, das Bilder mit fehlendem alternativen Text meldet" lightbox="../media/a11y-testing-images-without-alt.msft.png":::
+:::image type="complex" source="../media/a11y-testing-images-without-alt.msft.png" alt-text="Das Tool "Probleme", das Bilder mit fehlendem alternativen Text meldet" lightbox="../media/a11y-testing-images-without-alt.msft.png":::
     Das **Tool "Probleme",** das Bilder mit fehlendem alternativen Text meldet
 :::image-end:::
 
@@ -84,7 +84,7 @@ Für ausführliche exemplarische Vorgehensweisen navigieren Sie zu [Überprüfen
 
 Das Tool **"Probleme"** meldet auch, wenn zwei Elemente auf der Seite nicht über genügend Kontrast verfügen.
 
-:::image type="complex" source="../media/a11y-testing-contrast-issues.msft.png" alt-text="Im Tool Probleme gemeldete Kontrastprobleme" lightbox="../media/a11y-testing-contrast-issues.msft.png":::
+:::image type="complex" source="../media/a11y-testing-contrast-issues.msft.png" alt-text="Im Tool "Probleme" gemeldete Kontrastprobleme" lightbox="../media/a11y-testing-contrast-issues.msft.png":::
     Im Tool **"Probleme"** gemeldete Kontrastprobleme
 :::image-end:::
 
@@ -128,7 +128,7 @@ Diese Probleme, die vom Tool **"Probleme"** gefunden wurden, sind einige relativ
 
 ## <a name="limits-of-automated-testing"></a>Grenzwerte für automatisierte Tests
 
-Das [Tool "Probleme",][DevToolsIssuesTool] ["Accessibility Insights"][AccessibilityInsights]und ["Debugging"][Lighthouse] sind Tools, die automatisch einen Barrierefreiheitsbericht für eine Webseite generieren.  Das Abrufen eines automatisierten Berichts aus diesen Tools ist nur der Anfang Ihrer Reise zum Testen der Barrierefreiheit.
+Das [Tool "Probleme",][DevToolsIssuesTool] ["Barrierefreiheit Insights"][AccessibilityInsights]und ["Barrierefreiheit"][Lighthouse] sind Tools, die automatisch einen Barrierefreiheitsbericht für eine Webseite generieren.  Das Abrufen eines automatisierten Berichts aus diesen Tools ist nur der Anfang Ihrer Reise zum Testen der Barrierefreiheit.
 
 Bei der Barrierefreiheit geht es um menschliche Interaktionen – Personen mit unterschiedlichen Anforderungen, die Ihre Produkte in verschiedenen technischen Umgebungen verwenden.  Diese Tests können nicht vollständig automatisiert werden, müssen jedoch von einem Benutzer überprüft werden, der durch das Produkt navigiert.  Im besten Szenario hätten Sie Zugriff auf Tester mit unterschiedlichen Barrierefreiheitsanforderungen und Tester in verschiedenen Umgebungen.  Sie können jedoch bereits viel selbst tun, indem Sie die Tastatur verwenden, um zu navigieren, und indem Sie verschiedene Teile der Seite überprüfen.
 
@@ -148,7 +148,7 @@ Eines dieser Probleme ist das Schenkungsformular.  Wenn Sie eine Maus verwenden,
 
 Verwenden **** Sie das Inspect-Tool, um Barrierefreiheitsprobleme zu erkennen, indem Sie auf Teile der Webseite zeigen.  Das Tool **Inspect** \( ![ Inspect ](../media/inspect-icon.msft.png) \) befindet sich in der oberen linken Ecke von DevTools.  Aktivieren Sie das Tool "Überprüfen", indem Sie die Schaltfläche "Tool **überprüfen"** auswählen.
 
-:::image type="complex" source="../media/a11y-testing-basics-inspector.msft.png" alt-text="Aktivieren Sie das Tool Überprüfen, indem Sie auf die Schaltfläche Tool überprüfen klicken." lightbox="../media/a11y-testing-basics-inspector.msft.png":::
+:::image type="complex" source="../media/a11y-testing-basics-inspector.msft.png" alt-text="Aktivieren Sie das Tool "Überprüfen", indem Sie auf die Schaltfläche "Tool überprüfen" klicken." lightbox="../media/a11y-testing-basics-inspector.msft.png":::
     Aktivieren Sie das **Tool "Überprüfen",** indem Sie auf die Schaltfläche "Tool **überprüfen"** klicken.
 :::image-end:::
 
@@ -160,7 +160,7 @@ Nachdem Sie die Schaltfläche des Tools **Inspect** ausgewählt haben, können S
 
 Der Abschnitt **"Barrierefreiheit"** des Tools "Inspect" enthält ggf. eine **Kontrastlinie.**
 
-:::image type="complex" source="../media/a11y-testing-basics-inspector-overlay.msft.png" alt-text="Der Abschnitt Barrierefreiheit des Tools Inspect enthält ggf. eine Kontrastlinie." lightbox="../media/a11y-testing-basics-inspector-overlay.msft.png":::
+:::image type="complex" source="../media/a11y-testing-basics-inspector-overlay.msft.png" alt-text="Der Abschnitt "Barrierefreiheit" des Tools "Inspect" enthält ggf. eine Kontrastlinie." lightbox="../media/a11y-testing-basics-inspector-overlay.msft.png":::
     Der Abschnitt **"Barrierefreiheit"** des Tools "Inspect" enthält ggf. eine **Kontrastlinie.**
 :::image-end:::
 
@@ -191,7 +191,7 @@ Der Abschnitt **"Barrierefreiheit"** **der** Inspect-Überlagerung enthält die 
     *   Die **Rolle** des Elements.  Die **Rolle** ist in der Regel der Elementname, z. `article` B. , oder `img` `link` `heading` .  The `div` and elements are represented as `span` `generic` .
 
 *   **Tastaturfokussierbar** gibt an, ob Benutzer das Element mit anderen Eingabegeräten als einer Maus erreichen können.
-    *   Ein grünes Häkchensymbol weist darauf hin, dass das Element tastaturfokussierbar ist.
+    *   Ein grünes Häkchensymbol zeigt an, dass das Element tastaturfokussierbar ist.
     *   Ein grauer Kreis mit diagonaler Linie weist darauf hin, dass das Element nicht tastaturfokussierbar ist.
 
 Für ausführliche exemplarische Vorgehensweisen navigieren Sie zu [Check individual elements for text contrast, screen reader text, and keyboard support.][DevtoolsAccessibilityTestInspectToolIndivElems]
@@ -216,13 +216,13 @@ Für ausführliche exemplarische Vorgehensweisen navigieren Sie zum [Verwenden d
 
 Nicht alle Personen verwenden Zeiger- oder Touchgeräte, und einige Personen haben möglicherweise eine sehschwächeren Blick. Um diese Szenarien zu unterstützen, stellen Sie sicher, dass Benutzeroberflächen mit Tastaturen funktionieren.
 
-Sie können die Verwendung einer Tastatur testen, um auf der Seite zu navigieren, indem Sie `Tab` von Element zu Element `Shift+Tab` springen.  Wenn Sie `Tab` auf die Demoseite drücken, erhält zuerst das **Suchformular** in der Kopfzeile der Seite den Fokus.  Durch Drücken des Formulars `Enter` können Sie sogar das Formular übermitteln, damit es funktioniert, trotz des Bezeichnungsproblems, das wir zuvor bei der Verwendung des Tools **"Probleme"** entdeckt haben.
+Sie können testen, wie Sie mithilfe einer Tastatur durch die Seite navigieren, indem Sie `Tab` von Element zu Element `Shift+Tab` springen.  Wenn Sie `Tab` auf die Demoseite drücken, erhält zuerst das **Suchformular** in der Kopfzeile der Seite den Fokus.  Durch Drücken des Formulars `Enter` können Sie sogar das Formular übermitteln, damit es funktioniert, trotz des Bezeichnungsproblems, das wir zuvor bei der Verwendung des Tools **"Probleme"** entdeckt haben.
 
 Für ausführliche exemplarische Vorgehensweisen navigieren Sie [mithilfe der Tab- und Eingabetasten zu "Überprüfen auf Tastaturunterstützung".](test-tab-enter-keys.md)
 
 Wenn Sie `Tab` stattdessen `Enter` drücken, ist das nächste Element, das den Fokus erhält, der erste **Link "Mehr"** im Inhaltsbereich der Seite, wie durch eine Gliederung angegeben.
 
-:::image type="complex" source="../media/a11y-testing-keyboard-focus-on-element.msft.png" alt-text="Navigieren auf der Seite mithilfe der Tabulatortaste.  Der Fokus wird auf einem Link Mehr auf der Seite angezeigt." lightbox="../media/a11y-testing-keyboard-focus-on-element.msft.png":::
+:::image type="complex" source="../media/a11y-testing-keyboard-focus-on-element.msft.png" alt-text="Navigieren auf der Seite mithilfe der Tabulatortaste.  Der Fokus wird auf einem Link "Mehr" auf der Seite angezeigt." lightbox="../media/a11y-testing-keyboard-focus-on-element.msft.png":::
     Navigieren auf der Seite mithilfe des `Tab` Schlüssels.  Der Fokus wird auf einem **Link "Mehr"** auf der Seite angezeigt.
 :::image-end:::
 
@@ -268,7 +268,7 @@ Um herauszufinden, warum die Seitenleistennavigation nicht wie erwartet für die
 
 Auf der Registerkarte **"Formatvorlagen"** können Sie das CSS sehen, das auf den Link angewendet wird, und wenn Sie den Link `styles.css` auswählen, wird die Datei im **Tool "Quellen"** geöffnet.
 
-:::image type="complex" source="../media/a11y-testing-menu-link-styles.msft.png" alt-text="Die Formatvorlagen, die auf die Verknüpfung angewendet werden, die im Tool Quellen angezeigt werden" lightbox="../media/a11y-testing-menu-link-styles.msft.png":::
+:::image type="complex" source="../media/a11y-testing-menu-link-styles.msft.png" alt-text="Die Formatvorlagen, die auf die Verknüpfung angewendet werden, die im Tool "Quellen" angezeigt werden" lightbox="../media/a11y-testing-menu-link-styles.msft.png":::
     Die Formatvorlagen, die auf die Verknüpfung angewendet werden, die im Tool "Quellen" angezeigt werden
 :::image-end:::
 
@@ -312,13 +312,13 @@ Die Verwendung der Elemente und der `label` `input` Elemente ist gültig, was da
 
 Als Nächstes analysieren wir die JavaScript-Funktionalität des Formulars. Wählen Sie in **"Elemente"** die Registerkarte **"Ereignislistener" aus,** um das JavaScript des Formulars zu analysieren.
 
-:::image type="complex" source="../media/a11y-testing-event-handlers-on-button.msft.png" alt-text="Registerkarte Ereignislistener mit einem Link zum JavaScript für das Formular" lightbox="../media/a11y-testing-event-handlers-on-button.msft.png":::
+:::image type="complex" source="../media/a11y-testing-event-handlers-on-button.msft.png" alt-text="Registerkarte "Ereignislistener" mit einem Link zum JavaScript für das Formular" lightbox="../media/a11y-testing-event-handlers-on-button.msft.png":::
     Registerkarte **"Ereignislistener"** mit einem Link zum JavaScript für das Formular
 :::image-end:::
 
 Wählen Sie auf der Registerkarte **"Ereignislistener"** den `buttons.js:18` Link aus, um das **Tool "Quellen"** zu öffnen, und überprüfen Sie dann das JavaScript, das für die Funktionalität des Formulars verantwortlich ist.
 
-:::image type="complex" source="../media/a11y-testing-form-handling-javascript.msft.png" alt-text="Das JavaScript, das für die Funktionalität des Schenkungsformulars verantwortlich ist, das im Tool Quellen angezeigt wird" lightbox="../media/a11y-testing-form-handling-javascript.msft.png":::
+:::image type="complex" source="../media/a11y-testing-form-handling-javascript.msft.png" alt-text="Das JavaScript, das für die Funktionalität des Schenkungsformulars verantwortlich ist, das im Tool "Quellen" angezeigt wird" lightbox="../media/a11y-testing-form-handling-javascript.msft.png":::
     Das JavaScript, das für die Funktionalität des Schenkungsformulars verantwortlich ist, das im **Tool "Quellen"** angezeigt wird
 :::image-end:::
 
@@ -331,7 +331,7 @@ Die Verwendung `div` von "as a button" ist ein klassisches Beispiel, bei dem zus
 
 Die Verwendung des **Inspect-Tools** zum einzelnen Überprüfen jedes Elements auf der Seite ist zeitaufwändig.  Verwenden Sie stattdessen die Registerkarte **"Barrierefreiheit",** um in der **Barrierefreiheitsstruktur**der Seite zu navigieren.  Die Barrierefreiheitsstruktur gibt an, welche Informationen die Seite für Hilfstechnologien wie Bildschirmleseprogramme bereitstellt.
 
-:::image type="complex" source="../media/a11y-testing-accessibility-tree.msft.png" alt-text="Schaltfläche Schenkungsformular in der Barrierefreiheitsstruktur" lightbox="../media/a11y-testing-accessibility-tree.msft.png":::
+:::image type="complex" source="../media/a11y-testing-accessibility-tree.msft.png" alt-text="Schaltfläche "Schenkungsformular" in der Barrierefreiheitsstruktur" lightbox="../media/a11y-testing-accessibility-tree.msft.png":::
     Schaltfläche "Schenkungsformular" in der **Barrierefreiheitsstruktur**
 :::image-end:::
 
@@ -344,7 +344,7 @@ Navigieren Sie für ausführliche exemplarische Vorgehensweisen zur [Überprüfu
 
 Ein weiteres Problem ist die unklare Aktivierreihenfolge auf der Seite.  Tastaturbenutzer erreichen das Navigationsmenü in der Seitenleiste erst, nachdem sie alle **"Mehr"-Links** auf der gesamten Seite durchlaufen haben.  In diesem Beispiel soll das Navigationsmenü auf der Seitenleiste eine Verknüpfung mit verschiedenen Abschnitten dieser Seite sein.  Diese Aktivierreihenfolge führt zu einer schlechten Benutzererfahrung. 
 
-Der Grund für die verwirrende `Tab` Reihenfolge ist, dass sie durch die Quellreihenfolge des Dokuments bestimmt wird.  Die Aktivierreihenfolge kann auch mithilfe des Attributs für ein Element geändert `tabindex` werden, das dieses Element aus der Standardquellreihenfolge herausnimmt.
+Der Grund für die verwirrende `Tab` Reihenfolge ist, dass sie von der Quellreihenfolge des Dokuments bestimmt wird.  Die Aktivierreihenfolge kann auch mithilfe des Attributs für ein Element geändert `tabindex` werden, das dieses Element aus der Standardquellreihenfolge herausnimmt.
 
 Im Quellcode des Dokuments wird das Seitennavigationsmenü hinter dem Hauptinhalt der Seite angezeigt.  Das Navigationsmenü der Seitenleiste wird nur oberhalb des Hauptinhalts der Seite angezeigt, da das Navigationsmenü der Seitenleiste mitHILFE von CSS positioniert wurde.
 
@@ -487,24 +487,24 @@ Auf der Demoseite hier verhindert das Deaktivieren von Animationen den reibungsl
 
 Diese CSS-Medienabfrage führt die Animation für einen gleichmäßigen Bildlauf bedingt aus.  Die Animation der oberen Navigationsleiste, des Seitenleisten-Navigationsmenüs und **weiterer** Links wird jedoch weiterhin ausgeführt, auch wenn der Benutzer keine Animationen sehen möchte. Diese anderen Animationen müssen bedingt ausgeführt werden, z. B. durch Hinzufügen zusätzlicher Medienabfragen.
 
-Für detaillierte exemplarische Vorgehensweisen navigieren Sie zu [Überprüfen, ob die Seite mit deaktivierter BENUTZERoberflächenanimation verwendet werden kann.](test-reduced-ui-motion.md)
+Für ausführliche exemplarische Vorgehensweisen navigieren Sie zu [Überprüfen, ob die Seite mit deaktivierter BENUTZERoberflächenanimation verwendet werden kann.](test-reduced-ui-motion.md)
 
 
 ## <a name="what-to-do-next"></a>Wie geht es weiter?
 
 Wir haben einige Tools behandelt, mit denen Sie sicherstellen können, dass Sie Barrierefreiheitsprobleme in Ihren Produkten abfangen.  Diese Tools reichen von automatisierten Prüfungen und manuellen Detailprüfungen bis hin zur Simulation verschiedener Zustände und Umgebungen.  Diese Tools werden in Features zum Testen der [Barrierefreiheit in DevTools](reference.md)zusammengefasst.  Automatisierte Tools können nicht alle Probleme in einem Produkt finden, da viele der Barrierefreiheitsbarrieren nur bei der interaktiven Verwendung auftreten.
 
-Keines dieser Tools kann eine ordnungsgemäße Testphase Ihrer Produkte durch Personen ersetzen, die Hilfstechnologien verwenden, und einen Plan befolgen, um alle erforderlichen Tests zu überprüfen. Sie können auch das [Bewertungsfeature][AccessibilityInsightsAssessment] von [Accessibility Insights][AccessibilityInsights]verwenden.  Möglicherweise müssen Sie zusätzliche Prüfungen durchführen, z. B.:
+Keines dieser Tools kann eine ordnungsgemäße Testphase Ihrer Produkte durch Personen ersetzen, die Hilfstechnologien verwenden, und einen Plan befolgen, um alle erforderlichen Tests zu überprüfen. Sie können auch das [Bewertungsfeature][AccessibilityInsightsAssessment] der [Barrierefreiheit Insights][AccessibilityInsights]verwenden.  Möglicherweise müssen Sie zusätzliche Prüfungen durchführen, z. B.:
 
 * Testen beim Vergrößern.
 * Testen mit Bildschirmleseprogrammen.
 * Testen mit Spracherkennung.
 * Testen im Modus mit hohem Kontrast.
 
-Eine weitere Möglichkeit, herauszufinden, was Sie tun müssen, um Ihr Webprodukt zu verbessern, besteht darin, die [Webhint-Erweiterung für Visual Studio Code][WebhintForCode]zu verwenden.  Diese Erweiterung kennzeichnet die leicht erkennbaren Barrierefreiheitsprobleme in Ihrem Quellcode und gibt Einblicke, wie sie behoben werden können.
+Eine weitere Möglichkeit, herauszufinden, was Sie tun müssen, um Ihr Webprodukt zu verbessern, besteht darin, die [Webhint-Erweiterung für Visual Studio Code][WebhintForCode]zu verwenden.  Diese Erweiterung kennzeichnet die leicht erkennbaren Barrierefreiheitsprobleme in Ihrem Quellcode und bietet Einblicke, wie sie behoben werden können.
 
-:::image type="complex" source="../media/a11y-testing-webhint-in-vs-code.msft.png" alt-text="Webhint in Visual Studio Code mit einem Problem bei der Barrierefreiheit, indem das HTML-Element und eine Erläuterung des Problems erläutert werden" lightbox="../media/a11y-testing-webhint-in-vs-code.msft.png":::
-    Webhint in Visual Studio Code mit einem Problem bei der Barrierefreiheit, indem das HTML-Element und eine Erläuterung des Problems erläutert werden
+:::image type="complex" source="../media/a11y-testing-webhint-in-vs-code.msft.png" alt-text="Webhint in Visual Studio Code, zeigt ein Problem mit der Barrierefreiheit an, indem das HTML-Element und eine Erläuterung des Problems erläutert werden" lightbox="../media/a11y-testing-webhint-in-vs-code.msft.png":::
+    Webhint in Visual Studio Code, zeigt ein Problem mit der Barrierefreiheit an, indem das HTML-Element und eine Erläuterung des Problems erläutert werden
 :::image-end:::
 
 Wir arbeiten ständig an neuen Barrierefreiheitsfunktionen für DevTools.  Wenn Etwas fehlt, senden Sie uns eine Nachricht, und teilen Sie uns mit, was wir tun können.
@@ -516,27 +516,27 @@ Wir arbeiten ständig an neuen Barrierefreiheitsfunktionen für DevTools.  Wenn 
 
 
 <!-- links -->
-[DevToolsMediaQueries]: ../device-mode/index.md#show-media-queries "Anzeigen von Medienabfragen – Emulieren mobiler Geräte in Microsoft Edge DevTools | Microsoft-Dokumente"
+[DevToolsMediaQueries]: ../device-mode/index.md#show-media-queries "Anzeigen von Medienabfragen – Emulieren mobiler Geräte in Microsoft Edge DevTools-| Microsoft-Dokumente"
 [DevToolsDeviceModeIndex]: ../device-mode/index.md "Emulieren von mobilen Geräten in Microsoft Edge DevTools | Microsoft Docs"
 [DevtoolsAccessibilityReference]: reference.md "Features für Barrierefreiheitstests in DevTools | Microsoft-Dokumente"
 [DevToolsColorSchemeSimulation]: ./preferred-color-scheme-simulation.md "Simulation von dunklen oder hellen Farbschemas | Microsoft-Dokumente"
-[DevToolsIssuesTool]: ../issues/index.md "Erkennen und Beheben von Problemen mit dem Microsoft Edge DevTools-Tool „Probleme“ | Microsoft Docs"
+[DevToolsIssuesTool]: ../issues/index.md "Suchen und Beheben von Problemen mithilfe des Tools &quot;Probleme&quot; | Microsoft-Dokumente"
 [DevToolsReducedMotion]: ./reduced-motion-simulation.md "Reduzierte Bewegungssimulation | Microsoft-Dokumente"
 [DevToolsVisionDeficiencies]: ./emulate-vision-deficiencies.md "Emulieren von Sehschwächen | Microsoft-Dokumente"
 <!-- links into test-issues-tool.md -->
 [DevToolsAccessibilityTestIssuesToolViewAccSection]: test-issues-tool.md#view-the-accessibility-section-of-the-issues-tool "Anzeigen des Abschnitts &quot;Barrierefreiheit&quot; des Tools &quot;Probleme&quot; – Automatisches Testen einer Webseite auf Barrierefreiheitsprobleme | Microsoft-Dokumente"
 [DevtoolsAccessibilityTestIssuesToolCheckFieldsLabels]: test-issues-tool.md#verify-that-input-fields-have-labels "Überprüfen, ob Eingabefelder Bezeichnungen aufweisen – Automatisches Testen einer Webseite auf Barrierefreiheitsprobleme | Microsoft-Dokumente" 
-[DevtoolsAccessibilityTestIssuesToolCheckAltText]: test-issues-tool.md#verify-that-images-have-alt-text "Überprüfen, ob Bilder alternativ text sind – Automatisches Testen einer Webseite auf Barrierefreiheitsprobleme | Microsoft-Dokumente "
+[DevtoolsAccessibilityTestIssuesToolCheckAltText]: test-issues-tool.md#verify-that-images-have-alt-text "Stellen Sie sicher, dass Bilder alternativ text sind – Automatisches Testen einer Webseite auf Barrierefreiheitsprobleme | Microsoft-Dokumente "
 [DevtoolsAccessibilityTestIssuesToolCheckContrast]: test-issues-tool.md#verify-that-text-colors-have-enough-contrast "Stellen Sie sicher, dass textfarben genügend Kontrast aufweisen – Automatisches Testen einer Webseite auf Barrierefreiheitsprobleme | Microsoft-Dokumente"
 <!-- links into test-inspect-tool.md -->
-[DevtoolsAccessibilityTestInspectToolColorHighlighting]: test-inspect-tool.md#identify-nested-regions-using-color-highlighting "Identifizieren von geschachtelten Regionen mithilfe von Farbhervorhebung – Verwenden Sie das Tool Inspect, um Barrierefreiheitsprobleme zu erkennen, indem Sie auf die Webseite zeigen | Microsoft-Dokumente"
+[DevtoolsAccessibilityTestInspectToolColorHighlighting]: test-inspect-tool.md#identify-nested-regions-using-color-highlighting "Identifizieren von geschachtelten Regionen mithilfe von Farbhervorhebung – Verwenden Sie das Inspect-Tool, um Barrierefreiheitsprobleme zu erkennen, indem Sie auf die Webseite zeigen, | Microsoft-Dokumente"
 [DevtoolsAccessibilityTestInspectToolIndivElems]: test-inspect-tool.md#check-individual-elements-for-text-contrast-screen-reader-text-and-keyboard-support "Überprüfen Einzelner Elemente auf Textkontrast, Sprachausgabetext und Tastaturunterstützung – Verwenden Sie das Tool Inspect, um Barrierefreiheitsprobleme zu erkennen, indem Sie auf die Webseite zeigen | Microsoft-Dokumente"
 [DevtoolsAccessibilityTestInspectToolDomCss]: test-inspect-tool.md#use-the-inspect-tool-to-hover-over-the-webpage-to-highlight-the-dom-and-css "Verwenden Sie das Inspect-Tool, um auf die Webseite zu zeigen, um das DOM und CSS hervorzuheben. Verwenden Sie das Tool Inspect, um Barrierefreiheitsprobleme zu erkennen, indem Sie auf die Webseite zeigen, | Microsoft-Dokumente"
 <!-- external links -->
 [DevToolsA11yErrorsDemopage]: https://microsoftedge.github.io/DevToolsSamples/a11y-testing/page-with-errors.html "Demowebseite für Barrierefreiheitstests | GitHub"
 [W3CContrastRatio]: https://www.w3.org/TR/WCAG21/#dfn-contrast-ratio "Kontrastverhältnis | W3c"
 [WCAG]: https://www.w3.org/TR/WCAG21/ "Richtlinien für die Barrierefreiheit von Webinhalten | W3c"
-[AccessibilityInsightsAssessment]: https://accessibilityinsights.io/docs/en/web/getstarted/assessment/ "Assessment in Accessibility Insights for Web | Insights zur Barrierefreiheit"
-[AccessibilityInsights]: https://accessibilityinsights.io "Insights zur Barrierefreiheit"
+[AccessibilityInsightsAssessment]: https://accessibilityinsights.io/docs/en/web/getstarted/assessment/ "Bewertung der Insights für Barrierefreiheit für Web-| Barrierefreiheit Insights"
+[AccessibilityInsights]: https://accessibilityinsights.io "Barrierefreiheit Insights"
 [Lighthouse]: https://developers.google.com/web/tools/lighthouse/ "| Google"
 [WebhintForCode]:https://aka.ms/webhint4code "webhint | Visual Studio Markt"

@@ -7,12 +7,12 @@ ms.date: 06/07/2021
 ms.topic: article
 ms.prod: microsoft-edge
 keywords: Microsoft Edge, Webentwicklung, F12-Tools, DevTools
-ms.openlocfilehash: 986a021d2fd390cd45bd53dcfc37a83d58ed2338
-ms.sourcegitcommit: 34feec6ae6241c598911dac7b63c28d655691233
+ms.openlocfilehash: 1cba9db1744235dfbfd2a007e33d1101452aab31
+ms.sourcegitcommit: e150d798161277fd3fc610838ef2611dc08f5cf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "11597415"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "11624738"
 ---
 # <a name="automatically-test-a-webpage-for-accessibility-issues"></a>Automatisches Testen einer Webseite auf Barrierefreiheitsprobleme
 
@@ -34,7 +34,7 @@ Es gibt mehrere Möglichkeiten, das **Problemtool** zu öffnen, z. B.:
 
 1.  Wählen Sie den **Problemindikator aus.**  Das Tool **"Probleme"** wird in der **Schublade** am unteren Rand von DevTools geöffnet.
 
-    :::image type="complex" source="../media/a11y-testing-accessibility-issues.msft.png" alt-text="Warnungen zur Barrierefreiheit, die im Tool Probleme angezeigt werden" lightbox="../media/a11y-testing-accessibility-issues.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-accessibility-issues.msft.png" alt-text="Warnungen zur Barrierefreiheit, die im Tool "Probleme" angezeigt werden" lightbox="../media/a11y-testing-accessibility-issues.msft.png":::
         Warnungen zur Barrierefreiheit, die im Tool "Probleme" angezeigt werden
     :::image-end:::
 
@@ -55,7 +55,7 @@ Um zu überprüfen, ob mit Eingabefeldern Bezeichnungen verbunden sind, verwende
 
 1. Wählen Sie den Link **"In Elementen öffnen"** aus.
 
-    :::image type="complex" source="../media/a11y-testing-inspect-problematic-element.msft.png" alt-text="Elementtool, das den problematischen HTML-Code zeigt, nachdem der Link im Tool Probleme ausgewählt wurde" lightbox="../media/a11y-testing-inspect-problematic-element.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-inspect-problematic-element.msft.png" alt-text="Elementtool, das den problematischen HTML-Code zeigt, nachdem der Link im Tool "Probleme" ausgewählt wurde" lightbox="../media/a11y-testing-inspect-problematic-element.msft.png":::
         Elementtool, das den problematischen HTML-Code zeigt, nachdem der Link im Tool **"Probleme"** ausgewählt wurde :::image-end:::
 
     Das **** Elementtool wird geöffnet, wobei das Element in der DOM-Struktur hervorgehoben ist.  Im Bereich **"Formatvorlagen"** werden die angewendeten CSS-Regeln für das Element angezeigt.  Der folgende Code wird nun angezeigt.
@@ -74,9 +74,9 @@ Um zu überprüfen, ob mit Eingabefeldern Bezeichnungen verbunden sind, verwende
 
 1.  Wählen Sie als Beispiel für eine korrekte Verbindung die Bezeichnung **"Andere"** auf dem Formular für die Gabe aus.  Ein Fokusindikatorfeld wird im Eingabetextfeld neben **** der Beschriftung Other korrekt angezeigt, da Übereinstimmungs- und Attributwerte vorhanden `for` `id` sind.
 
-1.  Wählen Sie im **Tool "Probleme"** die Option **"Weitere Informationen"** aus, um mehr über das Problem zu erfahren.  Um den Link auf einer neuen Registerkarte zu öffnen, klicken Sie **mit strg** + **auf** den Link auf Windows/Linux, oder klicken Sie **auf befehlen** + **auf** den Link unter macOS.
+1.  Wählen Sie im **Tool "Probleme"** die Option **"Weitere Informationen"** aus, um mehr über das Problem zu erfahren.  Um den Link auf einer neuen Registerkarte zu öffnen, klicken Sie **mit strg** + **auf** den Link auf Windows/Linux, oder **klicken**Sie auf den Link unter + **** macOS.
 
-    :::image type="complex" source="../media/a11y-testing-more-information-links.msft.png" alt-text="Link auf der Registerkarte Probleme mit detaillierteren Informationen zu dem Problem" lightbox="../media/a11y-testing-more-information-links.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-more-information-links.msft.png" alt-text="Link auf der Registerkarte "Probleme" mit detaillierteren Informationen zu dem Problem" lightbox="../media/a11y-testing-more-information-links.msft.png":::
         Link auf der Registerkarte **"Probleme"** mit detaillierteren Informationen zu dem Problem
     :::image-end:::
 
@@ -93,7 +93,7 @@ Verwenden Sie das Tool **"Probleme",** das über einen Abschnitt **"Barrierefrei
 
 1.  Erweitern Sie auf der Registerkarte **"Probleme"** die `Images must have alternate text: Element has no title attribute` Warnung.  Es gibt vier Instanzen von Bildern, für die kein alternativer Text vorhanden ist.
 
-    :::image type="complex" source="../media/a11y-testing-images-without-alt.msft.png" alt-text="Das Tool Probleme, das Bilder meldet, für die alternativer Text fehlt" lightbox="../media/a11y-testing-images-without-alt.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-images-without-alt.msft.png" alt-text="Das Tool "Probleme", das Bilder meldet, für die alternativer Text fehlt" lightbox="../media/a11y-testing-images-without-alt.msft.png":::
         Das Tool "Probleme", das Bilder meldet, für die alternativer Text fehlt
     :::image-end:::
 
@@ -108,16 +108,16 @@ Um automatisch zu überprüfen, ob Textfarben über genügend Kontrast verfügen
 
 1.  Um das Tool **"Probleme"** zu öffnen, wählen Sie den **Problemindikator** in der oberen rechten Ecke von DevTools aus.  Möglicherweise erhalten Sie Warnungen, dass zwei Elemente auf der Demowebseite nicht über genügend Kontrast verfügen.
 
-    :::image type="complex" source="../media/a11y-testing-contrast-issues.msft.png" alt-text="Im Tool Probleme gemeldete Kontrastprobleme" lightbox="../media/a11y-testing-contrast-issues.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-contrast-issues.msft.png" alt-text="Im Tool "Probleme" gemeldete Kontrastprobleme" lightbox="../media/a11y-testing-contrast-issues.msft.png":::
         Im Tool "Probleme" gemeldete Kontrastprobleme
     :::image-end:::
 
 1.  Abhängig von Ihren Einstellungen wird auf der Registerkarte **"Probleme"** möglicherweise eine Warnung angezeigt, z. B. wenn **Benutzer aufgrund eines unzureichenden Farbkontrasts Probleme**beim Lesen von Textinhalten haben.   Sie können diese Warnung erweitern und dann betroffene **Ressourcen**erweitern.  Eine Liste von Elementen wird mit einer Liste von Elementen angezeigt, die nicht über genügend Kontrast verfügen.
 
 
-1.  Wählen Sie das `li.high` Element aus.  Auf der gerenderten Webseite wird der Link **"Hunde"** im Abschnitt ** Zufällig ** hervorgehoben, und es wird eine kleine Informationsüberlagerung angezeigt.  Dies ist die gleiche Überlagerung, die angezeigt wird, wenn Sie mit dem Mauszeiger über ein Element in der DOM-Struktur im **Elementtool** zeigen.
+1.  Wählen Sie das `li.high` Element aus.  Auf der gerenderten Webseite wird der Link **"Hunde"** im Abschnitt ** Hebung ** hervorgehoben, wobei eine kleine Informationsüberlagerung angezeigt wird.  Dies ist die gleiche Überlagerung, die angezeigt wird, wenn Sie mit dem Mauszeiger über ein Element in der DOM-Struktur im **Elementtool** zeigen.
 
-    :::image type="complex" source="../media/a11y-testing-element-with-contrast-issues.msft.png" alt-text="Element auf der Webseite, das nach dem Auswählen eines Links im Abschnitt Betroffene Ressourcen hervorgehoben wurde" lightbox="../media/a11y-testing-element-with-contrast-issues.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-element-with-contrast-issues.msft.png" alt-text="Element auf der Webseite, das nach dem Auswählen eines Links im Abschnitt "Betroffene Ressourcen" hervorgehoben wurde" lightbox="../media/a11y-testing-element-with-contrast-issues.msft.png":::
         Element auf der Webseite, das nach dem Auswählen eines Links im Abschnitt **"Betroffene Ressourcen"** hervorgehoben wurde
     :::image-end:::
 
@@ -133,9 +133,9 @@ Die DOM-Struktur im **Elementtool** kennzeichnet Probleme direkt im HTML-Code mi
     :::image-end:::
 
 
-## <a name="see-also"></a>Weitere Informationen:
+## <a name="see-also"></a>Weitere Informationen
 
-*  [Suchen und Beheben von Problemen mit dem Tool "Microsoft Edge DevTools-Probleme"][DevToolsIssuesTool]
+*  [Suchen und Beheben von Problemen mit dem Tool "Probleme"][DevToolsIssuesTool]
 *  [Übersicht über Barrierefreiheitstests mit DevTools](accessibility-testing-in-devtools.md)
 
 
@@ -145,5 +145,5 @@ Die DOM-Struktur im **Elementtool** kennzeichnet Probleme direkt im HTML-Code mi
 
 
 <!-- links -->
-[DevToolsIssuesTool]: ../issues/index.md "Erkennen und Beheben von Problemen mit dem Microsoft Edge DevTools-Tool „Probleme“ | Microsoft Docs"
+[DevToolsIssuesTool]: ../issues/index.md "Suchen und Beheben von Problemen mithilfe des Tools &quot;Probleme&quot; | Microsoft-Dokumente"
 [DevToolsA11yErrorsDemopage]: https://microsoftedge.github.io/DevToolsSamples/a11y-testing/page-with-errors.html "Demowebseite für Barrierefreiheitstests | GitHub"

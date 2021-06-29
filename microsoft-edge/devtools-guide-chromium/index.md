@@ -1,6 +1,6 @@
 ---
 description: Einführung in die Microsoft Edge-Entwicklungstools (Chromium)
-title: Übersicht über Microsoft Edge (Chromium)-Entwicklertools
+title: Microsoft Edge (Chromium) – Übersicht über Entwicklertools
 author: MSEdgeTeam
 ms.author: msedgedevrel
 ms.date: 04/07/2021
@@ -8,14 +8,14 @@ ms.topic: conceptual
 ms.prod: microsoft-edge
 ms.technology: devtools
 keywords: Microsoft Edge, Webentwicklung, F12-Tools, DevTools
-ms.openlocfilehash: 7f9a4288980dd938a43b229e1d5396adc7937c67
-ms.sourcegitcommit: 34feec6ae6241c598911dac7b63c28d655691233
+ms.openlocfilehash: 78603c51dab5a61f8d6b43e60a3f252eac665d99
+ms.sourcegitcommit: e150d798161277fd3fc610838ef2611dc08f5cf6
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/08/2021
-ms.locfileid: "11597006"
+ms.lasthandoff: 06/29/2021
+ms.locfileid: "11624759"
 ---
-# <a name="microsoft-edge-chromium-developer-tools-overview"></a>Übersicht über Microsoft Edge (Chromium)-Entwicklertools  
+# <a name="microsoft-edge-chromium-developer-tools-overview"></a>Microsoft Edge (Chromium) – Übersicht über Entwicklertools  
 
 Wenn Sie Microsoft Edge installieren, erhalten Sie einen Browser. Außerdem erhalten Sie eine leistungsstarke Möglichkeit, Webprojekte zu überprüfen, zu debuggen und sogar zu erstellen.  Die mit dem Browser ausgelieferten Entwicklertools basieren auf den Tools im Chromium Open Source-Projekt, sodass Sie möglicherweise bereits mit den Tools vertraut sind.  Um Beschreibungen in diesem Artikel kürzer zu halten, werden sie `Microsoft Edge Developer Tools` jetzt als `DevTools` .  
 
@@ -67,9 +67,9 @@ Wenn Sie die DevTools öffnen, wird sie links vom Browser angedockt.  Führen Si
 1.  Wählen Sie die Schaltfläche **"DevTools anpassen und steuern\(** `...` \) " aus.  
 1.  Wählen Sie rechts neben der **Platzierung der DevTools relativ zur Seite** \(**Dock-Seite**\) eine **Dock-Option** aus.  
     
-Weitere Informationen erhalten Sie, wenn Sie zu ["Ändern Microsoft Edge DevTools"-Platzierung (Undock, Dock to Bottom, Dock to Left)][DevtoolsGuideCustomizePlacement]navigieren.  
+Weitere Informationen erhalten Sie, wenn Sie zu ["Ändern Microsoft Edge DevTools"-Platzierung (Undock, Dock to Bottom, Dock To Left)][DevtoolsGuideCustomizePlacement]navigieren.  
 
-:::image type="complex" source="./media/devtools-intro-docking-menu.msft.png" alt-text="Screenshot des Seitenmenüs Dock in DevTools" lightbox="./media/devtools-intro-docking-menu.msft.png":::  
+:::image type="complex" source="./media/devtools-intro-docking-menu.msft.png" alt-text="Screenshot des Seitenmenüs "Dock" in DevTools" lightbox="./media/devtools-intro-docking-menu.msft.png":::  
    Screenshot des Seitenmenüs "Dock" in DevTools  
 :::image-end:::  
 
@@ -81,24 +81,24 @@ Wählen Sie **auf der Dock-Seite**eine der folgenden Layoutoptionen aus.
     
 :::row:::  
    :::column span="":::  
-      :::image type="complex" source="./media/devtools-intro-docking-left.msft.png" alt-text="Klicken Sie auf Andocken nach links" lightbox="./media/devtools-intro-docking-left.msft.png":::  
+      :::image type="complex" source="./media/devtools-intro-docking-left.msft.png" alt-text="Klicken Sie auf "Andocken nach links"" lightbox="./media/devtools-intro-docking-left.msft.png":::  
          Klicken Sie **auf "Andocken nach links"**  
       :::image-end:::  
    :::column-end:::  
    :::column span="":::  
-      :::image type="complex" source="media/devtools-intro-docking-bottom.msft.png" alt-text="Wählen Sie Dock to Bottom aus." lightbox="media/devtools-intro-docking-bottom.msft.png":::  
+      :::image type="complex" source="media/devtools-intro-docking-bottom.msft.png" alt-text="Wählen Sie "Dock to Bottom" aus." lightbox="media/devtools-intro-docking-bottom.msft.png":::  
          Wählen Sie **"Dock to Bottom" aus.**  
       :::image-end:::  
    :::column-end:::  
 :::row-end:::  
 :::row:::  
    :::column span="":::  
-      :::image type="complex" source="media/devtools-intro-docking-right.msft.png" alt-text="Wählen Sie Dock nach rechts aus." lightbox="media/devtools-intro-docking-right.msft.png":::  
+      :::image type="complex" source="media/devtools-intro-docking-right.msft.png" alt-text="Wählen Sie "Dock nach rechts" aus." lightbox="media/devtools-intro-docking-right.msft.png":::  
          Wählen Sie **"Dock nach rechts" aus.**  
       :::image-end:::  
    :::column-end:::  
    :::column span="":::  
-      :::image type="complex" source="media/devtools-intro-docking-own-window.msft.png" alt-text="Wählen Sie Abdocken in einem separaten Fenster aus" lightbox="media/devtools-intro-docking-own-window.msft.png":::  
+      :::image type="complex" source="media/devtools-intro-docking-own-window.msft.png" alt-text="Wählen Sie "Abdocken" in einem separaten Fenster aus" lightbox="media/devtools-intro-docking-own-window.msft.png":::  
          Wählen Sie **"Abdocken" in einem separaten Fenster** aus  
       :::image-end:::  
    :::column-end:::  
@@ -186,7 +186,7 @@ Sie können auch die Einstellungen erweiterter Features ändern, einschließlich
 *   Definieren Sie die **Geräte,** die Sie in den Gerätesimulations- und Testmodus einbeziehen möchten.  Navigieren Sie für weitere Informationen zu [Emulieren mobiler Geräte in Microsoft Edge DevTools][DevtoolsGuideDeviceModeIndex].  
 *   Wählen Sie ein **Netzwerkeinschränkungsprofil** aus.  
 *   Definieren simulierter **Speicherorte.**  
-*   Anpassen von Tastenkombinationen.  Führen Sie die folgenden Aktionen aus, um die gleichen Verknüpfungen in den DevTools wie Visual Studio Code zu verwenden.  
+*   Anpassen von Tastenkombinationen.  Führen Sie die folgenden Aktionen aus, um die gleichen Verknüpfungen in devTools wie Visual Studio Code zu verwenden.  
     1.  Wählen Sie **Tastenkombinationen aus voreingestellten Tastenkombinationen aus.**  
     1.  Wählen Sie **Visual Studio Code**aus.  
         
@@ -204,7 +204,7 @@ Das DevTools-Team bietet neue Features als Experimente in den DevTools.  Um die 
 
 Wenn Sie eine Vorschau der [neusten Features für die Entwicklungstools anzeigen möchten][DevtoolsGuideWhatsNew202102Devtools], laden Sie [Microsoft Edge Canary][MicrosoftedgeinsiderDownload] mit nächtlichen Builds herunter.  
 
-## <a name="see-also"></a>Weitere Informationen:  
+## <a name="see-also"></a>Weitere Informationen  
 
 *   [DevtoolsGuide für Anfänger: Erste Schritte mit HTML und dem DOM][DevtoolsGuideBeginnersHtml]  
 *   [Microsoft Edge (Chromium) DevTools Protocol][DevtoolsProtocolIndex]  
@@ -220,18 +220,18 @@ Wenn Sie eine Vorschau der [neusten Features für die Entwicklungstools anzeigen
 [DevtoolsGuideEvaluatePerformanceIndex]: ./evaluate-performance/index.md "Erste Schritte mit der Analyse der Laufzeitleistung | Microsoft-Dokumente"  
 [DevtoolsGuideExperimentalFeaturesIndex]: ./experimental-features/index.md "Experimentelle Features | Microsoft-Dokumente"  
 [DevtoolsGuideMemoryProblemsIndex]: ./memory-problems/index.md "Beheben von Speicherproblemen | Microsoft-Dokumente"  
-[DevtoolsGuideInspectStylesEditFonts]: ./inspect-styles/edit-fonts.md "Bearbeiten von CSS-Schriftartstilen und -einstellungen im Bereich &quot;Formatvorlagen&quot; | Microsoft-Dokumente"  
-[DevtoolsGuideIssuesIndex]: ./issues/index.md "Erkennen und Beheben von Problemen mit dem Microsoft Edge DevTools-Tool „Probleme“ | Microsoft Docs"  
+[DevtoolsGuideInspectStylesEditFonts]: ./inspect-styles/edit-fonts.md "Bearbeiten von CSS-Schriftartstilen und -Einstellungen im Bereich &quot;Formatvorlagen&quot; | Microsoft-Dokumente"  
+[DevtoolsGuideIssuesIndex]: ./issues/index.md "Suchen und Beheben von Problemen mithilfe des Tools &quot;Probleme&quot; | Microsoft-Dokumente"  
 [DevtoolsGuideJavascriptIndex]: ./javascript/index.md "Erste Schritte mit dem Debuggen von JavaScript in Microsoft Edge DevTools | Microsoft-Dokumente"  
 [DevtoolsGuideJavascriptOverrides]: ./javascript/overrides.md "Außerkraftsetzen von Webseitenressourcen mit lokalen Kopien mit Microsoft Edge DevTools | Microsoft-Dokumente"  
 [DevtoolsGuideNetworkIndex]: ./network/index.md "Überprüfen der Netzwerkaktivität in Microsoft Edge DevTools | Microsoft-Dokumente"  
 [DevtoolsGuideOpenIndex]: ./open/index.md "Öffnen sie Microsoft Edge DevTools-| Microsoft-Dokumente"  
 [DevtoolsGuideRenderingToolsIndex]: ./rendering-tools/index.md "Analysieren der Laufzeitleistung | Microsoft-Dokumente"  
 [DevtoolsGuideShortcutsIndex]: ./shortcuts/index.md "Microsoft Edge DevTools-Tastenkombinationen | Microsoft-Dokumente"  
-[DevtoolsGuideSourcesIndex]: ./sources/index.md "Übersicht über das Quellentool | Microsoft-Dokumente"  
-[DevtoolsGuideStorageSessionstorage]: ./storage/sessionstorage.md "Anzeigen und Bearbeiten des Sitzungsspeichers mit Microsoft Edge DevTools | Microsoft-Dokumente"  
+[DevtoolsGuideSourcesIndex]: ./sources/index.md "Übersicht über die Quellentools | Microsoft-Dokumente"  
+[DevtoolsGuideStorageSessionstorage]: ./storage/sessionstorage.md "Anzeigen und Bearbeiten des Sitzungsspeichers mit Microsoft Edge DevTools-| Microsoft-Dokumente"  
 [DevtoolsGuideWhatsNew202102Devtools]: ./whats-new/2021/02/devtools.md "Neuigkeiten in DevTools (Microsoft Edge 90) | Microsoft-Dokumente"  
-[DevtoolsGuideWorkspacesIndex]: ./workspaces/index.md "Bearbeiten von Dateien mit Arbeitsbereichen | Microsoft-Dokumente"  
+[DevtoolsGuideWorkspacesIndex]: ./workspaces/index.md "Bearbeiten von Dateien mit Workspaces | Microsoft-Dokumente"  
 [DevtoolsProtocolIndex]: ../devtools-protocol-chromium/index.md "Microsoft Edge (Chromium) DevTools Protocol Übersicht | Microsoft-Dokumentation"  
 
 [MicrosoftEdgeAddonsExtensions]: https://microsoftedge.microsoft.com/addons/category/Edge-Extensions "Microsoft Edge-Add-Ons"  
