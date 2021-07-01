@@ -443,9 +443,9 @@
               href: webview2/concepts/browser-features.md
             - name: Verteilen meiner App
               href: webview2/concepts/distribution.md
-            - name: Verwaltung von Benutzerdatenordnern
+            - name: Verwalten Sie den Benutzerdatenordner
               href: webview2/concepts/user-data-folder.md
-            - name: WebView2-Anwendungen verwalten
+            - name: Verwalten von WebView2-Anwendungen
               href: webview2/concepts/enterprise.md
             - name: Navigationsereignisse
               href: webview2/concepts/navigation-events.md
