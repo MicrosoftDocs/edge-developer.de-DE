@@ -7,70 +7,79 @@ ms.date: 05/11/2021
 ms.topic: conceptual
 ms.prod: microsoft-edge
 ms.technology: webview
-keywords: WebView2, webview2, WebView, Webview, Edge, bewährte Methoden
-ms.openlocfilehash: 5a11f01ec07aea12599c8bdb8428d451ad7bd013
-ms.sourcegitcommit: 7945939c29dfdd414020f8b05936f605fa2b640e
+keywords: WebView2, Webview2, WebView, Webview, Edge, bewährte Methoden
+ms.openlocfilehash: 7e8c6746e864b474c2987817c521224499a95e1f
+ms.sourcegitcommit: 5ae09b1ad6cd576c9fec12538b23cd849861f2b2
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "11564749"
+ms.lasthandoff: 07/01/2021
+ms.locfileid: "11627978"
 ---
 # <a name="webview2-development-best-practices"></a>Bewährte Methoden für die Entwicklung mit WebView2  
 
-Jedes Entwicklungsteam folgt beim Erstellen seiner Anwendung unterschiedlichen Methoden. Wenn Sie WebView2-Anwendungen erstellen, empfehlen wir Ihnen, die folgenden Methoden zu befolgen. In diesem Artikel werden diese Empfehlungen und bewährten Methoden für Sie beim Erstellen produktionsbasierter WebView2-Anwendungen beschrieben.
+Jedes Entwicklungsteam folgt beim Erstellen seiner Anwendung unterschiedlichen Methoden. Wenn Sie WebView2-Anwendungen erstellen, wird empfohlen, dass Sie diese Vorgehensweisen befolgen. In diesem Artikel werden diese Empfehlungen und bewährten Methoden für Sie beim Erstellen produktionsbasierter WebView2-Anwendungen beschrieben.
 
 ## <a name="use-evergreen-webview2-runtime-recommended"></a>Verwenden von Evergreen WebView2 Runtime (empfohlen)  
 
-Fixed Version verfügt zwar über Anwendungsfälle für Apps mit strengen Kompatibilitätsanforderungen, es wird jedoch im Allgemeinen empfohlen, die Evergreen WebView2 Runtime zu verwenden.  Die Evergreen WebView2-Laufzeit wird automatisch aktualisiert und enthält die neuesten Features und Sicherheitspatches, die für Ihre WebView2-Anwendung verfügbar sind. Die Laufzeit von Evergreen WebView2 erfordert auch weniger Speicherplatz auf dem Datenträger.
+Feste Version bietet zwar Anwendungsfälle für Apps mit strengen Kompatibilitätsanforderungen, es wird jedoch generell empfohlen, die Evergreen WebView2 Runtime zu verwenden.  Die Evergreen WebView2 Runtime-Updates werden automatisch aktualisiert und enthalten die neuesten Features und Sicherheitspatches, die für Ihre WebView2-Anwendung verfügbar sind. Die Evergreen WebView2 Runtime benötigt auch weniger Speicherplatz auf dem Datenträger.
 
-Stellen Sie sicher, dass die Evergreen WebView2-Runtime installiert ist, bevor Sie Ihre WebView2-Anwendung verwenden.  Weitere Informationen finden Sie unter [Deploying the Evergreen WebView2 Runtime][Webview2ConceptsDistributionDeployingEvergreenWebview2Runtime].  
+Stellen Sie sicher, dass die Evergreen WebView2-Runtime installiert ist, bevor Sie Ihre WebView2-Anwendung verwenden.  Navigieren Sie für weitere Informationen zur [Bereitstellung der Evergreen WebView2 Runtime.][Webview2ConceptsDistributionDeployingEvergreenWebview2Runtime]  
 
 ## <a name="run-compatibility-tests-regularly-when-using-the-evergreen-webview2-runtime"></a>Führen Sie bei Verwendung der Evergreen WebView2 Runtime regelmäßig Kompatibilitätstests aus.
 
-Stellen Sie bei Verwendung der Evergreen WebView2 Runtime sicher, dass Sie regelmäßige Kompatibilitätstests ausführen. Da die Laufzeit automatisch aktualisiert wird, testen Sie den Webinhalt im WebView2-Steuerelement mit den nicht stabilen Versionen von Microsoft Edge, um sicherzustellen, dass Ihre WebView2-Anwendung wie erwartet ausgeführt wird. Diese Anleitung ähnelt den Anleitungen, die wir Webentwicklern geben. Weitere Informationen finden Sie unter [Stay compatible in Evergreen Mode][Webview2ConceptsDistributionStayCompatibleEvergreenMode].
+Bei Verwendung der Evergreen WebView2 Runtime wird die Laufzeit automatisch aktualisiert, sodass Sie regelmäßig Kompatibilitätstests ausführen müssen. Testen Sie den Webinhalt im WebView2-Steuerelement mit den nicht stabilen Versionen von Microsoft Edge, um sicherzustellen, dass Ihre WebView2-Anwendung wie erwartet funktioniert.
 
-## <a name="ensure-apis-are-supported-by-the-installed-webview2-runtime"></a>Sicherstellen, dass APIs von der installierten WebView2-Runtime unterstützt werden
+Dieser Leitfaden ähnelt dem Leitfaden, den wir Webentwicklern bieten. Navigieren Sie im [Evergreen-Modus][Webview2ConceptsDistributionStayCompatibleEvergreenMode]zu "Kompatibel bleiben", um weitere Informationen zu erfahren.
 
-WebView2-Anwendungen benötigen sowohl ein Webview2 SDK als auch eine auf dem Computer installierte WebView2-Runtime, um ausgeführt zu werden. Sowohl das SDK als auch die Laufzeit sind versioniert. Da APIs ständig zu WebView2 hinzugefügt werden, werden auch neue Versionen der Laufzeit veröffentlicht, um die neuen APIs zu unterstützen. Sie müssen sicherstellen, dass die apIs, die von Ihrer WebView2-Anwendung verwendet werden, von der WebView2-Runtime unterstützt werden, die auf dem Computer installiert ist. 
+## <a name="ensure-apis-are-supported-by-the-installed-webview2-runtime"></a>Stellen Sie sicher, dass APIs von der installierten WebView2 Runtime unterstützt werden.
 
-Wenn Sie die Evergreen WebView2 Runtime verwenden, gibt es einige Szenarien, in denen die Laufzeit möglicherweise nicht für die Verwendung der neuesten Version aktualisiert wird. Wenn Benutzer beispielsweise keinen Internetzugriff haben, wird die Laufzeit in dieser Umgebung nicht automatisch aktualisiert. Darüber hinaus werden durch die Verwendung einiger Gruppenrichtlinien WebView2-Updates angehalten. Wenn Sie ein Update für Ihre WebView2-Anwendung pushen, kann die Anwendung nicht mehr ausgeführt werden, da sie neuere APIs verwendet, die in der installierten Laufzeit nicht verfügbar sind.   
+WebView2-Anwendungen benötigen zum Ausführen sowohl ein Webview2 SDK als auch eine auf dem Computer installierte WebView2-Runtime. Sowohl das SDK als auch die Laufzeit sind versioniert. Da APIs ständig zu WebView2 hinzugefügt werden, werden auch neue Versionen der Laufzeit veröffentlicht, um die neuen APIs zu unterstützen. Stellen Sie sicher, dass die von Ihrer WebView2-Anwendung verwendeten APIs von der WebView2-Runtime unterstützt werden, die auf dem Computer installiert ist. 
+
+Wenn Sie die Evergreen WebView2 Runtime verwenden, gibt es einige Szenarien, in denen die Laufzeit möglicherweise nicht aktualisiert wird, um die neueste Version zu verwenden. Wenn Benutzer beispielsweise keinen Internetzugang haben, wird die Laufzeit in dieser Umgebung nicht automatisch aktualisiert. Darüber hinaus unterbrechen einige Gruppenrichtlinien WebView2-Updates. Wenn Sie ein Update auf Ihre WebView2-Anwendung übertragen, kann die Anwendung beschädigt werden, da sie neuere APIs verwendet, die in der installierten Laufzeit nicht verfügbar sind.   
  
-Um diese Situation zu lösen, können Sie die Verfügbarkeit der APIs in der installierten Laufzeit testen, bevor Der Code die API aufruft. Dieser Test auf neuere Funktionen ähnelt anderen bewährten Methoden für die Webentwicklung, die unterstützte Features erkennen, bevor neue Web-APIs verwendet werden. Verwenden Sie zum Testen der API-Verfügbarkeit in der installierten Laufzeit:  
+Um diese Situation zu lösen, können Sie die Verfügbarkeit der APIs in der installierten Laufzeit testen, bevor Ihr Code die API aufruft. Dieser Test für neuere Funktionen ähnelt anderen bewährten Methoden für die Webentwicklung, die unterstützte Features vor der Verwendung neuer Web-APIs erkennen. Um die API-Verfügbarkeit in der installierten Laufzeit zu testen, verwenden Sie Folgendes:  
 
 *   Die `queryinterface` in C/C++. 
-*   Ein Try/Catch-Block in .NET oder WinUI. 
+*   Ein try/catch-Block in .NET oder WinUI. 
     
-Weitere Informationen finden Sie unter [Determine WebView2 Runtime requirement][Webview2ConceptsVersioningDetermineWebview2RuntimeRequirement].  
+Weitere Informationen finden Sie unter Ermitteln der [WebView2-Laufzeitanforderung.][Webview2ConceptsVersioningDetermineWebview2RuntimeRequirement]  
 
-## <a name="update-the-fixed-version-runtime"></a>Aktualisieren der Laufzeit für feste Versionen  
+## <a name="update-the-fixed-version-runtime"></a>Aktualisieren der Laufzeit mit fester Version  
 
-Wenn Sie die Fixed Version Runtime verwenden, stellen Sie sicher, dass Sie Ihre Laufzeit regelmäßig aktualisieren, um potenzielle Sicherheitsrisiken zu reduzieren. Bei der Verwendung von Drittanbieterinhalten in Webview2-Anwendungen sollten Sie den Inhalt immer als nicht vertrauenswürdig betrachten.  Weitere Informationen finden Sie unter [Fixed Version distribution mode][Webview2ConceptsDistributionFixedVersionDistributionMode].  
+Wenn Sie die Fixed Version Runtime verwenden, stellen Sie sicher, dass Sie Ihre Laufzeit regelmäßig aktualisieren, um potenzielle Sicherheitsrisiken zu verringern. Wenn Sie Inhalte von Drittanbietern in Webview2-Anwendungen verwenden, sollten Sie den Inhalt immer als nicht vertrauenswürdig betrachten.  Navigieren Sie zum [Verteilungsmodus für feste Versionen,][Webview2ConceptsDistributionFixedVersionDistributionMode]um weitere Informationen zu erfahren.  
 
 ## <a name="manage-new-versions-of-the-runtime"></a>Verwalten neuer Versionen der Laufzeit  
 
-Wenn eine neue Version der Evergreen WebView2 Runtime auf das Gerät heruntergeladen wird, wird die Ausführung von WebView2-Anwendungen mit der vorherigen Laufzeit fortgesetzt, bis der Browserprozess freigegeben wird. Dieses Verhalten ermöglicht die kontinuierliche Ausführung von Anwendungen und verhindert, dass die vorherige Laufzeit gelöscht wird. Um die neue Version der Laufzeit zu verwenden, müssen Sie alle Verweise auf die vorherigen WebView2-Umgebungsobjekte veröffentlichen oder Die Anwendung neu starten. Beim nächsten Erstellen einer neuen WebView2-Umgebung wird die neue Version verwendet.
+Wenn eine neue Version der Evergreen WebView2 Runtime auf das Gerät heruntergeladen wird, verwenden alle ausgeführten WebView2-Anwendungen weiterhin die vorherige Laufzeit, bis der Browserprozess freigegeben wird.  Dieses Verhalten ermöglicht die fortlaufende Ausführung von Anwendungen und verhindert, dass die vorherige Laufzeit gelöscht wird.  Um die neue Version der Laufzeit zu verwenden, müssen Sie alle Verweise auf die vorherigen WebView2-Umgebungsobjekte freigeben oder die Anwendung neu starten.  Wenn Sie das nächste Mal eine neue WebView2-Umgebung erstellen, wird die neue Version verwendet.
 
-Wenn eine neue Version verfügbar ist, z. B. den Benutzer zum Neustart der Anwendung benachrichtigen, können Sie das [Ereignis add_NewBrowserVersionAvailable(Win32)][Webview2ReferenceaddNewBrowserVersionAvailable] oder [CoreWebView2Environment.NewBrowserVersionAvailable(.NET)][Webview2ReferenceNewBrowserVersionAvailable] in Ihrem Code verwenden. Wenn der Code den Neustart der Anwendung behandelt, sollten Sie den Benutzerstatus speichern, bevor die WebView2-Anwendung beendet wird.  
+Wenn eine neue Version verfügbar ist, können Sie automatisch Maßnahmen ergreifen, z. B. den Benutzer benachrichtigen, die Anwendung neu zu starten.  Um zu erkennen, dass eine neue Version verfügbar ist, können Sie das [ereignis add_NewBrowserVersionAvailable(Win32)][Webview2ReferenceaddNewBrowserVersionAvailable] oder [CoreWebView2Environment.NewBrowserVersionAvailable(.NET)][Webview2ReferenceNewBrowserVersionAvailable] in Ihrem Code verwenden. Wenn der Code den Neustart der Anwendung verarbeitet, sollten Sie den Benutzerstatus speichern, bevor die WebView2-Anwendung beendet wird.  
 
 ## <a name="manage-the-lifetime-of-the-user-data-folder"></a>Verwalten der Lebensdauer des Benutzerdatenordners 
-WebView2-Apps erstellen einen Benutzerdatenordner zum Speichern von Daten wie Cookies, Anmeldeinformationen, Berechtigungen und so weiter. Nach dem Erstellen des Ordners ist Ihre App für die Verwaltung der Lebensdauer des Benutzerdatenordners verantwortlich, einschließlich der Bereinigung, wenn die App deinstalliert wird.  Weitere Informationen finden Sie unter [Managing the User Data Folder][Webview2ConceptsUserDataFolder].  
+WebView2-Apps erstellen einen Benutzerdatenordner zum Speichern von Daten wie Cookies, Anmeldeinformationen und Berechtigungen.  Nach dem Erstellen des Ordners ist Ihre App für die Verwaltung der Lebensdauer des Benutzerdatenordners verantwortlich.  Ihre App muss beispielsweise eine Bereinigung durchführen, wenn die App deinstalliert wird.  Navigieren Sie zu ["Verwalten des Benutzerdatenordners",][Webview2ConceptsUserDataFolder]um weitere Informationen zu erfahren.  
 
-## <a name="follow-recommended-webview2-security-best-practices"></a>Befolgen empfohlener bewährter WebView2-Sicherheitsmethoden 
-Stellen Sie sicher, dass Sie für jede WebView2-Anwendung die empfohlenen bewährten WebView2-Sicherheitsmethoden befolgen.  Weitere Informationen finden Sie unter [Best practices for developing secure WebView2 applications][Webview2ConceptsSecurity].  
+## <a name="handle-runtime-process-failures"></a>Behandeln von Laufzeitprozessfehlern
+Ihre WebView2-App sollte das Ereignis überwachen und `ProcessFailed` behandeln, damit die App nach Fehlern von Laufzeitprozessen, die den WebView2-App-Prozess unterstützen, wiederhergestellt werden kann.
+
+WebView2-Apps werden von einer Sammlung von Laufzeitprozessen unterstützt, die zusammen mit dem App-Prozess ausgeführt werden. Diese unterstützenden Laufzeitprozesse können aus verschiedenen Gründen fehlschlagen, z. B. wenn der Arbeitsspeicher knapp wird oder vom Benutzer beendet wird. Wenn ein unterstützender Laufzeitprozess fehlschlägt, benachrichtigt WebView2 die Anwendung durch Auslösen des [ProcessFailed-Ereignisses.][WebView2ProcessFailedEvent]
+
+## <a name="follow-recommended-webview2-security-best-practices"></a>Befolgen empfohlener bewährter Methoden für die WebView2-Sicherheit 
+Stellen Sie für jede WebView2-Anwendung sicher, dass Sie die empfohlenen bewährten Methoden für die WebView2-Sicherheit befolgen.  Navigieren Sie für weitere Informationen zu bewährten Methoden für die [Entwicklung sicherer WebView2-Anwendungen.][Webview2ConceptsSecurity]  
 
 <!-- links -->  
 
-[Webview2ConceptsDistributionDeployingEvergreenWebview2Runtime]: ../concepts/distribution.md#deploying-the-evergreen-webview2-runtime "Bereitstellen der Evergreen WebView2 Runtime – Verteilung von Apps mithilfe von WebView2 | Microsoft Docs"  
-[Webview2ConceptsDistributionFixedVersionDistributionMode]: ../concepts/distribution.md#fixed-version-distribution-mode "Verteilungsmodus mit fester Version – Verteilung von Apps mithilfe von WebView2 | Microsoft Docs"  
-[Webview2ConceptsDistributionStayCompatibleEvergreenMode]: ../concepts/distribution.md#stay-compatible-in-evergreen-mode "Im Immergrünmodus kompatibel bleiben – Verteilung von Apps mithilfe von WebView2 | Microsoft Docs"  
-[Webview2ConceptsSecurity]: ../concepts/security.md "Bewährte Methoden für die Entwicklung sicherer WebView2-| Microsoft Docs"  
-[Webview2ConceptsUserDataFolder]: ../concepts/user-data-folder.md "Verwalten der Benutzerdatenordner-| Microsoft Docs"  
-[Webview2ConceptsVersioningDetermineWebview2RuntimeRequirement]: ../concepts/versioning.md#determine-webview2-runtime-requirement "Bestimmen der WebView2-Laufzeitanforderung – Verstehen der WebView2 SDK-| Microsoft Docs"  
-[Webview2GetStartedWin32]: ../get-started/win32.md "Erste Schritte mit WebView2 | Microsoft Docs"  
-[Webview2GetStartedWinforms]: ../get-started/winforms.md "Erste Schritte mit WebView2 in Windows Forms | Microsoft Docs"  
-[Webview2GetStartedWinui]: ../get-started/winui.md "Erste Schritte mit WebView2 in WinUI 3 (Vorschau) | Microsoft Docs"  
-[Webview2GetStartedWpf]: ../get-started/wpf.md "Erste Schritte mit WebView2 in WPF | Microsoft Docs"  
+[Webview2ConceptsDistributionDeployingEvergreenWebview2Runtime]: ../concepts/distribution.md#deploying-the-evergreen-webview2-runtime "Bereitstellen der Evergreen WebView2-Laufzeit – Verteilung von Apps mit WebView2 | Microsoft-Dokumente"  
+[Webview2ConceptsDistributionFixedVersionDistributionMode]: ../concepts/distribution.md#fixed-version-distribution-mode "Verteilungsmodus für feste Versionen – Verteilung von Apps mithilfe von WebView2 | Microsoft-Dokumente"  
+[Webview2ConceptsDistributionStayCompatibleEvergreenMode]: ../concepts/distribution.md#stay-compatible-in-evergreen-mode "Im Evergreen-Modus kompatibel bleiben – Verteilung von Apps mit WebView2 | Microsoft-Dokumente"  
+[Webview2ConceptsSecurity]: ../concepts/security.md "Bewährte Methoden für die Entwicklung sicherer WebView2-Anwendungen | Microsoft-Dokumente"  
+[Webview2ConceptsUserDataFolder]: ../concepts/user-data-folder.md "Verwalten des Benutzerdatenordners | Microsoft-Dokumente"  
+[Webview2ConceptsVersioningDetermineWebview2RuntimeRequirement]: ../concepts/versioning.md#determine-webview2-runtime-requirement "Ermitteln der WebView2-Laufzeitanforderung – Grundlegendes zu WebView2 SDK-Versionen | Microsoft-Dokumente"  
+[Webview2GetStartedWin32]: ../get-started/win32.md "Erste Schritte mit WebView2 | Microsoft-Dokumente"  
+[Webview2GetStartedWinforms]: ../get-started/winforms.md "Erste Schritte mit WebView2 in Windows Forms | Microsoft-Dokumente"  
+[Webview2GetStartedWinui]: ../get-started/winui.md "Erste Schritte mit WebView2 in WinUI 3 (Vorschau) | Microsoft-Dokumente"  
+[Webview2GetStartedWpf]: ../get-started/wpf.md "Erste Schritte mit WebView2 in WPF | Microsoft-Dokumente"  
 
-[Webview2ReferenceaddNewBrowserVersionAvailable]: /microsoft-edge/webview2/reference/win32/icorewebview2environment#add_newbrowserversionavailable "add_NewBrowserVersionAvailable | Microsoft Docs"  
+[Webview2ReferenceaddNewBrowserVersionAvailable]: /microsoft-edge/webview2/reference/win32/icorewebview2environment#add_newbrowserversionavailable "add_NewBrowserVersionAvailable | Microsoft-Dokumente"  
 
-[Webview2ReferenceNewBrowserVersionAvailable]: /dotnet/api/microsoft.web.webview2.core.corewebview2environment.newbrowserversionavailable "CoreWebView2Environment.NewBrowserVersionAvailable Event | Microsoft Docs"  
+[Webview2ReferenceNewBrowserVersionAvailable]: /dotnet/api/microsoft.web.webview2.core.corewebview2environment.newbrowserversionavailable "CoreWebView2Environment.NewBrowserVersionAvailable-Ereignis | Microsoft-Dokumente"  
+[WebView2ProcessFailedEvent]: /microsoft-edge/webview2/reference/win32/icorewebview2processfailedeventargs "ICoreWebView2ProcessFailedEventArgs | Microsoft-Dokumente"  
+
