@@ -80,7 +80,7 @@ Zur leichteren Überprüfung der von [webhint][WebhintMain] aufgedeckten Problem
 
 Sie können nun Inhalte von **Ebenen** neben Z-Indexwerten und dem Dokumentobjektmodell \(DOM\) visualisieren.  Mit diesem Feature können Sie Debuggen, ohne zwischen den Tools [3D-Ansicht][Devtools3dViewIndex] und **Ebenen** umzuschalten.  Für ein umfassendes visuelles Debugging werden jetzt [die 3D-Ansicht und die zusammengesetzten Ebenen kombiniert][Devtools3dViewIndex].  
 
-:::image type="complex" source="../../media/2020/11/experiments-layers.msft.png" alt-text="Bereich „Zusammengesetzte Ebenen“" lightbox="../../media/2020/11/experiments-layers.msft.png":::
+:::image type="complex" source="../../media/2020/11/experiments-layers.msft.png" alt-text="Bereich Zusammengesetzte Ebenen" lightbox="../../media/2020/11/experiments-layers.msft.png":::
    Bereich **Zusammengesetzte Ebenen**  
 :::image-end:::  
 
@@ -126,7 +126,7 @@ Zeigen Sie mit dem neuen Link **Netzwerkanforderungen** alle Routinginformatione
 1.  Navigieren Sie zu **Anwendung** > **Service Workers**.  
 1.  Wählen Sie **Netzwerkanforderungen** aus.  
     
-    :::image type="complex" source="../../media/2020/11/service-worker-application-network-requests.msft.png" alt-text="Öffnen des Netzwerk-Tools im Bereich "Service Workers"" lightbox="../../media/2020/11/service-worker-application-network-requests.msft.png":::
+    :::image type="complex" source="../../media/2020/11/service-worker-application-network-requests.msft.png" alt-text="Öffnen des Netzwerk-Tools im Bereich Service Workers" lightbox="../../media/2020/11/service-worker-application-network-requests.msft.png":::
        Öffnen des **Netzwerk**-Tools im Bereich **Service Workers**
     :::image-end:::  
     
@@ -151,7 +151,7 @@ Debuggen Sie Netzwerkanforderungen, die über Service Worker ausgeführt werden.
 *   Die Laufzeit eines `fetch`-Ereignishandlers.  
 *   Die Laufzeit aller `fetch`-Ereignisse zum Laden eines Clients.  
     
-:::image type="complex" source="../../media/2020/11/network-timing-service-worker.msft.png" alt-text="Bereich "Timing"" lightbox="../../media/2020/11/network-timing-service-worker.msft.png":::
+:::image type="complex" source="../../media/2020/11/network-timing-service-worker.msft.png" alt-text="Bereich Timing" lightbox="../../media/2020/11/network-timing-service-worker.msft.png":::
    Bereich **Timing**  
 :::image-end:::  
 
@@ -218,7 +218,7 @@ Die rote Markierung zeigt beispielsweise eine angepasste Multipress-Tastenkombin
 
 Wenn Sie in Microsoft Edge, Version 87, in den [DevTools-Einstellungen][DevtoolsCustomizeIndexSettings] die Einstellung **Übereinstimmung mit der Browser-Sprache** aktiviert haben, entsprach die Sprache von DevTools nicht der Browsersprache.  In Microsoft Edge, Version 88, entspricht DevTools nun der Browsersprache, wenn Sie die Einstellung **Übereinstimmung mit der Browsersprache** aktivieren.  Weitere Informationen zur DevTools-Einstellung **Übereinstimmung mit der Browsersprache** erhalten Sie, wenn Sie zu [Ändern der DevTools-Spracheinstellungen][DevtoolsCustomizeLocalization] navigieren.  
 
-:::image type="complex" source="../../media/2020/11/startpage-devtools-settings-japanese.msft.png" alt-text="DevTools-Einstellung „Übereinstimmung mit der Browsersprache“ in Japanisch" lightbox="../../media/2020/11/startpage-devtools-settings-japanese.msft.png":::
+:::image type="complex" source="../../media/2020/11/startpage-devtools-settings-japanese.msft.png" alt-text="DevTools-Einstellung Übereinstimmung mit der Browsersprache in Japanisch" lightbox="../../media/2020/11/startpage-devtools-settings-japanese.msft.png":::
    DevTools-Einstellung **Übereinstimmung mit der Browsersprache** in Japanisch  
 :::image-end:::  
 
