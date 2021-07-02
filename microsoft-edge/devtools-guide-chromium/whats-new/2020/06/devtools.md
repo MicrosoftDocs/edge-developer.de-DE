@@ -68,7 +68,7 @@ In einem neuen Bereich wird die **Netzwerkkonsole** in der [DevTools-Schublade][
 
 Sie können auch die **Netzwerkkonsole** verwenden, um HTTP-Anforderungen direkt über devTools zu erstellen und zu senden.  
 
-:::image type="complex" source="../../media/2020/06/experiments-network-console.msft.png" alt-text="Der Bereich "Netzwerkkonsole"" lightbox="../../media/2020/06/experiments-network-console.msft.png":::
+:::image type="complex" source="../../media/2020/06/experiments-network-console.msft.png" alt-text="Der Bereich Netzwerkkonsole" lightbox="../../media/2020/06/experiments-network-console.msft.png":::
    **Der Bereich "Netzwerkkonsole"**  
 :::image-end:::  
 
@@ -86,7 +86,7 @@ Chromium Problem [#1093687][CR1093687]
 
 Die Registerkarte **"Timing"** des **Netzwerktools** enthält jetzt `respondWith` Service Worker-Ereignisse.  Das `respondWith` Service Worker-Ereignis zeigt die Dauer von der Zeit unmittelbar vor der Ausführung des Service `fetch` Worker-Ereignishandlers bis zu dem Zeitpunkt an, zu dem `respondWith` die Zusage des `fetch` Handlers nicht erfüllt ist.  
 
-:::image type="complex" source="../../media/2020/06/timing-tab.msft.png" alt-text="Das RespondWith Service Worker-Ereignis auf der Registerkarte "Timing" des Netzwerkbereichs" lightbox="../../media/2020/06/timing-tab.msft.png":::
+:::image type="complex" source="../../media/2020/06/timing-tab.msft.png" alt-text="Das RespondWith Service Worker-Ereignis auf der Registerkarte Timing des Netzwerkbereichs" lightbox="../../media/2020/06/timing-tab.msft.png":::
    Das `respondWith` Service Worker-Ereignis auf der Registerkarte **"Timing"** des **Netzwerktools**  
 :::image-end:::  
 
@@ -106,7 +106,7 @@ Chromium Problem [#1066579][CR1066579]
 
 [Webhint][WebhintMain] ist ein Open Source-Tool, das Echtzeitfeedback zu Barrierefreiheit, browserübergreifender Kompatibilität, Sicherheit, Leistung, PWAs und anderen allgemeinen Webentwicklungsproblemen von Websites bereitstellt.  So überprüfen Sie Webhint-Feedback im [Bereich "Probleme".][DevtoolsIssues]  
 
-:::image type="complex" source="../../media/2020/06/experiments-webhint.msft.png" alt-text="Webhint-Feedback im Bereich "Probleme"" lightbox="../../media/2020/06/experiments-webhint.msft.png":::
+:::image type="complex" source="../../media/2020/06/experiments-webhint.msft.png" alt-text="Webhint-Feedback im Bereich Probleme" lightbox="../../media/2020/06/experiments-webhint.msft.png":::
    Webhint-Feedback im Bereich "Probleme"  
 :::image-end:::  
 
@@ -272,7 +272,7 @@ Die **Umschaltfläche "Gruppe"** in konsolenähnlicher Einstellungen gilt jetzt 
 
 Beispielsweise hat DevTools zuvor die Gruppierung der Nachrichten nicht aufgehoben, `hello` obwohl **"Gruppe ähnlich"** deaktiviert ist.  Jetzt werden die Gruppierung der `hello` Nachrichten aufgehoben.  
 
-:::image type="complex" source="../../media/2020/06/ungroup-similar.msft.png" alt-text="Wenn "Gruppe ähnlich" deaktiviert ist, werden die Hello-Nachrichten nicht gruppiert." lightbox="../../media/2020/06/ungroup-similar.msft.png":::
+:::image type="complex" source="../../media/2020/06/ungroup-similar.msft.png" alt-text="Wenn Gruppe ähnlich deaktiviert ist, werden die Hello-Nachrichten nicht gruppiert." lightbox="../../media/2020/06/ungroup-similar.msft.png":::
    Wenn **"Gruppe ähnlich"** deaktiviert ist, werden die Gruppierung der `hello` Nachrichten aufgehoben.
 :::image-end:::  
 

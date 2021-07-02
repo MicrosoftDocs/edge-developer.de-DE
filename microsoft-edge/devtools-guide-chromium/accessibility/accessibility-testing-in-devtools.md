@@ -27,13 +27,13 @@ In diesem Artikel behandeln wir einige der Features, die Sie in DevTools verwend
 
 Wenn Sie die Demoseite im Browser öffnen und DevTools öffnen, beachten Sie, dass einige Probleme automatisch im **Problemzähler**erkannt werden.  Wählen Sie den **Problemindikator** \( ![ Problemzähler ](../media/issues-counter-icon.msft.png) \) aus, um das [Problemtool][DevToolsIssuesTool] zu öffnen, um die Probleme und weitere Informationen anzuzeigen.
 
-:::image type="complex" source="../media/a11y-testing-issues-tracker.msft.png" alt-text="Der Problemindikator zeigt, wie viele Probleme auf der aktuellen Webseite vorhanden sind, und öffnet das Tool "Probleme"." lightbox="../media/a11y-testing-issues-tracker.msft.png":::
+:::image type="complex" source="../media/a11y-testing-issues-tracker.msft.png" alt-text="Der Problemindikator zeigt, wie viele Probleme auf der aktuellen Webseite vorhanden sind, und öffnet das Tool Probleme." lightbox="../media/a11y-testing-issues-tracker.msft.png":::
     Der Problemindikator zeigt, wie viele Probleme auf der aktuellen Webseite vorhanden sind, und öffnet das Tool "Probleme".
 :::image-end:::
 
 In diesem Artikel konzentrieren wir uns auf den Abschnitt **"Barrierefreiheit"** des **Tools "Probleme".**
 
-:::image type="complex" source="../media/a11y-testing-accessibility-issues.msft.png" alt-text="Warnungen zur Barrierefreiheit, die im Tool "Probleme" angezeigt werden" lightbox="../media/a11y-testing-accessibility-issues.msft.png":::
+:::image type="complex" source="../media/a11y-testing-accessibility-issues.msft.png" alt-text="Warnungen zur Barrierefreiheit, die im Tool Probleme angezeigt werden" lightbox="../media/a11y-testing-accessibility-issues.msft.png":::
     Warnungen zur Barrierefreiheit, die im Tool "Probleme" angezeigt werden
 :::image-end:::
 
@@ -46,7 +46,7 @@ Die erste angezeigte Warnung ist `Form elements must have labels: Element has no
 
 Für detaillierte exemplarische Vorgehensweisen navigieren Sie zu [Überprüfen, ob Eingabefelder Beschriftungen aufweisen.][DevtoolsAccessibilityTestIssuesToolCheckFieldsLabels]
 
-:::image type="complex" source="../media/a11y-testing-inspect-problematic-element.msft.png" alt-text="Elementtool, das den problematischen HTML-Code zeigt, nachdem der Link im Tool "Probleme" ausgewählt wurde" lightbox="../media/a11y-testing-inspect-problematic-element.msft.png":::
+:::image type="complex" source="../media/a11y-testing-inspect-problematic-element.msft.png" alt-text="Elementtool, das den problematischen HTML-Code zeigt, nachdem der Link im Tool Probleme ausgewählt wurde" lightbox="../media/a11y-testing-inspect-problematic-element.msft.png":::
     Elementtool, das den problematischen HTML-Code zeigt, nachdem der Link im Tool "Probleme" ausgewählt wurde
 :::image-end:::
 
@@ -73,7 +73,7 @@ Sie können auch die erläuternden Links im **Tool "Probleme"** auswählen, um d
 
 Das andere automatisch erkannte Problem besteht darin, dass viele der Bilder auf der Seite keinen alternativen Text haben.  Wenn Sie die `Images must have alternate text: Element has no title attribute` Warnung erweitern, erhalten Sie vier Instanzen von Bildern mit diesem Problem.
 
-:::image type="complex" source="../media/a11y-testing-images-without-alt.msft.png" alt-text="Das Tool "Probleme", das Bilder mit fehlendem alternativen Text meldet" lightbox="../media/a11y-testing-images-without-alt.msft.png":::
+:::image type="complex" source="../media/a11y-testing-images-without-alt.msft.png" alt-text="Das Tool Probleme, das Bilder mit fehlendem alternativen Text meldet" lightbox="../media/a11y-testing-images-without-alt.msft.png":::
     Das **Tool "Probleme",** das Bilder mit fehlendem alternativen Text meldet
 :::image-end:::
 
@@ -84,7 +84,7 @@ Für ausführliche exemplarische Vorgehensweisen navigieren Sie zu [Überprüfen
 
 Das Tool **"Probleme"** meldet auch, wenn zwei Elemente auf der Seite nicht über genügend Kontrast verfügen.
 
-:::image type="complex" source="../media/a11y-testing-contrast-issues.msft.png" alt-text="Im Tool "Probleme" gemeldete Kontrastprobleme" lightbox="../media/a11y-testing-contrast-issues.msft.png":::
+:::image type="complex" source="../media/a11y-testing-contrast-issues.msft.png" alt-text="Im Tool Probleme gemeldete Kontrastprobleme" lightbox="../media/a11y-testing-contrast-issues.msft.png":::
     Im Tool **"Probleme"** gemeldete Kontrastprobleme
 :::image-end:::
 
@@ -148,7 +148,7 @@ Eines dieser Probleme ist das Schenkungsformular.  Wenn Sie eine Maus verwenden,
 
 Verwenden **** Sie das Inspect-Tool, um Barrierefreiheitsprobleme zu erkennen, indem Sie auf Teile der Webseite zeigen.  Das Tool **Inspect** \( ![ Inspect ](../media/inspect-icon.msft.png) \) befindet sich in der oberen linken Ecke von DevTools.  Aktivieren Sie das Tool "Überprüfen", indem Sie die Schaltfläche "Tool **überprüfen"** auswählen.
 
-:::image type="complex" source="../media/a11y-testing-basics-inspector.msft.png" alt-text="Aktivieren Sie das Tool "Überprüfen", indem Sie auf die Schaltfläche "Tool überprüfen" klicken." lightbox="../media/a11y-testing-basics-inspector.msft.png":::
+:::image type="complex" source="../media/a11y-testing-basics-inspector.msft.png" alt-text="Aktivieren Sie das Tool Überprüfen, indem Sie auf die Schaltfläche Tool überprüfen klicken." lightbox="../media/a11y-testing-basics-inspector.msft.png":::
     Aktivieren Sie das **Tool "Überprüfen",** indem Sie auf die Schaltfläche "Tool **überprüfen"** klicken.
 :::image-end:::
 
@@ -160,7 +160,7 @@ Nachdem Sie die Schaltfläche des Tools **Inspect** ausgewählt haben, können S
 
 Der Abschnitt **"Barrierefreiheit"** des Tools "Inspect" enthält ggf. eine **Kontrastlinie.**
 
-:::image type="complex" source="../media/a11y-testing-basics-inspector-overlay.msft.png" alt-text="Der Abschnitt "Barrierefreiheit" des Tools "Inspect" enthält ggf. eine Kontrastlinie." lightbox="../media/a11y-testing-basics-inspector-overlay.msft.png":::
+:::image type="complex" source="../media/a11y-testing-basics-inspector-overlay.msft.png" alt-text="Der Abschnitt Barrierefreiheit des Tools Inspect enthält ggf. eine Kontrastlinie." lightbox="../media/a11y-testing-basics-inspector-overlay.msft.png":::
     Der Abschnitt **"Barrierefreiheit"** des Tools "Inspect" enthält ggf. eine **Kontrastlinie.**
 :::image-end:::
 
@@ -222,7 +222,7 @@ Für ausführliche exemplarische Vorgehensweisen navigieren Sie [mithilfe der Ta
 
 Wenn Sie `Tab` stattdessen `Enter` drücken, ist das nächste Element, das den Fokus erhält, der erste **Link "Mehr"** im Inhaltsbereich der Seite, wie durch eine Gliederung angegeben.
 
-:::image type="complex" source="../media/a11y-testing-keyboard-focus-on-element.msft.png" alt-text="Navigieren auf der Seite mithilfe der Tabulatortaste.  Der Fokus wird auf einem Link "Mehr" auf der Seite angezeigt." lightbox="../media/a11y-testing-keyboard-focus-on-element.msft.png":::
+:::image type="complex" source="../media/a11y-testing-keyboard-focus-on-element.msft.png" alt-text="Navigieren auf der Seite mithilfe der Tabulatortaste. Der Fokus wird auf einem Link Mehr auf der Seite angezeigt." lightbox="../media/a11y-testing-keyboard-focus-on-element.msft.png":::
     Navigieren auf der Seite mithilfe des `Tab` Schlüssels.  Der Fokus wird auf einem **Link "Mehr"** auf der Seite angezeigt.
 :::image-end:::
 
@@ -268,7 +268,7 @@ Um herauszufinden, warum die Seitenleistennavigation nicht wie erwartet für die
 
 Auf der Registerkarte **"Formatvorlagen"** können Sie das CSS sehen, das auf den Link angewendet wird, und wenn Sie den Link `styles.css` auswählen, wird die Datei im **Tool "Quellen"** geöffnet.
 
-:::image type="complex" source="../media/a11y-testing-menu-link-styles.msft.png" alt-text="Die Formatvorlagen, die auf die Verknüpfung angewendet werden, die im Tool "Quellen" angezeigt werden" lightbox="../media/a11y-testing-menu-link-styles.msft.png":::
+:::image type="complex" source="../media/a11y-testing-menu-link-styles.msft.png" alt-text="Die Formatvorlagen, die auf die Verknüpfung angewendet werden, die im Tool Quellen angezeigt werden" lightbox="../media/a11y-testing-menu-link-styles.msft.png":::
     Die Formatvorlagen, die auf die Verknüpfung angewendet werden, die im Tool "Quellen" angezeigt werden
 :::image-end:::
 
@@ -312,13 +312,13 @@ Die Verwendung der Elemente und der `label` `input` Elemente ist gültig, was da
 
 Als Nächstes analysieren wir die JavaScript-Funktionalität des Formulars. Wählen Sie in **"Elemente"** die Registerkarte **"Ereignislistener" aus,** um das JavaScript des Formulars zu analysieren.
 
-:::image type="complex" source="../media/a11y-testing-event-handlers-on-button.msft.png" alt-text="Registerkarte "Ereignislistener" mit einem Link zum JavaScript für das Formular" lightbox="../media/a11y-testing-event-handlers-on-button.msft.png":::
+:::image type="complex" source="../media/a11y-testing-event-handlers-on-button.msft.png" alt-text="Registerkarte Ereignislistener mit einem Link zum JavaScript für das Formular" lightbox="../media/a11y-testing-event-handlers-on-button.msft.png":::
     Registerkarte **"Ereignislistener"** mit einem Link zum JavaScript für das Formular
 :::image-end:::
 
 Wählen Sie auf der Registerkarte **"Ereignislistener"** den `buttons.js:18` Link aus, um das **Tool "Quellen"** zu öffnen, und überprüfen Sie dann das JavaScript, das für die Funktionalität des Formulars verantwortlich ist.
 
-:::image type="complex" source="../media/a11y-testing-form-handling-javascript.msft.png" alt-text="Das JavaScript, das für die Funktionalität des Schenkungsformulars verantwortlich ist, das im Tool "Quellen" angezeigt wird" lightbox="../media/a11y-testing-form-handling-javascript.msft.png":::
+:::image type="complex" source="../media/a11y-testing-form-handling-javascript.msft.png" alt-text="Das JavaScript, das für die Funktionalität des Schenkungsformulars verantwortlich ist, das im Tool Quellen angezeigt wird" lightbox="../media/a11y-testing-form-handling-javascript.msft.png":::
     Das JavaScript, das für die Funktionalität des Schenkungsformulars verantwortlich ist, das im **Tool "Quellen"** angezeigt wird
 :::image-end:::
 
@@ -331,7 +331,7 @@ Die Verwendung `div` von "as a button" ist ein klassisches Beispiel, bei dem zus
 
 Die Verwendung des **Inspect-Tools** zum einzelnen Überprüfen jedes Elements auf der Seite ist zeitaufwändig.  Verwenden Sie stattdessen die Registerkarte **"Barrierefreiheit",** um in der **Barrierefreiheitsstruktur**der Seite zu navigieren.  Die Barrierefreiheitsstruktur gibt an, welche Informationen die Seite für Hilfstechnologien wie Bildschirmleseprogramme bereitstellt.
 
-:::image type="complex" source="../media/a11y-testing-accessibility-tree.msft.png" alt-text="Schaltfläche "Schenkungsformular" in der Barrierefreiheitsstruktur" lightbox="../media/a11y-testing-accessibility-tree.msft.png":::
+:::image type="complex" source="../media/a11y-testing-accessibility-tree.msft.png" alt-text="Schaltfläche Schenkungsformular in der Barrierefreiheitsstruktur" lightbox="../media/a11y-testing-accessibility-tree.msft.png":::
     Schaltfläche "Schenkungsformular" in der **Barrierefreiheitsstruktur**
 :::image-end:::
 

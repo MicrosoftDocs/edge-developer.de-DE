@@ -34,7 +34,7 @@ Es gibt mehrere Möglichkeiten, das **Problemtool** zu öffnen, z. B.:
 
 1.  Wählen Sie den **Problemindikator aus.**  Das Tool **"Probleme"** wird in der **Schublade** am unteren Rand von DevTools geöffnet.
 
-    :::image type="complex" source="../media/a11y-testing-accessibility-issues.msft.png" alt-text="Warnungen zur Barrierefreiheit, die im Tool "Probleme" angezeigt werden" lightbox="../media/a11y-testing-accessibility-issues.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-accessibility-issues.msft.png" alt-text="Warnungen zur Barrierefreiheit, die im Tool Probleme angezeigt werden" lightbox="../media/a11y-testing-accessibility-issues.msft.png":::
         Warnungen zur Barrierefreiheit, die im Tool "Probleme" angezeigt werden
     :::image-end:::
 
@@ -55,7 +55,7 @@ Um zu überprüfen, ob mit Eingabefeldern Bezeichnungen verbunden sind, verwende
 
 1. Wählen Sie den Link **"In Elementen öffnen"** aus.
 
-    :::image type="complex" source="../media/a11y-testing-inspect-problematic-element.msft.png" alt-text="Elementtool, das den problematischen HTML-Code zeigt, nachdem der Link im Tool "Probleme" ausgewählt wurde" lightbox="../media/a11y-testing-inspect-problematic-element.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-inspect-problematic-element.msft.png" alt-text="Elementtool, das den problematischen HTML-Code zeigt, nachdem der Link im Tool Probleme ausgewählt wurde" lightbox="../media/a11y-testing-inspect-problematic-element.msft.png":::
         Elementtool, das den problematischen HTML-Code zeigt, nachdem der Link im Tool **"Probleme"** ausgewählt wurde :::image-end:::
 
     Das **** Elementtool wird geöffnet, wobei das Element in der DOM-Struktur hervorgehoben ist.  Im Bereich **"Formatvorlagen"** werden die angewendeten CSS-Regeln für das Element angezeigt.  Der folgende Code wird nun angezeigt.
@@ -76,7 +76,7 @@ Um zu überprüfen, ob mit Eingabefeldern Bezeichnungen verbunden sind, verwende
 
 1.  Wählen Sie im **Tool "Probleme"** die Option **"Weitere Informationen"** aus, um mehr über das Problem zu erfahren.  Um den Link auf einer neuen Registerkarte zu öffnen, klicken Sie **mit strg** + **auf** den Link auf Windows/Linux, oder **klicken**Sie auf den Link unter + **** macOS.
 
-    :::image type="complex" source="../media/a11y-testing-more-information-links.msft.png" alt-text="Link auf der Registerkarte "Probleme" mit detaillierteren Informationen zu dem Problem" lightbox="../media/a11y-testing-more-information-links.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-more-information-links.msft.png" alt-text="Link auf der Registerkarte Probleme mit detaillierteren Informationen zu dem Problem" lightbox="../media/a11y-testing-more-information-links.msft.png":::
         Link auf der Registerkarte **"Probleme"** mit detaillierteren Informationen zu dem Problem
     :::image-end:::
 
@@ -93,7 +93,7 @@ Verwenden Sie das Tool **"Probleme",** das über einen Abschnitt **"Barrierefrei
 
 1.  Erweitern Sie auf der Registerkarte **"Probleme"** die `Images must have alternate text: Element has no title attribute` Warnung.  Es gibt vier Instanzen von Bildern, für die kein alternativer Text vorhanden ist.
 
-    :::image type="complex" source="../media/a11y-testing-images-without-alt.msft.png" alt-text="Das Tool "Probleme", das Bilder meldet, für die alternativer Text fehlt" lightbox="../media/a11y-testing-images-without-alt.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-images-without-alt.msft.png" alt-text="Das Tool Probleme, das Bilder meldet, für die alternativer Text fehlt" lightbox="../media/a11y-testing-images-without-alt.msft.png":::
         Das Tool "Probleme", das Bilder meldet, für die alternativer Text fehlt
     :::image-end:::
 
@@ -108,7 +108,7 @@ Um automatisch zu überprüfen, ob Textfarben über genügend Kontrast verfügen
 
 1.  Um das Tool **"Probleme"** zu öffnen, wählen Sie den **Problemindikator** in der oberen rechten Ecke von DevTools aus.  Möglicherweise erhalten Sie Warnungen, dass zwei Elemente auf der Demowebseite nicht über genügend Kontrast verfügen.
 
-    :::image type="complex" source="../media/a11y-testing-contrast-issues.msft.png" alt-text="Im Tool "Probleme" gemeldete Kontrastprobleme" lightbox="../media/a11y-testing-contrast-issues.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-contrast-issues.msft.png" alt-text="Im Tool Probleme gemeldete Kontrastprobleme" lightbox="../media/a11y-testing-contrast-issues.msft.png":::
         Im Tool "Probleme" gemeldete Kontrastprobleme
     :::image-end:::
 
@@ -117,7 +117,7 @@ Um automatisch zu überprüfen, ob Textfarben über genügend Kontrast verfügen
 
 1.  Wählen Sie das `li.high` Element aus.  Auf der gerenderten Webseite wird der Link **"Hunde"** im Abschnitt ** Hebung ** hervorgehoben, wobei eine kleine Informationsüberlagerung angezeigt wird.  Dies ist die gleiche Überlagerung, die angezeigt wird, wenn Sie mit dem Mauszeiger über ein Element in der DOM-Struktur im **Elementtool** zeigen.
 
-    :::image type="complex" source="../media/a11y-testing-element-with-contrast-issues.msft.png" alt-text="Element auf der Webseite, das nach dem Auswählen eines Links im Abschnitt "Betroffene Ressourcen" hervorgehoben wurde" lightbox="../media/a11y-testing-element-with-contrast-issues.msft.png":::
+    :::image type="complex" source="../media/a11y-testing-element-with-contrast-issues.msft.png" alt-text="Element auf der Webseite, das nach dem Auswählen eines Links im Abschnitt Betroffene Ressourcen hervorgehoben wurde" lightbox="../media/a11y-testing-element-with-contrast-issues.msft.png":::
         Element auf der Webseite, das nach dem Auswählen eines Links im Abschnitt **"Betroffene Ressourcen"** hervorgehoben wurde
     :::image-end:::
 

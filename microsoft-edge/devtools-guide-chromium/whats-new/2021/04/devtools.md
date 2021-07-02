@@ -53,7 +53,7 @@ Führen Sie eine der folgenden Aktionen aus, um das Tool **"Probleme"** zu öffn
       :::image-end:::  
    :::column-end:::
    :::column span="":::
-      :::image type="complex" source="../../media/2021/04/elements-iframe-highlight-issues-focus.msft.png" alt-text="Anzeigen von Fehlerdetails im Tool "Probleme"" lightbox="../../media/2021/04/elements-iframe-highlight-issues-focus.msft.png":::
+      :::image type="complex" source="../../media/2021/04/elements-iframe-highlight-issues-focus.msft.png" alt-text="Anzeigen von Fehlerdetails im Tool Probleme" lightbox="../../media/2021/04/elements-iframe-highlight-issues-focus.msft.png":::
          Anzeigen von Fehlerdetails im **Tool "Probleme"**  
       :::image-end:::  
    :::column-end:::
@@ -76,7 +76,7 @@ Wenn Sie außerdem das Experiment ["Fokusmodus" und "DevTools-QuickInfos"][Devto
 
 Um weitere Informationen zur Verwendung der DevTools anzuzeigen, aktivieren Sie QuickInfos, und zeigen Sie dann auf die einzelnen umrissenen Regionen der DevTools.  
 
-:::image type="complex" source="../../media/2021/04/elements-issues-focus-mode-tooltips.msft.png" alt-text="Zeigen Sie auf eine beliebige Stelle im hervorgehobenen Bereich des Tools "Probleme", um weitere Details anzuzeigen." lightbox="../../media/2021/04/elements-issues-focus-mode-tooltips.msft.png":::
+:::image type="complex" source="../../media/2021/04/elements-issues-focus-mode-tooltips.msft.png" alt-text="Zeigen Sie auf eine beliebige Stelle im hervorgehobenen Bereich des Tools Probleme, um weitere Details anzuzeigen." lightbox="../../media/2021/04/elements-issues-focus-mode-tooltips.msft.png":::
    Zeigen Sie auf eine beliebige Stelle im hervorgehobenen Bereich des **Tools "Probleme",** um weitere Details anzuzeigen.  
 :::image-end:::  
 
@@ -143,7 +143,7 @@ Ab [Microsoft Edge Version 81][DevtoolsWhatsNew202001DevtoolsUsingDevtoolsInOthe
 
 Ab [Microsoft Edge Version 88][DevtoolsWhatsNew202011DevtoolsCssVariableDefinitionsInStylesPane]zeigt der Bereich **Formatvorlagen** CSS-Variablen an und stellt einen Link direkt zur Definition der einzelnen Variablen bereit.  In Microsoft Edge Version 91 oder höher können Sie mithilfe der Pfeiltasten ganz einfach zu CSS-Variablen navigieren.  Zeigen Sie auf eine Variable, und wählen Sie dann aus, um die Definition im Bereich **"Formatvorlagen"** zu `Enter` öffnen.  Weitere Informationen zu CSS-Variablen erhalten Sie, indem Sie zu [benutzerdefinierten CSS-Eigenschaften (Variablen)][MdnDocsWebCssUsingCssCustomProperties]navigieren.  Navigieren Sie zu Problem [1187735][CR1187735], um Echtzeitupdates für dieses Feature im Chromium Open-Source-Projekt zu überprüfen.  
 
-:::image type="complex" source="../../media/2021/04/elements-styles-body-background-color-theme-body-background.msft.png" alt-text="Die CSS-Variable "-theme-body-background" im Bereich "Formatvorlagen"" lightbox="../../media/2021/04/elements-styles-body-background-color-theme-body-background.msft.png":::
+:::image type="complex" source="../../media/2021/04/elements-styles-body-background-color-theme-body-background.msft.png" alt-text="Die CSS-Variable -theme-body-background im Bereich Formatvorlagen" lightbox="../../media/2021/04/elements-styles-body-background-color-theme-body-background.msft.png":::
    Die `--theme-body-background` im Bereich **"Formatvorlagen"** hervorgehobene CSS-Variable  
 :::image-end:::  
 
@@ -154,7 +154,7 @@ Ab [Microsoft Edge Version 88][DevtoolsWhatsNew202011DevtoolsCssVariableDefiniti
 
 Das **Tool "Probleme"** zeigt Empfehlungen zur Verbesserung Ihrer Website an, einschließlich Barrierefreiheit, Leistung, Sicherheit usw. Basierend auf Ihrem Feedback werden die Probleme jetzt automatisch nach Schweregrad sortiert.  In jeder Feedbackkategorie wird jedes als **Fehler** gekennzeichnete Problem zuerst angezeigt, gefolgt von jedem Problem, das als **Warnung**gekennzeichnet ist, und dann jedem Problem, das als **Tipp**gekennzeichnet ist.  Um Ihre Probleme zu verfeinern, sind zusätzliche Filteroptionen für ein zukünftiges Update geplant.  For more information about how to review issues, navigate to [Find and fix problems using the Issues tool][DevtoolsIssuesIndex].  
 
-:::image type="complex" source="../../media/2021/04/elements-issues-ordered-issues.msft.png" alt-text="Das Tool "Probleme" zeigt sortierte Probleme nach Schweregrad an." lightbox="../../media/2021/04/elements-issues-ordered-issues.msft.png":::
+:::image type="complex" source="../../media/2021/04/elements-issues-ordered-issues.msft.png" alt-text="Das Tool Probleme zeigt sortierte Probleme nach Schweregrad an." lightbox="../../media/2021/04/elements-issues-ordered-issues.msft.png":::
    Das Tool **"Probleme"** zeigt sortierte Probleme nach Schweregrad an.  
 :::image-end:::  
 
@@ -206,7 +206,7 @@ Um die Badges anzuzeigen (oder auszublenden),wählen Sie \(oder entfernen\) das 
 
 <!--  To review the history of this feature in the Chromium open-source project, navigate to Issue [1066772][CR1066772].  -->  
 
-:::image type="complex" source="../../media/2021/04/elements-contextual-menu-badge-settings.msft.png" alt-text="Bereich "Signaleinstellungen" im Elementtool" lightbox="../../media/2021/04/elements-contextual-menu-badge-settings.msft.png":::
+:::image type="complex" source="../../media/2021/04/elements-contextual-menu-badge-settings.msft.png" alt-text="Bereich Signaleinstellungen im Elementtool" lightbox="../../media/2021/04/elements-contextual-menu-badge-settings.msft.png":::
    Bereich **"Signaleinstellungen"** **im** Elementtool  
 :::image-end:::  
 
@@ -310,7 +310,7 @@ Suchen Sie Experimente schneller mit dem neuen Experimentfilter.  Führen Sie be
 1.  Navigieren Sie zum Textfeld ** Filter .**  
 1.  Geben Sie `issues` ein.  
     
-:::image type="complex" source="../../media/2021/04/settings-experiments-filter-by-issues.msft.png" alt-text="Filtern von Experimenten in der Einstellung "Experimente"" lightbox="../../media/2021/04/settings-experiments-filter-by-issues.msft.png":::
+:::image type="complex" source="../../media/2021/04/settings-experiments-filter-by-issues.msft.png" alt-text="Filtern von Experimenten in der Einstellung Experimente" lightbox="../../media/2021/04/settings-experiments-filter-by-issues.msft.png":::
    Filtern von Experimenten in der Einstellung **"Experimente"**  
 :::image-end:::  
 
@@ -318,7 +318,7 @@ Suchen Sie Experimente schneller mit dem neuen Experimentfilter.  Führen Sie be
 
 Verwenden Sie die neue `Vary Header` Spalte im **Bereich "Cache Storage",** um die Werte der [Vary][HttpwgSpecsRfc7231HtmlHeaderVary] HTTP-Antwortheader anzuzeigen.  Navigieren Sie zu Problem [1186049][CR1186049], um den Verlauf dieses Features im Chromium Open-Source-Projekt zu überprüfen.  
 
-:::image type="complex" source="../../media/2021/04/application-cache-cache-storage-highlighted-vary-header.msft.png" alt-text="Spalte "Kopfzeile variieren"" lightbox="../../media/2021/04/application-cache-cache-storage-highlighted-vary-header.msft.png":::
+:::image type="complex" source="../../media/2021/04/application-cache-cache-storage-highlighted-vary-header.msft.png" alt-text="Spalte Kopfzeile variieren" lightbox="../../media/2021/04/application-cache-cache-storage-highlighted-vary-header.msft.png":::
    Spalte "Kopfzeile variieren"  
 :::image-end:::  
 
@@ -353,7 +353,7 @@ DevTools unterstützt jetzt die Hovervorschau für JavaScript-Memberausdrücke, 
 
 DevTools bietet jetzt eine bessere Gliederungsunterstützung für `.html` Dateien.  Öffnen Sie im **Tool "Quellen"** die `.html` Datei.  Um die Codegliederung zu aktivieren (oder zu deaktivieren), wählen Sie `Ctrl` + `Shift` + `O` Windows/Linux oder `Cmd` + `Shift` + `O` macOS aus.  In der folgenden Abbildung listen DevTools nun alle Funktionen in der Gliederung ordnungsgemäß auf.  Bisher wurden von DevTools nur einige der Funktionen angezeigt.  Navigieren Sie zu Problemen [761019][CR761019] und [1191465][CR1191465], um den Verlauf dieses Features im Chromium Open-Source-Projekt zu überprüfen.  
 
-:::image type="complex" source="../../media/2021/04/sources-page-jobobbx-at.msft.png" alt-text=" Verbesserte Gliederung von HTML-Dateien" lightbox="../../media/2021/04/sources-page-jobobbx-at.msft.png":::
+:::image type="complex" source="../../media/2021/04/sources-page-jobobbx-at.msft.png" alt-text="Verbesserte Gliederung von HTML-Dateien" lightbox="../../media/2021/04/sources-page-jobobbx-at.msft.png":::
    Verbesserte Gliederung von HTML-Dateien  
 :::image-end:::  
 

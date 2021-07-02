@@ -57,7 +57,7 @@ Führen Sie die folgenden Schritte aus, um das **Problemtool** mithilfe einer De
 
 1.  Wählen Sie den **Problemindikator aus.**  Das Tool **"Probleme"** wird mit Problemen geöffnet, die in verschiedene Kategorien unterteilt sind.
 
-    :::image type="complex" source="../media/issues-tool-categories.msft.png" alt-text="Kategorien von Problemen im Tool "Probleme" auf der Demoseite" lightbox="../media/issues-tool-categories.msft.png":::
+    :::image type="complex" source="../media/issues-tool-categories.msft.png" alt-text="Kategorien von Problemen im Tool Probleme auf der Demoseite" lightbox="../media/issues-tool-categories.msft.png":::
        Kategorien von Problemen im Tool "Probleme" auf der Demoseite
     :::image-end:::
 
@@ -72,7 +72,7 @@ Es gibt mehrere zusätzliche Möglichkeiten, das **Problemtool** zu öffnen:
 
 Innerhalb jeder Problemkategorie werden zuerst die Fehler aufgelistet, dann Warnungen und dann Tipps.
 
-:::image type="complex" source="../media/issues-ordered-by-severity.msft.png" alt-text="Das Tool "Probleme" zeigt Leistungsprobleme nach Schweregrad sortiert an." lightbox="../media/issues-ordered-by-severity.msft.png":::
+:::image type="complex" source="../media/issues-ordered-by-severity.msft.png" alt-text="Das Tool Probleme zeigt Leistungsprobleme nach Schweregrad sortiert an." lightbox="../media/issues-ordered-by-severity.msft.png":::
    Das Tool **"Probleme"** zeigt Leistungsprobleme nach Schweregrad sortiert an.
 :::image-end:::
 
@@ -91,7 +91,7 @@ Das Tool **"Probleme"** enthält zusätzliche Dokumentationen und empfohlene Kor
 
 1.  Wählen Sie ein Problem aus, um das Problem zu erweitern.
 
-    :::image type="complex" source="../media/issues-tool-initial-view-accessibility-page.msft.png" alt-text="Das Tool "Probleme" mit zusätzlichen Informationen zum Beheben des Problems" lightbox="../media/issues-tool-initial-view-accessibility-page.msft.png":::
+    :::image type="complex" source="../media/issues-tool-initial-view-accessibility-page.msft.png" alt-text="Das Tool Probleme mit zusätzlichen Informationen zum Beheben des Problems" lightbox="../media/issues-tool-initial-view-accessibility-page.msft.png":::
        Das **Tool "Probleme"** mit zusätzlichen Informationen zum Beheben des Problems
     :::image-end:::
 
@@ -110,7 +110,7 @@ Ein Problem im **Problemtool** kann eine oder mehrere Links enthalten, die unter
 
 1.  Wählen Sie in **"BETROFFENE RESSOURCEN**  >  **öffnen in"** den Toolnamen aus.  Die betroffene Ressource wird im ausgewählten Tool angezeigt.
 
-    :::image type="complex" source="../media/issues-tool-affected-resource-opens-elements-tool.msft.png" alt-text="Wählen Sie ein Tool aus, um eine betroffene Ressource im Tool "Probleme" zu öffnen." lightbox="../media/issues-tool-affected-resource-opens-elements-tool.msft.png":::
+    :::image type="complex" source="../media/issues-tool-affected-resource-opens-elements-tool.msft.png" alt-text="Wählen Sie ein Tool aus, um eine betroffene Ressource im Tool Probleme zu öffnen." lightbox="../media/issues-tool-affected-resource-opens-elements-tool.msft.png":::
        Wählen Sie ein Tool aus, um eine betroffene Ressource im Tool "Probleme" zu öffnen.
     :::image-end:::
 

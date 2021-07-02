@@ -108,7 +108,7 @@ Chromium Problem [#1076112][CR1076112]
 
 Beim Remotedebuggen eines [Android-Geräts,][DevtoolsRemoteDebugAndroid]eines [Windows 10 Geräts][DevtoolsRemoteDebugWindows]oder eines [Surface Duo-Emulators][DevtoolsRemoteDebugDuoEmulator]können Sie screencasting mit dem ![ Toggle ](../../../media/toggle-screencast-icon.msft.png) Screencast-Symbol in der oberen linken Ecke der DevTools umschalten.  Wenn Screencasting aktiviert ist, können Sie über das DevTools-Fenster in Microsoft Edge auf dem Remotegerät navigieren.  In Microsoft Edge 84 sind diese Navigationsschaltflächen jetzt auch über die Tastatur zugänglich.  
 
-:::image type="complex" source="../../media/2020/05/screencasting-nav.msft.png" alt-text="Wählen Sie "UMSCHALT+TAB" aus der bildschirmierten URL-Leiste aus, um den Fokus auf der Schaltfläche "Aktualisieren" anzuzeigen." lightbox="../../media/2020/05/screencasting-nav.msft.png":::
+:::image type="complex" source="../../media/2020/05/screencasting-nav.msft.png" alt-text="Wählen Sie UMSCHALT+TAB aus der bildschirmierten URL-Leiste aus, um den Fokus auf der Schaltfläche Aktualisieren anzuzeigen." lightbox="../../media/2020/05/screencasting-nav.msft.png":::
    Wählen Sie `Shift` + `Tab` in der Screencast-URL-Leiste den Fokus auf der Schaltfläche **"Aktualisieren"** aus.
 :::image-end:::  
 
@@ -118,7 +118,7 @@ Chromium Problem [#1081486][CR1081486]
 
 In Microsoft Edge 84 erhält der [Detailbereich][DevtoolsNetworkDetails] im **Netzwerktool** jetzt den Fokus, wenn Sie ihn für eine Ressource im [Netzwerkprotokoll][DevtoolsNetworkLog]öffnen.  Diese Änderung ermöglicht es Bildschirmleseprogrammen, den Inhalt des **Detailbereichs** auszulesen und mit ihnen zu interagieren.  
 
-:::image type="complex" source="../../media/2020/05/network-details.msft.png" alt-text="Der Bereich "Details" im Netzwerkbereich erhält beim Öffnen den Fokus." lightbox="../../media/2020/05/network-details.msft.png":::
+:::image type="complex" source="../../media/2020/05/network-details.msft.png" alt-text="Der Bereich Details im Netzwerkbereich erhält beim Öffnen den Fokus." lightbox="../../media/2020/05/network-details.msft.png":::
    Der **Detailbereich** im **Netzwerktool** erhält den Fokus, wenn er geöffnet wird
 :::image-end:::  
 
@@ -134,7 +134,7 @@ Das neue **Tool "Probleme"** in der DevTools-Schublade wurde entwickelt, um die 
 
 To get started, navigate to [Find and fix problems using the Issues tool][DevtoolsIssuesIndex].  
 
-:::image type="complex" source="../../media/2020/05/issues.msft.png" alt-text="Das Tool "Probleme" in der DevTools-Schublade" lightbox="../../media/2020/05/issues.msft.png":::
+:::image type="complex" source="../../media/2020/05/issues.msft.png" alt-text="Das Tool Probleme in der DevTools-Schublade" lightbox="../../media/2020/05/issues.msft.png":::
    Das **Tool "Probleme"** in der DevTools-Schublade  
 :::image-end:::  
 
@@ -233,7 +233,7 @@ Chromium Problem [#1040019][CR1040019]
 
 Wenn Sie Farben mit der [Farbauswahl][DevtoolsCssReferenceColorPicker] auswählen oder zwischen Farbdarstellungen im Bereich **"Formatvorlagen"** wechseln, indem Sie den Wert beibehalten `Shift` und `background-color` auswählen, wird die Durch Leerzeichen getrennte Argumentsyntax angezeigt.  
 
-:::image type="complex" source="../../media/2020/05/color.msft.png" alt-text="Verwenden von durch Leerzeichen getrennten Argumenten im Bereich "Formatvorlagen"" lightbox="../../media/2020/05/color.msft.png":::
+:::image type="complex" source="../../media/2020/05/color.msft.png" alt-text="Verwenden von durch Leerzeichen getrennten Argumenten im Bereich Formatvorlagen" lightbox="../../media/2020/05/color.msft.png":::
   Verwenden von durch Leerzeichen getrennten Argumenten im Bereich **"Formatvorlagen"**  
 :::image-end:::  
 

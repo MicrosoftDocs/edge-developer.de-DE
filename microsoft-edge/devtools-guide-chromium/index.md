@@ -69,7 +69,7 @@ Wenn Sie die DevTools öffnen, wird sie links vom Browser angedockt.  Führen Si
     
 Weitere Informationen erhalten Sie, wenn Sie zu ["Ändern Microsoft Edge DevTools"-Platzierung (Undock, Dock to Bottom, Dock To Left)][DevtoolsGuideCustomizePlacement]navigieren.  
 
-:::image type="complex" source="./media/devtools-intro-docking-menu.msft.png" alt-text="Screenshot des Seitenmenüs "Dock" in DevTools" lightbox="./media/devtools-intro-docking-menu.msft.png":::  
+:::image type="complex" source="./media/devtools-intro-docking-menu.msft.png" alt-text="Screenshot des Seitenmenüs Dock in DevTools" lightbox="./media/devtools-intro-docking-menu.msft.png":::  
    Screenshot des Seitenmenüs "Dock" in DevTools  
 :::image-end:::  
 
@@ -81,24 +81,24 @@ Wählen Sie **auf der Dock-Seite**eine der folgenden Layoutoptionen aus.
     
 :::row:::  
    :::column span="":::  
-      :::image type="complex" source="./media/devtools-intro-docking-left.msft.png" alt-text="Klicken Sie auf "Andocken nach links"" lightbox="./media/devtools-intro-docking-left.msft.png":::  
+      :::image type="complex" source="./media/devtools-intro-docking-left.msft.png" alt-text="Klicken Sie auf Andocken nach links" lightbox="./media/devtools-intro-docking-left.msft.png":::  
          Klicken Sie **auf "Andocken nach links"**  
       :::image-end:::  
    :::column-end:::  
    :::column span="":::  
-      :::image type="complex" source="media/devtools-intro-docking-bottom.msft.png" alt-text="Wählen Sie "Dock to Bottom" aus." lightbox="media/devtools-intro-docking-bottom.msft.png":::  
+      :::image type="complex" source="media/devtools-intro-docking-bottom.msft.png" alt-text="Wählen Sie Dock to Bottom aus." lightbox="media/devtools-intro-docking-bottom.msft.png":::  
          Wählen Sie **"Dock to Bottom" aus.**  
       :::image-end:::  
    :::column-end:::  
 :::row-end:::  
 :::row:::  
    :::column span="":::  
-      :::image type="complex" source="media/devtools-intro-docking-right.msft.png" alt-text="Wählen Sie "Dock nach rechts" aus." lightbox="media/devtools-intro-docking-right.msft.png":::  
+      :::image type="complex" source="media/devtools-intro-docking-right.msft.png" alt-text="Wählen Sie Dock nach rechts aus." lightbox="media/devtools-intro-docking-right.msft.png":::  
          Wählen Sie **"Dock nach rechts" aus.**  
       :::image-end:::  
    :::column-end:::  
    :::column span="":::  
-      :::image type="complex" source="media/devtools-intro-docking-own-window.msft.png" alt-text="Wählen Sie "Abdocken" in einem separaten Fenster aus" lightbox="media/devtools-intro-docking-own-window.msft.png":::  
+      :::image type="complex" source="media/devtools-intro-docking-own-window.msft.png" alt-text="Wählen Sie Abdocken in einem separaten Fenster aus" lightbox="media/devtools-intro-docking-own-window.msft.png":::  
          Wählen Sie **"Abdocken" in einem separaten Fenster** aus  
       :::image-end:::  
    :::column-end:::  

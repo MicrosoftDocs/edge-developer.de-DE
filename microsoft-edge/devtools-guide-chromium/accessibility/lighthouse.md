@@ -52,13 +52,13 @@ Führen Sie die folgenden Schritte aus, um eine Seite mithilfe des Tools "Werben
 1.  Wählen Sie im Abschnitt **"Kategorien"** die Option **"Barrierefreiheit" aus.**
 1.  Wählen Sie **Bericht generieren aus.** Nach 10 bis 30 Sekunden zeigt DevTools einen Bericht an.  Der Bericht enthält Tipps zur Verbesserung der Barrierefreiheit der Seite.  
     
-    :::image type="complex" source="../media/accessibility-lighthouse-result.msft.png" alt-text="Bericht "Ein Barrierefreiheitsbericht" für die Kategorie "Barrierefreiheit"" lightbox="../media/accessibility-lighthouse-result.msft.png":::
+    :::image type="complex" source="../media/accessibility-lighthouse-result.msft.png" alt-text="Bericht Ein Barrierefreiheitsbericht für die Kategorie Barrierefreiheit" lightbox="../media/accessibility-lighthouse-result.msft.png":::
        Bericht "Ein **Barrierefreiheitsbericht"** für die Kategorie "Barrierefreiheit"
     :::image-end:::  
     
 1.  Wählen Sie ein Element im Bericht aus, um mehr darüber zu erfahren.  
     
-    :::image type="complex" source="../media/accessibility-lighthouse-result-issue-expanded.msft.png" alt-text="Ein erweitertes Problem in einem Bericht zum Thema"." lightbox="../media/accessibility-lighthouse-result-issue-expanded.msft.png":::
+    :::image type="complex" source="../media/accessibility-lighthouse-result-issue-expanded.msft.png" alt-text="Ein erweitertes Problem in einem Bericht zum Thema." lightbox="../media/accessibility-lighthouse-result-issue-expanded.msft.png":::
        Ein erweitertes Problem in einem Bericht zum Thema".
     :::image-end:::  
     
