@@ -8,12 +8,12 @@ ms.topic: conceptual
 ms.prod: microsoft-edge
 ms.technology: webview
 keywords: IWebView2, IWebView2WebView, webview2, webview, win32 apps, win32, edge, ICoreWebView2, ICoreWebView2Controller, browser control, edge html
-ms.openlocfilehash: 2714f9a6cffea3cb7d53f9a4128d64920fd02dce
-ms.sourcegitcommit: 7713eec634264b0c44b1bb426f5b466c44b4e005
+ms.openlocfilehash: 6eae00a0fddb75782be5a3e94efaa5a8965674a0
+ms.sourcegitcommit: 8f37c931ecde4d58223113f7e3b42d37cc3df97f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 06/26/2021
-ms.locfileid: "11618386"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "11643448"
 ---
 # <a name="get-started-with-webview2"></a>Erste Schritte mit WebView2  
 
@@ -23,7 +23,7 @@ Beginnen Sie in diesem Artikel mit dem Erstellen Ihrer ersten WebView2-App, und 
 
 Stellen Sie sicher, dass Sie die folgende Liste der Voraussetzungen installieren, bevor Sie fortfahren.  
 
-*   [WebView2 Runtime][Webview2Installer] oder ein [Microsoft Edge (Chromium) nicht stabiler Kanal,][MicrosoftedgeinsiderDownload] der unter unterstützten Betriebssystemen \(derzeit Windows 10, Windows 8.1 und Windows 7\) installiert ist.  
+*   [WebView2 Runtime][Webview2Installer] oder ein [Microsoft Edge (Chromium) nicht stabiler Kanal,][MicrosoftedgeinsiderDownload] der auf dem unterstützten Betriebssystem \(derzeit Windows 10, Windows 8.1 und Windows 7\) installiert ist.  
     
 *   [Visual Studio][MicrosoftVisualstudioMain] 2015 oder höher mit installierter C++-Unterstützung.  
     
@@ -32,10 +32,10 @@ Stellen Sie sicher, dass Sie die folgende Liste der Voraussetzungen installieren
 Beginnen Sie mit einem einfachen Desktopprojekt, das ein einzelnes Hauptfenster enthält.  
 
 > [!IMPORTANT]
-> Um sich besser auf die exemplarische Vorgehensweise zu konzentrieren, verwenden Sie geänderten Beispielcode aus [walkthrough: Create a traditional Windows Desktop application (C++)][CppWindowsWalkthroughCreatingDesktopApplication] for your sample app.  Navigieren Sie zu [WebView2-Beispielen,][GithubMicrosoftedgeWebview2samplesGettingStartedGuide]um das geänderte Beispiel herunterzuladen und zu beginnen.  
+> Um sich besser auf die exemplarische Vorgehensweise zu konzentrieren, verwenden Sie den geänderten Beispielcode aus [walkthrough: Create a traditional Windows Desktop application (C++)][CppWindowsWalkthroughCreatingDesktopApplication] für Ihre Beispiel-App.  Navigieren Sie zu [WebView2-Beispielen,][GithubMicrosoftedgeWebview2samplesGettingStartedGuide]um das geänderte Beispiel herunterzuladen und zu beginnen.  
 
 1.  Öffnen Sie in Visual Studio `WebView2GettingStarted.sln` .  
-    Wenn Sie eine ältere Version von Visual Studio verwenden, zeigen Sie auf das **WebView2GettingStarted-Projekt,** öffnen Sie das Kontextmenü \(Rechtsklick\), und wählen Sie **Eigenschaften**aus.  Ändern Sie unter **"Konfigurationseigenschaften**  >  **allgemein"** **Windows SDK-Version** und **-Plattformtoolset,** um das Win10 SDK und Visual Studio Toolset zu verwenden, das Ihnen zur Verfügung steht.  
+    Wenn Sie eine ältere Version von Visual Studio verwenden, zeigen Sie auf das **WebView2GettingStarted-Projekt,** öffnen Sie das Kontextmenü \(Rechtsklick\), und wählen Sie **Eigenschaften**aus.  Ändern Sie unter **"Konfigurationseigenschaften**  >  **allgemein"** **Windows SDK-Versions-** und **Plattformtoolset,** um das Win10 SDK und Visual Studio Toolset zu verwenden, das Ihnen zur Verfügung steht.  
     
 :::image type="complex" source="../media/tool-version.png" alt-text="Toolversion" lightbox="../media/tool-version.png":::
    Toolversion  
@@ -45,7 +45,7 @@ Visual Studio können Fehler anzeigen, da dem Projekt die WebView2-Headerdatei f
 
 ## <a name="step-2---install-webview2-sdk"></a>Schritt 2: Installieren des WebView2 SDK  
 
-Fügen Sie das WebView2 SDK zum Projekt hinzu.  Verwenden Sie NuGet, um das Win32 SDK zu installieren.  
+Fügen Sie das WebView2 SDK dem Projekt hinzu.  Verwenden Sie NuGet, um das Win32 SDK zu installieren.  
 
 1.  Zeigen Sie auf das Projekt, öffnen Sie das Kontextmenü \(rechtsklick\), und wählen **Sie "Verwalten NuGet Pakete" aus.**  
     
@@ -53,7 +53,7 @@ Fügen Sie das WebView2 SDK zum Projekt hinzu.  Verwenden Sie NuGet, um das Win3
        NuGet-Pakete verwalten  
     :::image-end:::  
     
-1.  Installieren Sie die Windows Implementierungsbibliothek.  
+1.  Installieren Sie die Windows-Implementierungsbibliothek.  
     1.  Geben Sie in der Suchleiste `Microsoft.Windows.ImplementationLibrary` > Wählen Sie **"Microsoft.Windows" aus. ImplementationLibrary**.  
     1.  Wählen Sie im rechten Fenster die Option **"Installieren"** aus.  NuGet lädt die Bibliothek auf Ihren Computer herunter.  
         
@@ -161,7 +161,7 @@ CreateCoreWebView2EnvironmentWithOptions(nullptr, nullptr, nullptr,
 
 ### <a name="build-your-bing-sample-app"></a>Erstellen Ihrer Bing-Beispiel-App  
 
-Um die App zu erstellen und auszuführen, wählen Sie `F5` .  Jetzt haben Sie ein WebView-Fenster, in dem die Bing Seite angezeigt wird.  
+Um die App zu erstellen und auszuführen, wählen Sie `F5` .  Nun wird in einem WebView-Fenster die Bing Seite angezeigt.  
 
 :::image type="complex" source="../media/bing-window.png" alt-text="Bing Fenster" lightbox="../media/bing-window.png":::
    Bing Fenster  
@@ -183,7 +183,7 @@ Navigieren Sie zu [Navigationsereignissen,][Webview2ConceptsNavigationEvents]um 
    Navigationsereignisse  
 :::image-end:::    
 
-In Fehlerfällen kann eines oder mehrere der folgenden Ereignisse auftreten, je nachdem, ob die Navigation zu einer Fehlerwebseite fortgesetzt wird.  
+In Fehlerfällen kann eines oder mehrere der folgenden Ereignisse auftreten, je nachdem, ob die Navigation zu einer Fehlerwebseite fortgesetzt wurde.  
 
 *   `SourceChanged`  
 *   `ContentLoading`  
@@ -210,7 +210,7 @@ webviewWindow->add_NavigationStarting(Callback<ICoreWebView2NavigationStartingEv
     }).Get(), &token);
 ```  
 
-Jetzt navigiert die App nicht mehr zu websites, die nicht https sind.  Sie können einen ähnlichen Mechanismus verwenden, um andere Aufgaben auszuführen, z. B. das Einschränken der Navigation auf Ihre eigene Domäne.  
+Jetzt navigiert die App nicht zu Websites, die keine HTTPS-Websites sind.  Sie können einen ähnlichen Mechanismus verwenden, um andere Aufgaben auszuführen, z. B. das Einschränken der Navigation auf Ihre eigene Domäne.  
 
 ## <a name="step-5---scripting"></a>Schritt 5 – Skripting  
 
@@ -305,11 +305,11 @@ Weitere WebView2-Funktionen, die in diesem Artikel nicht behandelt werden, finde
 [Webview2ConceptsNavigationEvents]: ../concepts/navigation-events.md "Navigationsereignisse | Microsoft-Dokumente"  
 
 [CppCxWrlTemplateLibraryVS2019]: /cpp/cppcx/wrl/windows-runtime-cpp-template-library-wrl?view=vs-2019&preserve-view=true "Windows Laufzeit-C++-Vorlagenbibliothek (WRL) | Microsoft-Dokumente"  
-[CppWindowsWalkthroughCreatingDesktopApplication]: /cpp/windows/walkthrough-creating-windows-desktop-applications-cpp?view=vs-2019&preserve-view=true "Walkthrough: Create a traditional Windows Desktop application (C++) | Microsoft-Dokumente"  
+[CppWindowsWalkthroughCreatingDesktopApplication]: /cpp/windows/walkthrough-creating-windows-desktop-applications-cpp?view=vs-2019&preserve-view=true "Exemplarische Vorgehensweise: Erstellen einer herkömmlichen Windows Desktopanwendung (C++) | Microsoft-Dokumente"  
 
 [GithubMicrosoftedgeWebview2browser]: https://github.com/MicrosoftEdge/WebView2Browser "WebView2Browser – MicrosoftEdge/WebView2Browser | GitHub"  
 
-[GithubMicrosoftedgeWebviewfeedback]: https://github.com/MicrosoftEdge/WebViewFeedback "WebView-Feedback – MicrosoftEdge/WebViewFeedback-| GitHub"  
+[GithubMicrosoftedgeWebviewfeedback]: https://github.com/MicrosoftEdge/WebViewFeedback "WebView-Feedback – MicrosoftEdge/WebViewFeedback | GitHub"  
 
 [GithubMicrosoftedgeWebview2samplesMain]: https://github.com/MicrosoftEdge/WebView2Samples "WebView2-Beispiele – MicrosoftEdge/WebView2Samples | GitHub"  
 
