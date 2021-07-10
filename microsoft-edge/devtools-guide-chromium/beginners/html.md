@@ -3,16 +3,16 @@ description: Erste Schritte mit HTML und dem DOM
 title: 'DevTools für Anfänger: Erste Schritte mit HTML und dem DOM'
 author: MSEdgeTeam
 ms.author: msedgedevrel
-ms.date: 05/12/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.prod: microsoft-edge
-keywords: microsoft edge, web development, f12 tools, devtools
-ms.openlocfilehash: d2893021f5e19ffb714215b27edadba08c8d6f71
-ms.sourcegitcommit: 7945939c29dfdd414020f8b05936f605fa2b640e
+keywords: Microsoft Edge, Webentwicklung, f12-Tools, Devtools, Devtools für Anfänger, Devtools-HTML für Anfänger, Devtools-DOM für Anfänger, Devtools-HTML-Lernprogramm, Devtools-DOM-Lernprogramm, DevTools-Lernprogramm zum Dokumentobjektmodell
+ms.openlocfilehash: a049ec500e22f89db3ab1e966b55d89c2ad682fe
+ms.sourcegitcommit: 8f37c931ecde4d58223113f7e3b42d37cc3df97f
 ms.translationtype: MT
 ms.contentlocale: de-DE
-ms.lasthandoff: 05/13/2021
-ms.locfileid: "11564567"
+ms.lasthandoff: 07/10/2021
+ms.locfileid: "11643512"
 ---
 <!-- Copyright Katherine Jackson 
 
@@ -27,293 +27,244 @@ ms.locfileid: "11564567"
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.  -->
-# <a name="devtools-for-beginners-get-started-with-html-and-the-dom"></a><span data-ttu-id="84509-104">DevTools für Anfänger: Erste Schritte mit HTML und dem DOM</span><span class="sxs-lookup"><span data-stu-id="84509-104">DevTools for beginners: Get started with HTML and the DOM</span></span>  
+# <a name="devtools-for-beginners-get-started-with-html-and-the-dom"></a><span data-ttu-id="ad81b-104">DevTools für Anfänger: Erste Schritte mit HTML und dem DOM</span><span class="sxs-lookup"><span data-stu-id="ad81b-104">DevTools for beginners: Get started with HTML and the DOM</span></span>  
 
-<span data-ttu-id="84509-105">Dies ist das erste in einer Reihe von Lernprogrammen, die Ihnen die Grundlagen der Webentwicklung vermitteln.</span><span class="sxs-lookup"><span data-stu-id="84509-105">This is the first in a series of tutorials that teach you the basics of web development.</span></span>  <span data-ttu-id="84509-106">Erfahren Sie mehr über eine Reihe von Webentwicklertools namens Microsoft Edge DevTools, die Ihre Produktivität erhöhen können.</span><span class="sxs-lookup"><span data-stu-id="84509-106">Learn about a set of web developer tools, named Microsoft Edge DevTools, that may increase your productivity.</span></span>  
+<span data-ttu-id="ad81b-105">Dies ist der erste einer Reihe von Lernprogrammen, die Ihnen die Grundlagen der Webentwicklung vermitteln.</span><span class="sxs-lookup"><span data-stu-id="ad81b-105">This is the first in a series of tutorials that teach you the basics of web development.</span></span> <span data-ttu-id="ad81b-106">Erfahren Sie mehr über eine Reihe von Webentwicklertools namens Microsoft Edge DevTools, die Ihre Produktivität steigern können.</span><span class="sxs-lookup"><span data-stu-id="ad81b-106">Learn about a set of web developer tools, named Microsoft Edge DevTools, that may increase your productivity.</span></span>  
 
-<span data-ttu-id="84509-107">In diesem bestimmten Lernprogramm erfahren Sie mehr über HTML und das DOM.</span><span class="sxs-lookup"><span data-stu-id="84509-107">In this particular tutorial, you learn about HTML and the DOM.</span></span>  <span data-ttu-id="84509-108">HTML ist eine der Kerntechnologien der Webentwicklung.</span><span class="sxs-lookup"><span data-stu-id="84509-108">HTML is one of the core technologies of web development.</span></span>  <span data-ttu-id="84509-109">Es ist die Sprache, die die Struktur und den Inhalt von Webseiten steuert.</span><span class="sxs-lookup"><span data-stu-id="84509-109">It is the language that controls the structure and content of webpages.</span></span>  <span data-ttu-id="84509-110">Das DOM steht auch im Zusammenhang mit der Struktur und dem Inhalt von Webseiten, erfahren Sie später mehr darüber.</span><span class="sxs-lookup"><span data-stu-id="84509-110">The DOM is also related to the structure and content of webpages, learn more about that later.</span></span>  
+<span data-ttu-id="ad81b-107">In diesem Lernprogramm werden HTML und das [Dokumentobjektmodell](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) \(DOM\) beschrieben.</span><span class="sxs-lookup"><span data-stu-id="ad81b-107">This tutorial describes HTML and the [Document Object Model](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model) \(DOM\).</span></span> <span data-ttu-id="ad81b-108">HTML ist eine der Kerntechnologien der Webentwicklung.</span><span class="sxs-lookup"><span data-stu-id="ad81b-108">HTML is one of the core technologies of web development.</span></span> <span data-ttu-id="ad81b-109">Es ist die Sprache, die die Struktur und den Inhalt von Webseiten steuert.</span><span class="sxs-lookup"><span data-stu-id="ad81b-109">It is the language that controls the structure and content of webpages.</span></span> <span data-ttu-id="ad81b-110">Das DOM bezieht sich auch auf die Struktur und den Inhalt von Webseiten, über die wir später mehr erfahren.</span><span class="sxs-lookup"><span data-stu-id="ad81b-110">The DOM is also related to the structure and content of webpages, which we learn more about later.</span></span>
 
-## <a name="goals"></a><span data-ttu-id="84509-111">Ziele</span><span class="sxs-lookup"><span data-stu-id="84509-111">Goals</span></span>  
+## <a name="goals"></a><span data-ttu-id="ad81b-111">Ziele</span><span class="sxs-lookup"><span data-stu-id="ad81b-111">Goals</span></span>  
 
-<span data-ttu-id="84509-112">Sie lernen die Webentwicklung, indem Sie ihre eigene Website erstellen.</span><span class="sxs-lookup"><span data-stu-id="84509-112">You are going to learn web development by actually building your own website.</span></span>  <span data-ttu-id="84509-113">Wenn Sie alle Lernprogramme in der **DevTools for Beginners-Reihe** abschließen, sieht Ihre fertige Website möglicherweise wie die folgende Abbildung aus.</span><span class="sxs-lookup"><span data-stu-id="84509-113">By the time you complete all of the tutorials in the **DevTools for Beginners** series, your finished site may look like the following figure.</span></span>  
+<span data-ttu-id="ad81b-112">Sie werden die Webentwicklung erlernen, indem Sie eine Website erstellen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-112">You're going to learn web development by building a website.</span></span>  <span data-ttu-id="ad81b-113">Wenn Sie alle Lernprogramme in der **DevTools for Beginners-Reihe** abgeschlossen haben, sieht Ihre fertige Website möglicherweise wie in der folgenden Abbildung aus.</span><span class="sxs-lookup"><span data-stu-id="ad81b-113">By the time you complete all of the tutorials in the **DevTools for Beginners** series, your finished site may look like the following figure.</span></span>  
 
-:::image type="complex" source="../media/beginners-html-finished.msft.png" alt-text="Die fertige Website" lightbox="../media/beginners-html-finished.msft.png":::
-   <span data-ttu-id="84509-115">Die fertige Website</span><span class="sxs-lookup"><span data-stu-id="84509-115">The finished site</span></span>  
+:::image type="complex" source="media/beginners-html-finished.msft.png" alt-text="Die fertige Website" lightbox="media/beginners-html-finished.msft.png":::
+   <span data-ttu-id="ad81b-115">Die fertige Website</span><span class="sxs-lookup"><span data-stu-id="ad81b-115">The finished site</span></span>  
 :::image-end:::  
 
-<span data-ttu-id="84509-116">Am Ende dieses Lernprogramms sollten Sie die folgenden Themen verstehen.</span><span class="sxs-lookup"><span data-stu-id="84509-116">By the end of this tutorial, you should understand the following topics.</span></span>  
+<span data-ttu-id="ad81b-116">Am Ende dieses Lernprogramms sollten Sie die folgenden Konzepte verstehen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-116">By the end of this tutorial, you should understand the following concepts.</span></span>  
 
-*   <span data-ttu-id="84509-117">Wie HTML und das DOM die Inhalte erstellen, die auf Webseiten angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="84509-117">How HTML and the DOM create the content that are displayed on webpages.</span></span>  
-*   <span data-ttu-id="84509-118">Wie Microsoft Edge DevTools Ihnen beim Experimentieren mit HTML- und DOM-Änderungen helfen kann.</span><span class="sxs-lookup"><span data-stu-id="84509-118">How Microsoft Edge DevTools may help you experiment with HTML and DOM changes.</span></span>  
-*   <span data-ttu-id="84509-119">Der Unterschied zwischen HTML und dem DOM.</span><span class="sxs-lookup"><span data-stu-id="84509-119">The difference between HTML and the DOM.</span></span>  
+*   <span data-ttu-id="ad81b-117">Wie HTML und das DOM die Inhalte erstellen, die auf Webseiten angezeigt werden.</span><span class="sxs-lookup"><span data-stu-id="ad81b-117">How HTML and the DOM create the content displayed on webpages.</span></span>  
+*   <span data-ttu-id="ad81b-118">Wie Microsoft Edge DevTools Ihnen beim Experimentieren mit HTML- und DOM-Änderungen helfen kann.</span><span class="sxs-lookup"><span data-stu-id="ad81b-118">How Microsoft Edge DevTools may help you experiment with HTML and DOM changes.</span></span>  
+*   <span data-ttu-id="ad81b-119">Der Unterschied zwischen HTML und DOM.</span><span class="sxs-lookup"><span data-stu-id="ad81b-119">The difference between HTML and the DOM.</span></span>  
 
-<span data-ttu-id="84509-120">Sie haben auch eine echte Website.</span><span class="sxs-lookup"><span data-stu-id="84509-120">You also have a real website.</span></span>  <span data-ttu-id="84509-121">Sie können die Website verwenden, um Ihren Lebenslauf oder Blog zu hosten.</span><span class="sxs-lookup"><span data-stu-id="84509-121">You may use the site to host your resume or blog.</span></span>  
+<span data-ttu-id="ad81b-120">Sie haben auch eine funktionsfähige Website.</span><span class="sxs-lookup"><span data-stu-id="ad81b-120">You will also have a working website.</span></span> <span data-ttu-id="ad81b-121">Sie können die Website verwenden, um Ihren Lebenslauf oder Blog zu hosten.</span><span class="sxs-lookup"><span data-stu-id="ad81b-121">You may use the site to host your resume or blog.</span></span>  
 
-## <a name="prerequisites"></a><span data-ttu-id="84509-122">Voraussetzungen</span><span class="sxs-lookup"><span data-stu-id="84509-122">Prerequisites</span></span>  
+## <a name="prerequisites"></a><span data-ttu-id="ad81b-122">Voraussetzungen</span><span class="sxs-lookup"><span data-stu-id="ad81b-122">Prerequisites</span></span>  
 
-<span data-ttu-id="84509-123">Bevor Sie dieses Lernprogramm versuchen, müssen Sie die folgenden Voraussetzungen erfüllen:</span><span class="sxs-lookup"><span data-stu-id="84509-123">Before attempting this tutorial, complete the following prerequisites:</span></span>  
+<span data-ttu-id="ad81b-123">Bevor Sie dieses Lernprogramm testen, erfüllen Sie die folgenden Voraussetzungen:</span><span class="sxs-lookup"><span data-stu-id="ad81b-123">Before attempting this tutorial, complete the following prerequisites:</span></span>  
 
-*   <span data-ttu-id="84509-124">Wenn Sie mit HTML nicht vertraut sind, lesen Sie [Erste Schritte mit HTML][MDNGettingStartedHtml].</span><span class="sxs-lookup"><span data-stu-id="84509-124">If you are unfamiliar with HTML, read [Getting Started with HTML][MDNGettingStartedHtml].</span></span>  
-*   <span data-ttu-id="84509-125">Laden Sie [den Microsoft Edge][MicrosoftEdgeInsider] herunter.</span><span class="sxs-lookup"><span data-stu-id="84509-125">Download the [Microsoft Edge][MicrosoftEdgeInsider] web browser.</span></span>  <span data-ttu-id="84509-126">Dieses Lernprogramm verwendet eine Reihe von Webentwicklungstools, die als Microsoft Edge DevTools bezeichnet werden, die in die Microsoft Edge.</span><span class="sxs-lookup"><span data-stu-id="84509-126">This tutorial uses a set of web development tools, called the Microsoft Edge DevTools, that are built into Microsoft Edge.</span></span>  
+*   <span data-ttu-id="ad81b-124">Wenn Sie mit HTML nicht vertraut sind, lesen Sie ["Erste Schritte mit HTML"][MDNGettingStartedHtml].</span><span class="sxs-lookup"><span data-stu-id="ad81b-124">If you are unfamiliar with HTML, read [Getting Started with HTML][MDNGettingStartedHtml].</span></span>  
+*   <span data-ttu-id="ad81b-125">Laden Sie den [Microsoft Edge][MicrosoftEdgeInsider] Webbrowser herunter.</span><span class="sxs-lookup"><span data-stu-id="ad81b-125">Download the [Microsoft Edge][MicrosoftEdgeInsider] web browser.</span></span>  <span data-ttu-id="ad81b-126">Dieses Lernprogramm verwendet eine Reihe von Webentwicklungstools, die als Microsoft Edge DevTools bezeichnet werden, die in Microsoft Edge integriert sind.</span><span class="sxs-lookup"><span data-stu-id="ad81b-126">This tutorial uses a set of web development tools, called the Microsoft Edge DevTools, that are built into Microsoft Edge.</span></span>  
 
-## <a name="set-up-your-code"></a><span data-ttu-id="84509-127">Einrichten des Codes</span><span class="sxs-lookup"><span data-stu-id="84509-127">Set up your code</span></span>  
+## <a name="set-up-your-code"></a><span data-ttu-id="ad81b-127">Einrichten des Codes</span><span class="sxs-lookup"><span data-stu-id="ad81b-127">Set up your code</span></span>  
 
-<span data-ttu-id="84509-128">Sie erstellen Ihre Website in einem Onlinecode-Editor namens Glitch.</span><span class="sxs-lookup"><span data-stu-id="84509-128">You are going to build your site in an online code editor called Glitch.</span></span>  
+<span data-ttu-id="ad81b-128">Sie werden eine Website im Glitch-Onlinecode-Editor erstellen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-128">You are going to build a site in the Glitch online code editor.</span></span>  
 
-1.  <span data-ttu-id="84509-129">Öffnen Sie [den Quellcode][GlitchAlluringShockIndex].</span><span class="sxs-lookup"><span data-stu-id="84509-129">Open the [source code][GlitchAlluringShockIndex].</span></span>  <span data-ttu-id="84509-130">Diese Registerkarte wird in diesem **Lernprogramm als Editorregisterkarte** bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="84509-130">This tab is called the **editor tab** throughout this tutorial.</span></span>  
+1.  <span data-ttu-id="ad81b-129">Öffnen Sie den [Quellcode.][GlitchAlluringShockIndex]</span><span class="sxs-lookup"><span data-stu-id="ad81b-129">Open the [source code][GlitchAlluringShockIndex].</span></span> <span data-ttu-id="ad81b-130">Diese Registerkarte wird in diesem Lernprogramm als **Editor-Registerkarte** bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="ad81b-130">This tab is called the **editor tab** throughout this tutorial.</span></span>  
     
-    :::image type="complex" source="../media/beginners-html-setup1.msft.png" alt-text="Die Registerkarte Editor" lightbox="../media/beginners-html-setup1.msft.png":::
-       <span data-ttu-id="84509-132">Die Registerkarte Editor</span><span class="sxs-lookup"><span data-stu-id="84509-132">The editor tab</span></span>  
+    :::image type="complex" source="media/beginners-html-setup1.msft.png" alt-text="Die Registerkarte "Editor"" lightbox="media/beginners-html-setup1.msft.png":::
+       <span data-ttu-id="ad81b-132">Die Registerkarte "Editor"</span><span class="sxs-lookup"><span data-stu-id="ad81b-132">The editor tab</span></span>  
     :::image-end:::  
     
-1.  <span data-ttu-id="84509-133">Wählen **Sie alluring-shock**aus.</span><span class="sxs-lookup"><span data-stu-id="84509-133">Choose **alluring-shock**.</span></span>  <span data-ttu-id="84509-134">Das Project Optionen wird in der oberen linken Ecke geöffnet.</span><span class="sxs-lookup"><span data-stu-id="84509-134">The Project Options menu opens in the top-left corner.</span></span>  
+1.  <span data-ttu-id="ad81b-133">Wählen Sie **"Verallgemählt" aus.**</span><span class="sxs-lookup"><span data-stu-id="ad81b-133">Choose **alluring-shock**.</span></span> <span data-ttu-id="ad81b-134">Das Menü **Project Optionen** wird geöffnet.</span><span class="sxs-lookup"><span data-stu-id="ad81b-134">The **Project Options** menu opens.</span></span>  
     
-    :::image type="complex" source="../media/beginners-html-setup2.msft.png" alt-text="Menü Project Optionen" lightbox="../media/beginners-html-setup2.msft.png":::
-       <span data-ttu-id="84509-136">Menü Project Optionen</span><span class="sxs-lookup"><span data-stu-id="84509-136">The Project Options menu</span></span>  
+    :::image type="complex" source="media/beginners-html-setup2.msft.png" alt-text="Menü "Project-Optionen"" lightbox="media/beginners-html-setup2.msft.png":::
+       <span data-ttu-id="ad81b-136">Menü "Project-Optionen"</span><span class="sxs-lookup"><span data-stu-id="ad81b-136">The Project Options menu</span></span>  
     :::image-end:::  
     
-1.  <span data-ttu-id="84509-137">Wählen **Sie #A0 Project**aus.</span><span class="sxs-lookup"><span data-stu-id="84509-137">Choose **Remix Project**.</span></span>  <span data-ttu-id="84509-138">Glitch erstellt eine Kopie des Projekts, die Sie bearbeiten können, und generiert nach dem Zufallsprinzip einen neuen Namen für das Projekt.</span><span class="sxs-lookup"><span data-stu-id="84509-138">Glitch creates a copy of the project that you may edit and randomly generates a new name for the project.</span></span>  <span data-ttu-id="84509-139">Der Inhalt ist der gleiche wie zuvor.</span><span class="sxs-lookup"><span data-stu-id="84509-139">The content is the same as before.</span></span>  
+1.  <span data-ttu-id="ad81b-137">Wählen Sie **Remix Project**aus.</span><span class="sxs-lookup"><span data-stu-id="ad81b-137">Choose **Remix Project**.</span></span> <span data-ttu-id="ad81b-138">Glitch erstellt eine Kopie des Projekts, die Sie bearbeiten können, und generiert zufällig einen neuen Namen für das Projekt.</span><span class="sxs-lookup"><span data-stu-id="ad81b-138">Glitch creates a copy of the project that you may edit and randomly generates a new name for the project.</span></span> <span data-ttu-id="ad81b-139">Der Inhalt ist derselbe wie zuvor.</span><span class="sxs-lookup"><span data-stu-id="ad81b-139">The content is the same as before.</span></span>  
     
-    :::image type="complex" source="../media/beginners-html-setup3.msft.png" alt-text="Das gemixte Projekt" lightbox="../media/beginners-html-setup3.msft.png":::
-       <span data-ttu-id="84509-141">Das gemixte Projekt</span><span class="sxs-lookup"><span data-stu-id="84509-141">The remixed project</span></span>  
+    :::image type="complex" source="media/beginners-html-setup3.msft.png" alt-text="Das remixierte Projekt" lightbox="media/beginners-html-setup3.msft.png":::
+       <span data-ttu-id="ad81b-141">Das remixierte Projekt</span><span class="sxs-lookup"><span data-stu-id="ad81b-141">The remixed project</span></span>  
     :::image-end:::  
     
-1.  <span data-ttu-id="84509-142">Wenn Sie planen, das nächste Lernprogramm in dieser Reihe zu beenden, wählen Sie **Anmelden** aus, und melden Sie sich mit Ihrem GitHub oder Ihrem Facebook-Konto bei Glitch an.</span><span class="sxs-lookup"><span data-stu-id="84509-142">If you plan on completing the next tutorial in this series, choose **Sign In** and sign into Glitch with your GitHub or Facebook account.</span></span>  <span data-ttu-id="84509-143">Wenn Sie sich nicht bei Ihrem Konto anmelden, verlieren Sie die Möglichkeit, das Projekt zu bearbeiten, nachdem Sie die Bearbeitungsregisterkarte geschlossen haben.</span><span class="sxs-lookup"><span data-stu-id="84509-143">If you choose to not sign into your account, you lose the ability to edit the project after you close the editing tab.</span></span>  
-1.  <span data-ttu-id="84509-144">Wählen **Sie Anzeigen** aus, und wählen Sie In einem neuen Fenster **aus.**</span><span class="sxs-lookup"><span data-stu-id="84509-144">Choose **Show** and choose **In a New Window**.</span></span>  <span data-ttu-id="84509-145">Eine neue Registerkarte wird geöffnet, auf der die Liveseite angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="84509-145">A new tab opens, showing you the live page.</span></span>  <span data-ttu-id="84509-146">Diese Registerkarte wird in diesem **Lernprogramm als Liveregisterkarte** bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="84509-146">This tab is called the **live tab** throughout this tutorial.</span></span>  
+1.  <span data-ttu-id="ad81b-142">Wenn Sie das nächste Lernprogramm dieser Reihe abschließen möchten, wählen Sie "Bei Glitch **anmelden"** mit Ihrem Facebook-, GitHub- oder Google-Konto aus. oder senden Sie sich selbst einen Hexenlink.</span><span class="sxs-lookup"><span data-stu-id="ad81b-142">If you plan to complete the next tutorial in this series, choose **Sign In** to Glitch using your Facebook, GitHub, or Google account; or email yourself a magic link.</span></span> <span data-ttu-id="ad81b-143">Wenn Sie sich nicht bei einem Konto anmelden möchten, können Sie das Projekt nach dem Schließen der Editorregisterkarte nicht bearbeiten.</span><span class="sxs-lookup"><span data-stu-id="ad81b-143">If you choose not to sign in to an account, you cannot edit the project after closing the editor tab.</span></span>
+
+1.  <span data-ttu-id="ad81b-144">Wählen \*\*\*\* Sie  \>  **"In einem neuen Fenster anzeigen"** aus.</span><span class="sxs-lookup"><span data-stu-id="ad81b-144">Choose **Show** \> **In a New Window**.</span></span>  <span data-ttu-id="ad81b-145">Eine neue Registerkarte mit der Liveseite wird geöffnet.</span><span class="sxs-lookup"><span data-stu-id="ad81b-145">A new tab opens, showing the live page.</span></span> <span data-ttu-id="ad81b-146">Diese Registerkarte wird in diesem Lernprogramm als **Live-Registerkarte** bezeichnet.</span><span class="sxs-lookup"><span data-stu-id="ad81b-146">This tab is called the **live tab** throughout this tutorial.</span></span>  
     
-    :::image type="complex" source="../media/beginners-html-setup4.msft.png" alt-text="Die Registerkarte Live" lightbox="../media/beginners-html-setup4.msft.png":::
-       <span data-ttu-id="84509-148">Die Registerkarte Live</span><span class="sxs-lookup"><span data-stu-id="84509-148">The live tab</span></span>  
+    :::image type="complex" source="media/beginners-html-setup4.msft.png" alt-text="Die Live-Registerkarte" lightbox="media/beginners-html-setup4.msft.png":::
+       <span data-ttu-id="ad81b-148">Die Live-Registerkarte</span><span class="sxs-lookup"><span data-stu-id="ad81b-148">The live tab</span></span>  
     :::image-end:::  
     
-## <a name="add-content"></a><span data-ttu-id="84509-149">Hinzufügen von Inhalten</span><span class="sxs-lookup"><span data-stu-id="84509-149">Add content</span></span>  
+## <a name="add-content"></a><span data-ttu-id="ad81b-149">Hinzufügen von Inhalten</span><span class="sxs-lookup"><span data-stu-id="ad81b-149">Add content</span></span>  
 
-<span data-ttu-id="84509-150">Ihre Website ist ziemlich leer.</span><span class="sxs-lookup"><span data-stu-id="84509-150">Your site is pretty empty.</span></span>  <span data-ttu-id="84509-151">Führen Sie die folgenden Schritte aus, um einige Inhalte hinzuzufügen.</span><span class="sxs-lookup"><span data-stu-id="84509-151">Follow the steps below to add some content to it.</span></span>  
+<span data-ttu-id="ad81b-150">Ihre Website benötigt weitere Informationen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-150">Your site needs more information.</span></span> <span data-ttu-id="ad81b-151">Führen Sie die folgenden Schritte aus, um Einige Inhalte hinzuzufügen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-151">Complete the following steps to add some content.</span></span>  
 
-1.  <span data-ttu-id="84509-152">Ersetzen Sie **auf der Registerkarte Editor**durch `<!-- You're "About Me" will go here.  -->` `<h1>About Me</h1>` .</span><span class="sxs-lookup"><span data-stu-id="84509-152">In the **editor tab**, replace `<!-- You're "About Me" will go here.  -->` with `<h1>About Me</h1>`.</span></span>  
+1. <span data-ttu-id="ad81b-152">Ersetzen Sie auf der **Registerkarte "Editor"** `<!-- You're "About Me" will go here.  -->` durch `<h1>About Me</h1>` .</span><span class="sxs-lookup"><span data-stu-id="ad81b-152">In the **editor tab**, replace `<!-- You're "About Me" will go here.  -->` with `<h1>About Me</h1>`.</span></span>  
     
-    :::row:::
-       :::column span="":::
-          ```html
-          ...
-              ...
-              <body>
-                  <p> Your site!</p>
-                  <main>
-                      <h1>About Me</h1>
-                  </main>
-                  ...
-              ...
-          ...
-          ```  
-       :::column-end:::
-       :::column span="":::
-          :::image type="complex" source="../media/beginners-html-add1.msft.png" alt-text="Der neue Code wird auf der Registerkarte Editor hervorgehoben." lightbox="../media/beginners-html-add1.msft.png":::
-             <span data-ttu-id="84509-154">Der neue Code wird auf der Registerkarte Editor hervorgehoben.</span><span class="sxs-lookup"><span data-stu-id="84509-154">The new code is highlighted in the editor tab</span></span>  
-          :::image-end:::  
-       :::column-end:::
-    :::row-end:::
+    ```html
+        ...
+        <body>
+            <p> Your site!</p>
+                <main>
+                    <h1>About Me</h1>
+                </main>
+        ...
+    ```  
     
-1.  <span data-ttu-id="84509-155">Zeigen Sie Ihre Änderungen auf der **Registerkarte Live an.**  Der Text `About Me` ist auf der Seite sichtbar.</span><span class="sxs-lookup"><span data-stu-id="84509-155">View your changes in the **live tab**.  The text `About Me` is visible on the page.</span></span>  <span data-ttu-id="84509-156">Der Text, der größer als der umgebende Text ist, da `<h1>` das Element eine Abschnittsüberschrift darstellt.</span><span class="sxs-lookup"><span data-stu-id="84509-156">The text larger than the surrounding text, because the `<h1>` element represents a section heading.</span></span>  <span data-ttu-id="84509-157">In Ihrem Webbrowser werden Überschriften automatisch in größeren Schriftgraden formatiert.</span><span class="sxs-lookup"><span data-stu-id="84509-157">Your web browser automatically styles headings in larger font sizes.</span></span>  
-    
-    :::image type="complex" source="../media/beginners-html-add2.msft.png" alt-text="Die neue Überschrift wird auf der Registerkarte Live angezeigt." lightbox="../media/beginners-html-add2.msft.png":::
-       <span data-ttu-id="84509-159">Die neue Überschrift wird auf der Registerkarte Live angezeigt.</span><span class="sxs-lookup"><span data-stu-id="84509-159">The new heading is visible in the live tab</span></span>  
+    :::image type="complex" source="media/beginners-html-add1.msft.png" alt-text="Der neue Code wird auf der Registerkarte "Editor" hervorgehoben." lightbox="media/beginners-html-add1.msft.png":::
+        <span data-ttu-id="ad81b-154">Der neue Code wird auf der Registerkarte "Editor" hervorgehoben.</span><span class="sxs-lookup"><span data-stu-id="ad81b-154">The new code is highlighted in the editor tab</span></span>  
     :::image-end:::  
     
-1.  <span data-ttu-id="84509-160">Fügen Sie zurück auf **der Registerkarte Editor**die Zeile unten ein, in der Sie gerade eingefügt `<p>I am learning HTML.  Recent accomplishments:</p>` `<h1>About Me</h1>` haben.</span><span class="sxs-lookup"><span data-stu-id="84509-160">Back in the **editor tab**, insert `<p>I am learning HTML.  Recent accomplishments:</p>` on the line below where you just put `<h1>About Me</h1>`.</span></span>  
+1. <span data-ttu-id="ad81b-155">Zeigen Sie Ihre Änderungen auf der **Registerkarte "Live" an.** Der Text `About Me` ist auf der Seite sichtbar.</span><span class="sxs-lookup"><span data-stu-id="ad81b-155">View your changes in the **live tab**. The text `About Me` is visible on the page.</span></span> <span data-ttu-id="ad81b-156">Der Text ist größer als der umgebende Text, da das `<h1>` Element eine Überschrift 1 darstellt.</span><span class="sxs-lookup"><span data-stu-id="ad81b-156">The text is larger than the surrounding text because the `<h1>` element represents a Heading 1.</span></span>  <span data-ttu-id="ad81b-157">Ihr Webbrowser formatiert Überschriften automatisch in größeren Schriftgraden.</span><span class="sxs-lookup"><span data-stu-id="ad81b-157">Your web browser automatically styles headings in larger font sizes.</span></span>  
     
-    :::row:::
-       :::column span="":::
-          ```html
-          ...
-              ...
-              <body>
-                  <p> Your site!</p>
-                  <main>
-                      <h1>About Me</h1>
-                      <p>I am learning web development.  Recent accomplishments:</p>
-                  </main>
-                  ...
-              ...
-          ...
-          ```  
-       :::column-end:::
-       :::column span="":::
-          :::image type="complex" source="../media/beginners-html-add3.msft.png" alt-text="Der aktualisierte Code wird auf der Registerkarte Editor hervorgehoben." lightbox="../media/beginners-html-add3.msft.png":::
-             <span data-ttu-id="84509-162">Der aktualisierte Code wird auf der Registerkarte Editor hervorgehoben.</span><span class="sxs-lookup"><span data-stu-id="84509-162">The updated code is highlighted in the editor tab</span></span>  
-          :::image-end:::  
-       :::column-end:::
-    :::row-end:::
-    
-1.  <span data-ttu-id="84509-163">Zeigen Sie Ihre Änderung auf der **Registerkarte Live an.**</span><span class="sxs-lookup"><span data-stu-id="84509-163">View your change in the **live tab**.</span></span>  
-1.  <span data-ttu-id="84509-164">Fügen Sie auf **der Registerkarte Editor**eine Liste Ihrer Erfolge hinzu:</span><span class="sxs-lookup"><span data-stu-id="84509-164">Back in the **editor tab**, add a list of your accomplishments:</span></span>  
-    
-    :::row:::
-       :::column span="":::
-          ```html
-          ...
-              ...
-                  ...
-                  <p>I am learning web development.  Recent accomplishments:</p>
-                  <ul>
-                      <li>Learned how to set up my code in Glitch.</li>
-                      <li>Added content to my HTML.</li>
-                      <li>TODO: Learn how to use Microsoft Edge DevTools to experiment with content changes.</li>
-                      <li>TODO: Learn the difference between HTML and the DOM.</li>
-                  </ul>
-                  ...
-              ...
-          ...
-          ```  
-       :::column-end:::
-       :::column span="":::
-          :::image type="complex" source="../media/beginners-html-add4.msft.png" alt-text="Der aktualisierte Code wird auch auf der Registerkarte Editor hervorgehoben." lightbox="../media/beginners-html-add4.msft.png":::
-             <span data-ttu-id="84509-166">Der aktualisierte Code wird auch auf der Registerkarte Editor hervorgehoben.</span><span class="sxs-lookup"><span data-stu-id="84509-166">The updated code is also highlighted in the editor tab</span></span>  
-          :::image-end:::  
-       :::column-end:::
-    :::row-end:::  
-    
-1.  <span data-ttu-id="84509-167">Wechseln Sie erneut zur Registerkarte **Live,** um sicherzustellen, dass der neue Inhalt ordnungsgemäß angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="84509-167">Again, go back to the **live tab** to make sure that the new content is displaying correctly.</span></span>  
-    
-    :::image type="complex" source="../media/beginners-html-add5.msft.png" alt-text="Die neue Liste wird auf der Registerkarte Live angezeigt." lightbox="../media/beginners-html-add5.msft.png":::
-       <span data-ttu-id="84509-169">Die neue Liste wird auf der Registerkarte Live angezeigt.</span><span class="sxs-lookup"><span data-stu-id="84509-169">The new list is visible in the live tab</span></span>  
+    :::image type="complex" source="media/beginners-html-add2.msft.png" alt-text="Die neue Überschrift ist auf der Registerkarte "Live" sichtbar." lightbox="media/beginners-html-add2.msft.png":::
+       <span data-ttu-id="ad81b-159">Die neue Überschrift ist auf der Registerkarte "Live" sichtbar.</span><span class="sxs-lookup"><span data-stu-id="ad81b-159">The new heading is visible in the live tab</span></span>  
     :::image-end:::  
     
-## <a name="experiment-with-content-changes-in-microsoft-edge-devtools"></a><span data-ttu-id="84509-170">Experimentieren mit Inhaltsänderungen in Microsoft Edge DevTools</span><span class="sxs-lookup"><span data-stu-id="84509-170">Experiment with content changes in Microsoft Edge DevTools</span></span>  
-
-<span data-ttu-id="84509-171">Wenn Sie eine große Seite mit viel HTML entwickelt haben, ist es etwas mühsam, hunderte Male zwischen der Editorregisterkarte und der Liveregisterkarte hin- und her zu wechseln, um Ihre Änderungen anzeigen zu können, insbesondere wenn Sie nicht sicher sind, was genau auf der Seite angezeigt werden soll.</span><span class="sxs-lookup"><span data-stu-id="84509-171">If you were developing a big page with a lot of HTML, it is somewhat tedious to go back-and-forth between the editor tab and the live tab hundreds of times in order to display your changes, especially if you are unsure what exactly to put on the page.</span></span>  <span data-ttu-id="84509-172">Microsoft Edge DevTools hilft Ihnen, mit Inhaltsänderungen zu experimentieren, ohne die **Liveregisterkarte zu verlassen.**</span><span class="sxs-lookup"><span data-stu-id="84509-172">Microsoft Edge DevTools helps you experiment with content changes without ever leaving the **live tab**.</span></span>  
-
-### <a name="learn-the-difference-between-html-and-the-dom"></a><span data-ttu-id="84509-173">Erfahren Sie mehr über den Unterschied zwischen HTML und dem DOM</span><span class="sxs-lookup"><span data-stu-id="84509-173">Learn the difference between HTML and the DOM</span></span>  
-
-<span data-ttu-id="84509-174">Bevor Sie mit der Bearbeitung Ihrer Inhalte Microsoft Edge DevTools beginnen, sollten Sie den Unterschied zwischen HTML und dem DOM verstehen.</span><span class="sxs-lookup"><span data-stu-id="84509-174">Before you start editing your content from Microsoft Edge DevTools, you should understand the difference between HTML and the DOM.</span></span>  <span data-ttu-id="84509-175">Die beste Methode, um zu lernen, ist ein Beispiel:</span><span class="sxs-lookup"><span data-stu-id="84509-175">The best way to learn is by example:</span></span>  
-
-1.  <span data-ttu-id="84509-176">Navigieren Sie zur **Registerkarte Live**.  Am unteren Rand der Seite wird der `A new element!?!` Text angezeigt.</span><span class="sxs-lookup"><span data-stu-id="84509-176">Navigate to the **live tab**.  At the bottom of your page, the text `A new element!?!` is displayed.</span></span>  
+1. <span data-ttu-id="ad81b-160">Zurück auf der **Registerkarte "Editor"** fügen Sie `<p>I am learning web development. Recent accomplishments:</p>` die Zeile darunter  `<h1>About Me</h1>` ein.</span><span class="sxs-lookup"><span data-stu-id="ad81b-160">Back in the **editor tab**, insert `<p>I am learning web development. Recent accomplishments:</p>` on the line below  `<h1>About Me</h1>`.</span></span>  
     
-    :::image type="complex" source="../media/beginners-html-dom1.msft.png" alt-text="Am unteren Rand der Seite der Text Ein neues Element!?! wird angezeigt" lightbox="../media/beginners-html-dom1.msft.png":::
-       <span data-ttu-id="84509-179">Am unteren Rand der Seite wird der `A new element!?!` Text angezeigt</span><span class="sxs-lookup"><span data-stu-id="84509-179">At the bottom of the page the text `A new element!?!` is displayed</span></span>  
+    ```html
+    ...
+        <body>
+            <p> Your site!</p>
+                <main>
+                    <h1>About Me</h1>
+                    <p>I am learning web development. Recent accomplishments:</p>
+                </main>
+    ...
+    ```  
+
+    :::image type="complex" source="media/beginners-html-add3.msft.png" alt-text="Der aktualisierte Code wird auf der Registerkarte "Editor" hervorgehoben." lightbox="media/beginners-html-add3.msft.png":::
+        <span data-ttu-id="ad81b-162">Der aktualisierte Code wird auf der Registerkarte "Editor" hervorgehoben.</span><span class="sxs-lookup"><span data-stu-id="ad81b-162">The updated code is highlighted in the editor tab</span></span>  
     :::image-end:::  
     
-1.  <span data-ttu-id="84509-180">Wechseln Sie zurück zur **Registerkarte Editor,** und versuchen Sie, den Text in zu `index.html` finden.</span><span class="sxs-lookup"><span data-stu-id="84509-180">Go back to the **editor tab** and try to find the text in `index.html`.</span></span>  <span data-ttu-id="84509-181">Der Text ist nicht enthalten.</span><span class="sxs-lookup"><span data-stu-id="84509-181">The text is not there.</span></span>  
+1. <span data-ttu-id="ad81b-163">Zeigen Sie Ihre Änderung auf der **Registerkarte "Live" an.**</span><span class="sxs-lookup"><span data-stu-id="ad81b-163">View your change in the **live tab**.</span></span>
+
+1. <span data-ttu-id="ad81b-164">Fügen Sie auf der **Registerkarte "Editor"** mithilfe des folgenden Codes eine Liste Ihrer Erfolge hinzu.</span><span class="sxs-lookup"><span data-stu-id="ad81b-164">Back in the **editor tab**, add a list of your accomplishments using the following code.</span></span>
     
-    :::image type="complex" source="../media/beginners-html-dom2.msft.png" alt-text="Der Geheimnistext Ein neues Element!?! ist nirgends in index.html" lightbox="../media/beginners-html-dom2.msft.png":::
-       <span data-ttu-id="84509-184">Der Mysterientext `A new element!?!` ist in keinem Land zu finden</span><span class="sxs-lookup"><span data-stu-id="84509-184">The mystery text `A new element!?!` is nowhere to be found in</span></span> `index.html`  
+    ```html
+    ...
+    <p>I am learning web development.  Recent accomplishments:</p>
+        <ul>
+            <li>Learned how to set up my code in Glitch.</li>
+            <li>Added content to my HTML.</li>
+            <li>TODO: Learn how to use Microsoft Edge DevTools to experiment with content changes.</li>
+            <li>TODO: Learn the difference between HTML and the DOM.</li>
+        </ul>
+    ...
+    ```  
+
+    :::image type="complex" source="media/beginners-html-add4.msft.png" alt-text="Der aktualisierte Code wird auch auf der Registerkarte "Editor" hervorgehoben." lightbox="media/beginners-html-add4.msft.png":::
+        <span data-ttu-id="ad81b-166">Der aktualisierte Code wird auch auf der Registerkarte "Editor" hervorgehoben.</span><span class="sxs-lookup"><span data-stu-id="ad81b-166">The updated code is also highlighted in the editor tab</span></span>  
+    :::image-end:::  
+
+1. <span data-ttu-id="ad81b-167">Zeigen Sie die **Live-Registerkarte** an, um sicherzustellen, dass der neue Inhalt korrekt angezeigt wird.</span><span class="sxs-lookup"><span data-stu-id="ad81b-167">View the **live tab** to make sure that the new content displays correctly.</span></span>  
+    
+    :::image type="complex" source="media/beginners-html-add5.msft.png" alt-text="Die neue Liste ist auf der Registerkarte "Live" sichtbar." lightbox="media/beginners-html-add5.msft.png":::
+       <span data-ttu-id="ad81b-169">Die neue Liste ist auf der Registerkarte "Live" sichtbar.</span><span class="sxs-lookup"><span data-stu-id="ad81b-169">The new list is visible in the live tab</span></span>  
     :::image-end:::  
     
-1.  <span data-ttu-id="84509-185">Wechseln Sie zurück zur **Registerkarte Live,** zeigen Sie auf , öffnen Sie das kontextbezogene Menü \(mit der rechten Maustaste `A new element!?!` auf\), und wählen Sie **Überprüfen**aus.</span><span class="sxs-lookup"><span data-stu-id="84509-185">Go back to the **live tab**, hover on `A new element!?!`, open the contextual menu \(right-click\), and choose **Inspect**.</span></span>  
+## <a name="experiment-with-content-changes-in-microsoft-edge-devtools"></a><span data-ttu-id="ad81b-170">Experimentieren Mit Inhaltsänderungen in Microsoft Edge DevTools</span><span class="sxs-lookup"><span data-stu-id="ad81b-170">Experiment with content changes in Microsoft Edge DevTools</span></span>  
+
+<span data-ttu-id="ad81b-171">Wenn Sie eine Seite mit viel HTML entwickeln, wird es mühsam, zwischen der Editor-Registerkarte und der Live-Registerkarte hin und her zu wechseln, um Ihre Änderungen anzuzeigen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-171">If you are developing a page with a lot of HTML, it becomes tedious to go back-and-forth between the editor tab and the live tab to see your changes.</span></span> <span data-ttu-id="ad81b-172">Microsoft Edge DevTools hilft Ihnen beim Experimentieren mit Inhaltsänderungen, ohne die **Live-Registerkarte**zu verlassen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-172">Microsoft Edge DevTools helps you experiment with content changes without ever leaving the **live tab**.</span></span>  
+
+### <a name="learn-the-difference-between-html-and-the-dom"></a><span data-ttu-id="ad81b-173">Lernen Sie den Unterschied zwischen HTML und DOM kennen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-173">Learn the difference between HTML and the DOM</span></span>  
+
+<span data-ttu-id="ad81b-174">Bevor Sie Inhalte von Microsoft Edge DevTools bearbeiten, sollten wir den Unterschied zwischen HTML und DOM verstehen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-174">Before editing content from Microsoft Edge DevTools, let's understand the difference between HTML and the DOM.</span></span> <span data-ttu-id="ad81b-175">Fahren Sie mit den folgenden Schritten fort, um von einem Beispiel zu lernen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-175">Proceed with the following steps to learn from an example.</span></span>
+
+1. <span data-ttu-id="ad81b-176">Navigieren Sie zur **Registerkarte "Live".** Am unteren Rand der Seite wird der Text `A new element!?!` angezeigt.</span><span class="sxs-lookup"><span data-stu-id="ad81b-176">Navigate to the **live tab**. At the bottom of your page, the text `A new element!?!` displays.</span></span>  
+
+    <!--
+        :::image type="complex" source="media/beginners-html-dom1.msft.png" alt-text="At the bottom of the page the text A new element!?! displays" lightbox="media/beginners-html-dom1.msft.png":::
+        At the bottom of the page the text `A new element!?!` is displays  
+        :::image-end:::
+    -->
     
-    :::image type="complex" source="../media/beginners-html-dom3.msft.png" alt-text="Überprüfen von Text" lightbox="../media/beginners-html-dom3.msft.png":::
-       <span data-ttu-id="84509-187">Überprüfen von Text</span><span class="sxs-lookup"><span data-stu-id="84509-187">Inspecting some text</span></span>  
+1. <span data-ttu-id="ad81b-177">Öffnen Sie die **Registerkarte "Editor",** und versuchen Sie, den Text in zu `index.html` finden.</span><span class="sxs-lookup"><span data-stu-id="ad81b-177">Open the **editor tab** and try to find the text in `index.html`.</span></span> <span data-ttu-id="ad81b-178">Der Text wird in dieser Ansicht nicht angezeigt.</span><span class="sxs-lookup"><span data-stu-id="ad81b-178">The text does not display in this view.</span></span>  
+
+    <!--
+        :::image type="complex" source="media/beginners-html-dom2.msft.png" alt-text="The mystery text A new element!?! is not found in index.html" lightbox="media/beginners-html-dom2.msft.png":::
+        The mystery text `A new element!?!` is not found in `index.html`  
+        :::image-end:::
+    -->
+
+1. <span data-ttu-id="ad81b-179">Öffnen Sie die **Registerkarte "Live",** zeigen Sie darauf, öffnen Sie `A new element!?!` das Kontextmenü (Rechtsklick), und wählen Sie dann **"Überprüfen"** aus.</span><span class="sxs-lookup"><span data-stu-id="ad81b-179">Open the **live tab**, hover over `A new element!?!`, open the contextual menu (right-click) and then choose **Inspect**.</span></span>  
+    
+    :::image type="complex" source="media/beginners-html-dom3.msft.png" alt-text="Überprüfen von Text" lightbox="media/beginners-html-dom3.msft.png":::
+       <span data-ttu-id="ad81b-181">Überprüfen von Text</span><span class="sxs-lookup"><span data-stu-id="ad81b-181">Inspecting some text</span></span>  
     :::image-end:::  
     
-    <span data-ttu-id="84509-188">DevTools wird neben Ihrer Seite geöffnet.</span><span class="sxs-lookup"><span data-stu-id="84509-188">DevTools opens up alongside your page.</span></span>  `<div>A new element!?!</div>` <span data-ttu-id="84509-189">ist blau hervorgehoben.</span><span class="sxs-lookup"><span data-stu-id="84509-189">is highlighted blue.</span></span>  <span data-ttu-id="84509-190">Obwohl diese Struktur in DevTools wie Ihr HTML aussieht, handelt es sich tatsächlich um die **DOM-Struktur**.</span><span class="sxs-lookup"><span data-stu-id="84509-190">Although this structure in DevTools looks like your HTML, it is actually the **DOM Tree**.</span></span>  
+    <span data-ttu-id="ad81b-182">DevTools wird zusammen mit Ihrer Seite geöffnet.</span><span class="sxs-lookup"><span data-stu-id="ad81b-182">DevTools opens up alongside your page.</span></span> `<div>A new element!?!</div>` <span data-ttu-id="ad81b-183">hervorgehoben ist.</span><span class="sxs-lookup"><span data-stu-id="ad81b-183">is highlighted.</span></span> <span data-ttu-id="ad81b-184">Obwohl diese Struktur in DevTools wie HTML aussieht, ist sie die **DOM-Struktur.**</span><span class="sxs-lookup"><span data-stu-id="ad81b-184">Although this structure in DevTools looks like HTML, it is the **DOM Tree**.</span></span>  
     
-    :::image type="complex" source="../media/beginners-html-dom4.msft.png" alt-text="DevTools ist neben der Seite geöffnet" lightbox="../media/beginners-html-dom4.msft.png":::
-       <span data-ttu-id="84509-192">DevTools ist neben der Seite geöffnet</span><span class="sxs-lookup"><span data-stu-id="84509-192">DevTools is open alongside the page</span></span>  
+    :::image type="complex" source="media/beginners-html-dom4.msft.png" alt-text="DevTools ist neben der Seite geöffnet" lightbox="media/beginners-html-dom4.msft.png":::
+       <span data-ttu-id="ad81b-186">DevTools ist neben der Seite geöffnet</span><span class="sxs-lookup"><span data-stu-id="ad81b-186">DevTools is open alongside the page</span></span>  
     :::image-end:::  
     
-<span data-ttu-id="84509-193">Wenn Ihre Seite geladen wird, verwendet der Browser Ihre HTML, um *den* anfänglichen Inhalt der Seite zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="84509-193">When your page loads, the browser takes your HTML to create the *initial* content of the page.</span></span>  <span data-ttu-id="84509-194">Das DOM stellt den *aktuellen Inhalt* der Seite dar, der sich im Laufe der Zeit ändern kann.</span><span class="sxs-lookup"><span data-stu-id="84509-194">The DOM represents the *current* content of the page, which may change over time.</span></span>  <span data-ttu-id="84509-195">Der rätselhafte Inhalt wird Ihrer Seite aufgrund des Tags am unteren `<div>A new element!?!</div>` `<script src="new.js"></script>` Rand Ihres HTML hinzugefügt.</span><span class="sxs-lookup"><span data-stu-id="84509-195">The mysterious `<div>A new element!?!</div>` content is added to your page because of the `<script src="new.js"></script>` tag at the bottom of your HTML.</span></span>  <span data-ttu-id="84509-196">Dieses Tag bewirkt, dass javaScript-Code ausgeführt wird.</span><span class="sxs-lookup"><span data-stu-id="84509-196">This tag causes some JavaScript code to run.</span></span>  <span data-ttu-id="84509-197">Erfahren Sie mehr über JavaScript in einem späteren Lernprogramm, sehen Sie es aber vorerst als Programmiersprache an, die den Inhalt Ihrer Seite ändern kann.</span><span class="sxs-lookup"><span data-stu-id="84509-197">Learn more about JavaScript in a later tutorial, but for now think of it as a programming language that may change the content of your page.</span></span>  <span data-ttu-id="84509-198">In diesem speziellen Fall wird Der JavaScript-Code `<div>A new element!?!</div>` zu Ihrer Seite hinzufügt.</span><span class="sxs-lookup"><span data-stu-id="84509-198">In this particular case, JavaScript code adds `<div>A new element!?!</div>` to your page.</span></span>  <span data-ttu-id="84509-199">Aus diesem Grund ist dieser Mysterientext auf Ihrer Liveseite sichtbar, aber nicht in Ihrem HTML.</span><span class="sxs-lookup"><span data-stu-id="84509-199">That is why this mystery text is visible on your live page, but not in your HTML.</span></span>  
+<span data-ttu-id="ad81b-187">Wenn Ihre Seite geladen wird, verwendet der Browser den HTML-Code, um den anfänglichen Inhalt der Seite zu erstellen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-187">When your page loads, the browser uses the HTML to create the initial content of the page.</span></span> <span data-ttu-id="ad81b-188">Das DOM stellt den aktuellen Inhalt der Seite dar, der sich im Laufe der Zeit ändern kann.</span><span class="sxs-lookup"><span data-stu-id="ad81b-188">The DOM represents the current content of the page, which may change over time.</span></span> 
 
-### <a name="edit-the-dom"></a><span data-ttu-id="84509-200">Bearbeiten des DOM</span><span class="sxs-lookup"><span data-stu-id="84509-200">Edit the DOM</span></span>  
+<span data-ttu-id="ad81b-189">Der `<div>A new element!?!</div>` Inhalt wird ihrer Seite aufgrund des Tags am `<script src="new.js"></script>` unteren Rand Ihres HTML-Codes hinzugefügt.</span><span class="sxs-lookup"><span data-stu-id="ad81b-189">The `<div>A new element!?!</div>` content is added to your page because of the `<script src="new.js"></script>` tag at the bottom of your HTML.</span></span> <span data-ttu-id="ad81b-190">Dieses Tag bewirkt, dass JavaScript-Code ausgeführt wird.</span><span class="sxs-lookup"><span data-stu-id="ad81b-190">This tag causes some JavaScript code to run.</span></span> <span data-ttu-id="ad81b-191">Weitere Informationen zu JavaScript finden Sie in einem [späteren Lernprogramm.](../javascript/index.md)</span><span class="sxs-lookup"><span data-stu-id="ad81b-191">Learn more about JavaScript in a [later tutorial](../javascript/index.md).</span></span>
 
-<span data-ttu-id="84509-201">Wenn Sie schnell mit Inhaltsänderungen experimentieren möchten, ohne die Liveregisterkarte zu verlassen, versuchen Sie DevTools.</span><span class="sxs-lookup"><span data-stu-id="84509-201">If you want to quickly experiment with content changes without ever leaving the live tab, try DevTools.</span></span>  
+<span data-ttu-id="ad81b-192">Stellen Sie sich vorerst eine Skriptsprache vor, die den Inhalt Ihrer Seite ändern kann.</span><span class="sxs-lookup"><span data-stu-id="ad81b-192">For now, think of it as a scripting language that may change the content of your page.</span></span> <span data-ttu-id="ad81b-193">In diesem Fall wird Ihrer Seite JavaScript-Code `<div>A new element!?!</div>` hinzugefügt.</span><span class="sxs-lookup"><span data-stu-id="ad81b-193">In this case, JavaScript code adds `<div>A new element!?!</div>` to your page.</span></span> <span data-ttu-id="ad81b-194">Aus diesem Grund wird dieser Text auf der **Live-Registerkarte,** aber nicht im HTML-Code angezeigt.</span><span class="sxs-lookup"><span data-stu-id="ad81b-194">That is why this text is displayed in the **live** tab, but not in the HTML.</span></span>  
 
-1.  <span data-ttu-id="84509-202">Zeigen Sie in DevTools auf , öffnen Sie das Kontextmenü \(klicken Sie mit der rechten `Your site!` Maustaste\), und wählen **Sie Bearbeiten als HTML aus.**</span><span class="sxs-lookup"><span data-stu-id="84509-202">In DevTools, hover on `Your site!`, open the contextual menu \(right-click\), and choose **Edit as HTML**.</span></span>  
+### <a name="edit-the-dom"></a><span data-ttu-id="ad81b-195">Bearbeiten des DOM</span><span class="sxs-lookup"><span data-stu-id="ad81b-195">Edit the DOM</span></span>  
+
+<span data-ttu-id="ad81b-196">Wenn Sie schnell mit Inhaltsänderungen experimentieren möchten, ohne die Live-Registerkarte verlassen zu müssen, testen Sie DevTools.</span><span class="sxs-lookup"><span data-stu-id="ad81b-196">If you want to quickly experiment with content changes without ever leaving the live tab, try DevTools.</span></span>  
+
+1.  <span data-ttu-id="ad81b-197">Zeigen Sie in DevTools mit dem Mauszeiger darauf, öffnen Sie `Your site!` das Kontextmenü (rechtsklick), und wählen Sie **"Als HTML bearbeiten"** aus.</span><span class="sxs-lookup"><span data-stu-id="ad81b-197">In DevTools, hover over `Your site!`, open the contextual menu (right-click) and choose **Edit as HTML**.</span></span>  
     
-    :::image type="complex" source="../media/beginners-html-edit1.msft.png" alt-text="Bearbeiten des Knotens als HTML" lightbox="../media/beginners-html-edit1.msft.png":::
-       <span data-ttu-id="84509-204">Bearbeiten des Knotens als HTML</span><span class="sxs-lookup"><span data-stu-id="84509-204">Editing the node as HTML</span></span>  
+1.  <span data-ttu-id="ad81b-198">Ersetzen Sie `<p>Your site!</p>` dies durch den folgenden Code.</span><span class="sxs-lookup"><span data-stu-id="ad81b-198">Replace `<p>Your site!</p>` with the following code.</span></span>  
+
+```html
+    ...
+    <header>
+        <p><b>Welcome to my site!</b></p>
+        <button>Download my resume</button>
+    </header>
+    ...
+```  
+
+:::image type="complex" source="media/beginners-html-edit2.msft.png" alt-text="Aktualisieren des Knotens als HTML" lightbox="media/beginners-html-edit2.msft.png":::
+    <span data-ttu-id="ad81b-200">Aktualisieren des Knotens als HTML</span><span class="sxs-lookup"><span data-stu-id="ad81b-200">Updating the node as HTML</span></span>  
+<span data-ttu-id="ad81b-201">::image-end:::</span><span class="sxs-lookup"><span data-stu-id="ad81b-201">::image-end:::</span></span>  
+
+1.  <span data-ttu-id="ad81b-202">Wählen Sie `Control` + `Enter` \(Windows, Linux\) oder `Command` + `Enter` \(macOS\) aus, um Ihre Änderungen zu speichern, oder wählen Sie außerhalb des Felds aus.</span><span class="sxs-lookup"><span data-stu-id="ad81b-202">Select `Control`+`Enter` \(Windows, Linux\) or `Command`+`Enter` \(macOS\) to save your changes, or select outside the box.</span></span> <span data-ttu-id="ad81b-203">Ihre Änderungen werden automatisch in der Liveansicht Ihrer Seite angezeigt.</span><span class="sxs-lookup"><span data-stu-id="ad81b-203">Your changes automatically show up in the live view of your page.</span></span> <span data-ttu-id="ad81b-204">Der Text `Your site!` wurde durch den neuen Inhalt ersetzt.</span><span class="sxs-lookup"><span data-stu-id="ad81b-204">The text `Your site!` has been replaced with the new content.</span></span>  
+    
+    :::image type="complex" source="media/beginners-html-edit3.msft.png" alt-text="Der neue Inhalt wird sofort auf der Seite angezeigt." lightbox="media/beginners-html-edit3.msft.png":::
+       <span data-ttu-id="ad81b-206">Der neue Inhalt wird sofort auf der Seite angezeigt.</span><span class="sxs-lookup"><span data-stu-id="ad81b-206">The new content shows up immediately on the page</span></span>  
     :::image-end:::  
     
-1.  <span data-ttu-id="84509-205">Ersetzen `<p>Your site!</p>` Sie durch den folgenden Code.</span><span class="sxs-lookup"><span data-stu-id="84509-205">Replace `<p>Your site!</p>` with the code below.</span></span>  
+<span data-ttu-id="ad81b-207">Dieser Workflow eignet sich nur für das Experimentieren mit Inhaltsänderungen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-207">This workflow is only suitable for experimenting with content changes.</span></span> <span data-ttu-id="ad81b-208">Wenn Sie die Seite aktualisieren oder die Registerkarte schließen, gehen Ihre Änderungen verloren.</span><span class="sxs-lookup"><span data-stu-id="ad81b-208">If you refresh the page or close the tab, your changes are lost.</span></span> <span data-ttu-id="ad81b-209">Wenn Sie Ihre Änderungen speichern möchten, kopieren Sie den Code manuell in Ihre HTML-Datei.</span><span class="sxs-lookup"><span data-stu-id="ad81b-209">If you want to save your changes, manually copy the code to your HTML file.</span></span> <span data-ttu-id="ad81b-210">In den nächsten Abschnitten werden einige weitere Möglichkeiten zum Ändern von Inhalten aus der DOM-Struktur erläutert.</span><span class="sxs-lookup"><span data-stu-id="ad81b-210">The next couple of sections show you some more ways to change content from the DOM Tree.</span></span>  
+
+## <a name="reorder-nodes"></a><span data-ttu-id="ad81b-211">Knoten neu anordnen</span><span class="sxs-lookup"><span data-stu-id="ad81b-211">Reorder nodes</span></span>
+
+<span data-ttu-id="ad81b-212">Sie können auch die Reihenfolge der DOM-Knoten ändern.</span><span class="sxs-lookup"><span data-stu-id="ad81b-212">You may also change the order of DOM nodes.</span></span> <span data-ttu-id="ad81b-213">Beispielsweise befindet sich das Navigationsmenü auf ihrer Webseite am unteren Rand.</span><span class="sxs-lookup"><span data-stu-id="ad81b-213">For example, on your web page the navigation menu is near the bottom.</span></span> <span data-ttu-id="ad81b-214">Führen Sie die folgenden Schritte aus, um sie nach oben zu verschieben.</span><span class="sxs-lookup"><span data-stu-id="ad81b-214">To move it to the top, perform the following steps.</span></span>  
+
+1.  <span data-ttu-id="ad81b-215">Suchen Sie den `<nav>` Knoten in der **DOM-Struktur** von DevTools.</span><span class="sxs-lookup"><span data-stu-id="ad81b-215">Find the `<nav>` node in the **DOM Tree** of DevTools.</span></span>  
     
-    :::row:::
-       :::column span="":::
-          ```html
-          ...
-              ...
-                  ...
-                  <header>
-                      <p><b>Welcome to my site!</b></p>
-                      <button>Download my resume</button>
-                  </header>
-                  ...
-              ...
-          ...
-          ```  
-       :::column-end:::
-       :::column span="":::
-          :::image type="complex" source="../media/beginners-html-edit2.msft.png" alt-text="Aktualisieren des Knotens als HTML" lightbox="../media/beginners-html-edit2.msft.png":::
-             <span data-ttu-id="84509-207">Aktualisieren des Knotens als HTML</span><span class="sxs-lookup"><span data-stu-id="84509-207">Updating the node as HTML</span></span>  
-          :::image-end:::  
-       :::column-end:::
-    :::row-end:::  
-    
-1.  <span data-ttu-id="84509-208">Wählen `Control` + `Enter` Sie \(Windows, Linux\) oder `Command` + `Enter` \(macOS\) aus, um Ihre Änderungen zu speichern, oder wählen Sie außerhalb des Felds aus.</span><span class="sxs-lookup"><span data-stu-id="84509-208">Select `Control`+`Enter` \(Windows, Linux\) or `Command`+`Enter` \(macOS\) to save your changes, or choose outside of the box.</span></span>  <span data-ttu-id="84509-209">Ihre Änderungen werden automatisch in der Liveansicht Ihrer Seite angezeigt.</span><span class="sxs-lookup"><span data-stu-id="84509-209">Your changes automatically show up in the live view of your page.</span></span>  <span data-ttu-id="84509-210">Der Text `Your site!` wurde durch den neuen Inhalt ersetzt.</span><span class="sxs-lookup"><span data-stu-id="84509-210">The text `Your site!` has been replaced with the new content.</span></span>  
-    
-    :::image type="complex" source="../media/beginners-html-edit3.msft.png" alt-text="Der neue Inhalt wird sofort auf der Seite angezeigt" lightbox="../media/beginners-html-edit3.msft.png":::
-       <span data-ttu-id="84509-212">Der neue Inhalt wird sofort auf der Seite angezeigt</span><span class="sxs-lookup"><span data-stu-id="84509-212">The new content shows up immediately on the page</span></span>  
+    :::image type="complex" source="media/beginners-html-reorder1.msft.png" alt-text="Der Navigationsknoten ist in DevTools hervorgehoben." lightbox="media/beginners-html-reorder1.msft.png":::
+       <span data-ttu-id="ad81b-217">Der Navigationsknoten ist in DevTools hervorgehoben.</span><span class="sxs-lookup"><span data-stu-id="ad81b-217">The nav node is highlighted in DevTools</span></span>  
     :::image-end:::  
     
-<span data-ttu-id="84509-213">Dieser Workflow ist nur für das Experimentieren mit Inhaltsänderungen gut.</span><span class="sxs-lookup"><span data-stu-id="84509-213">This workflow is only good for experimenting with content changes.</span></span>  <span data-ttu-id="84509-214">Wenn Sie die Seite aktualisieren oder die Registerkarte schließen, sind Ihre Änderungen für immer weg.</span><span class="sxs-lookup"><span data-stu-id="84509-214">If you refresh the page or close the tab, your changes are gone forever.</span></span>  <span data-ttu-id="84509-215">Wenn Sie diesen Workflow verwenden und Ihre Änderungen speichern möchten, müssen Sie diese Änderungen manuell in Ihren HTML-Code kopieren.</span><span class="sxs-lookup"><span data-stu-id="84509-215">If you're using this workflow and you want to save your changes, you need to manually copy those changes over to your HTML.</span></span>  <span data-ttu-id="84509-216">In den nächsten Abschnitten werden einige weitere Möglichkeiten zum Ändern von Inhalten aus der DOM-Struktur gezeigt.</span><span class="sxs-lookup"><span data-stu-id="84509-216">The next couple of sections show you some more ways that you may change content from the DOM Tree.</span></span>  
-
-## <a name="reorder-nodes"></a><span data-ttu-id="84509-217">Neu anordnen von Knoten</span><span class="sxs-lookup"><span data-stu-id="84509-217">Reorder nodes</span></span>  
-
-<span data-ttu-id="84509-218">Sie können auch die Reihenfolge der DOM-Knoten ändern.</span><span class="sxs-lookup"><span data-stu-id="84509-218">You may also change the order of DOM nodes.</span></span>  <span data-ttu-id="84509-219">Beispielsweise befindet sich das Navigationsmenü auf Ihrer Webseite in der Nähe des unteren Rands.</span><span class="sxs-lookup"><span data-stu-id="84509-219">For example, on your web page the navigation menu is near the bottom.</span></span>  <span data-ttu-id="84509-220">So verschieben Sie ihn nach oben:</span><span class="sxs-lookup"><span data-stu-id="84509-220">To move it to the top:</span></span>  
-
-1.  <span data-ttu-id="84509-221">Suchen Sie `<nav>` den Knoten in der **DOM-Struktur** von DevTools.</span><span class="sxs-lookup"><span data-stu-id="84509-221">Find the `<nav>` node in the **DOM Tree** of DevTools.</span></span>  
+1.  <span data-ttu-id="ad81b-218">Ziehen Sie den `<nav>` Knoten nach oben, damit der Knoten das erste untergeordnete Element nach dem `<body>` Knoten ist.</span><span class="sxs-lookup"><span data-stu-id="ad81b-218">Drag the `<nav>` node to the top, so that the node is the first child after the `<body>` node.</span></span>  
     
-    :::image type="complex" source="../media/beginners-html-reorder1.msft.png" alt-text="Der Navigationsknoten ist in DevTools blau hervorgehoben." lightbox="../media/beginners-html-reorder1.msft.png":::
-       <span data-ttu-id="84509-223">Der Navigationsknoten ist in DevTools blau hervorgehoben.</span><span class="sxs-lookup"><span data-stu-id="84509-223">The nav node is highlighted blue in DevTools</span></span>  
+    :::image type="complex" source="media/beginners-html-reorder3.msft.png" alt-text="Der Navigationsknoten befindet sich oben auf der Seite." lightbox="media/beginners-html-reorder3.msft.png":::
+        <span data-ttu-id="ad81b-220">Der Navigationsknoten befindet sich oben auf der Seite.</span><span class="sxs-lookup"><span data-stu-id="ad81b-220">The nav node is at the top of the page</span></span>  
     :::image-end:::  
     
-1.  <span data-ttu-id="84509-224">Ziehen Sie `<nav>` den Knoten nach oben, sodass der Knoten das erste untergeordnete Objekt des `<body>` Knotens ist.</span><span class="sxs-lookup"><span data-stu-id="84509-224">Drag the `<nav>` node to the top, so that the node is the first child of the `<body>` node.</span></span>  
-    
-    :::row:::
-       :::column span="":::
-          &nbsp;  
-       :::column-end:::
-       :::column span="":::
-          <span data-ttu-id="84509-225">Der `<nav>` Knoten wird nun oben auf Der Seite angezeigt.</span><span class="sxs-lookup"><span data-stu-id="84509-225">The `<nav>` node is now displaying at the top of your page.</span></span>  
-       :::column-end:::
-    :::row-end:::  
-    :::row:::
-       :::column span="":::
-          :::image type="complex" source="../media/beginners-html-reorder2.msft.png" alt-text="Ziehen des Navigationsknotens nach oben" lightbox="../media/beginners-html-reorder2.msft.png":::
-             <span data-ttu-id="84509-227">Ziehen des Navigationsknotens nach oben</span><span class="sxs-lookup"><span data-stu-id="84509-227">Dragging the nav node to the top</span></span>  
-          :::image-end:::  
-       :::column-end:::
-       :::column span="":::
-          :::image type="complex" source="../media/beginners-html-reorder3.msft.png" alt-text="Der Navigationsknoten befindet sich am oberen Rand der Seite." lightbox="../media/beginners-html-reorder3.msft.png":::
-             <span data-ttu-id="84509-229">Der Navigationsknoten befindet sich am oberen Rand der Seite.</span><span class="sxs-lookup"><span data-stu-id="84509-229">The nav node is at the top of the page</span></span>  
-          :::image-end:::  
-       :::column-end:::
-    :::row-end:::  
-    
-### <a name="delete-a-node"></a><span data-ttu-id="84509-230">Löschen eines Knotens</span><span class="sxs-lookup"><span data-stu-id="84509-230">Delete a node</span></span>  
+### <a name="delete-a-node"></a><span data-ttu-id="ad81b-221">Löschen eines Knotens</span><span class="sxs-lookup"><span data-stu-id="ad81b-221">Delete a node</span></span>
 
-<span data-ttu-id="84509-231">Sie können auch Knoten aus der DOM-Struktur entfernen.</span><span class="sxs-lookup"><span data-stu-id="84509-231">You may also remove nodes from the DOM Tree.</span></span>  
+<span data-ttu-id="ad81b-222">Sie können auch Knoten aus der DOM-Struktur entfernen.</span><span class="sxs-lookup"><span data-stu-id="ad81b-222">You may also remove nodes from the DOM Tree.</span></span> <span data-ttu-id="ad81b-223">Führen Sie die folgenden Schritte aus.</span><span class="sxs-lookup"><span data-stu-id="ad81b-223">Perform the following steps.</span></span>
 
-1.  <span data-ttu-id="84509-232">Wählen Sie **in der DOM-Struktur**die Option `<div>A new element!?!</div>` aus.</span><span class="sxs-lookup"><span data-stu-id="84509-232">In the **DOM Tree**, choose `<div>A new element!?!</div>`.</span></span>  <span data-ttu-id="84509-233">DevTools hebt den Knoten blau hervor.</span><span class="sxs-lookup"><span data-stu-id="84509-233">DevTools highlights the node blue.</span></span>  
+1.  <span data-ttu-id="ad81b-224">Wählen Sie in der **DOM-Struktur** `<div>A new element!?!</div>` .</span><span class="sxs-lookup"><span data-stu-id="ad81b-224">In the **DOM Tree**, choose `<div>A new element!?!</div>`.</span></span> <span data-ttu-id="ad81b-225">DevTools hebt den Knoten hervor.</span><span class="sxs-lookup"><span data-stu-id="ad81b-225">DevTools highlights the node.</span></span> 
     
-    :::image type="complex" source="../media/beginners-html-delete1.msft.png" alt-text="Auswählen des zu löschende Knotens" lightbox="../media/beginners-html-delete1.msft.png":::
-       <span data-ttu-id="84509-235">Auswählen des zu löschende Knotens</span><span class="sxs-lookup"><span data-stu-id="84509-235">Choose the node to be deleted</span></span>  
+1.  <span data-ttu-id="ad81b-226">Wählen Sie die `Delete` Taste auf der Tastatur aus.</span><span class="sxs-lookup"><span data-stu-id="ad81b-226">Select the `Delete` key on your keyboard.</span></span>  <span data-ttu-id="ad81b-227">Der `<div>A new element!?!</div>` Knoten wird aus der DOM-Struktur entfernt.</span><span class="sxs-lookup"><span data-stu-id="ad81b-227">The `<div>A new element!?!</div>` node is removed from the DOM Tree.</span></span>  
+    
+    :::image type="complex" source="media/beginners-html-delete2.msft.png" alt-text="Der Knoten wurde gelöscht." lightbox="media/beginners-html-delete2.msft.png":::
+       <span data-ttu-id="ad81b-229">Der Knoten wurde gelöscht.</span><span class="sxs-lookup"><span data-stu-id="ad81b-229">The node has been deleted</span></span>  
     :::image-end:::  
     
-1.  <span data-ttu-id="84509-236">Wählen Sie `Delete` die Taste auf der Tastatur aus.</span><span class="sxs-lookup"><span data-stu-id="84509-236">Select the `Delete` key on your keyboard.</span></span>  <span data-ttu-id="84509-237">Der `<div>A new element!?!</div>` Knoten wird aus der DOM-Struktur entfernt.</span><span class="sxs-lookup"><span data-stu-id="84509-237">The `<div>A new element!?!</div>` node is removed from your DOM Tree.</span></span>  
+## <a name="copy-your-changes"></a><span data-ttu-id="ad81b-230">Kopieren Ihrer Änderungen</span><span class="sxs-lookup"><span data-stu-id="ad81b-230">Copy your changes</span></span>  
+
+<span data-ttu-id="ad81b-231">Sie sind fast fertig.</span><span class="sxs-lookup"><span data-stu-id="ad81b-231">You're almost done.</span></span> <span data-ttu-id="ad81b-232">Sie haben einige Änderungen an der Seite in DevTools vorgenommen, diese werden jedoch nicht im Quellcode gespeichert.</span><span class="sxs-lookup"><span data-stu-id="ad81b-232">You made a few changes to the page in DevTools, but they're not saved to your source code.</span></span>  
+
+1.  <span data-ttu-id="ad81b-233">Aktualisieren Sie die **Live-Registerkarte**. Die Änderungen, die Sie in der DOM-Struktur vorgenommen haben, werden nicht mehr angezeigt.</span><span class="sxs-lookup"><span data-stu-id="ad81b-233">Refresh the **live tab**. The changes that you made in the DOM Tree disappear.</span></span> <span data-ttu-id="ad81b-234">Insbesondere kehrt der Text `Your site!` zum oberen Rand der Seite zurück, und der Text wird nach unten `A new element!?!` zurückgegeben.</span><span class="sxs-lookup"><span data-stu-id="ad81b-234">In particular, the text `Your site!` returns to the top of the page, and the text `A new element!?!` returns to the bottom.</span></span>  
     
-    :::image type="complex" source="../media/beginners-html-delete2.msft.png" alt-text="Der Knoten wurde gelöscht" lightbox="../media/beginners-html-delete2.msft.png":::
-       <span data-ttu-id="84509-239">Der Knoten wurde gelöscht</span><span class="sxs-lookup"><span data-stu-id="84509-239">The node has been deleted</span></span>  
+    :::image type="complex" source="media/beginners-html-copy1.msft.png" alt-text="Die von Ihnen vorgenommenen Änderungen sind nicht mehr vorhanden." lightbox="media/beginners-html-copy1.msft.png":::
+       <span data-ttu-id="ad81b-236">Die von Ihnen vorgenommenen Änderungen sind nicht mehr vorhanden.</span><span class="sxs-lookup"><span data-stu-id="ad81b-236">The changes that you made are gone</span></span>  
     :::image-end:::  
     
-## <a name="copy-your-changes"></a><span data-ttu-id="84509-240">Kopieren Der Änderungen</span><span class="sxs-lookup"><span data-stu-id="84509-240">Copy your changes</span></span>  
-
-<span data-ttu-id="84509-241">Sie sind fast fertig.</span><span class="sxs-lookup"><span data-stu-id="84509-241">You're almost done.</span></span>  <span data-ttu-id="84509-242">Sie haben einige Änderungen an Ihrer Seite in DevTools vorgenommen, aber sie werden noch nicht im Quellcode gespeichert.</span><span class="sxs-lookup"><span data-stu-id="84509-242">You've made a few changes to your page in DevTools, but they're not yet saved to your source code.</span></span>  
-
-1.  <span data-ttu-id="84509-243">Aktualisieren Sie Ihre **Live-Registerkarte**.  Die Änderungen, die Sie in der DOM-Struktur vorgenommen haben, verschwinden.</span><span class="sxs-lookup"><span data-stu-id="84509-243">Refresh your **live tab**.  The changes that you made in the DOM Tree disappear.</span></span>  <span data-ttu-id="84509-244">Insbesondere wird der Text am oberen Rand der Seite `Your site!` zurückgegeben, und der Text `A new element!?!` kehrt nach unten zurück.</span><span class="sxs-lookup"><span data-stu-id="84509-244">In particular, the text `Your site!` returns to the top of the page, and the text `A new element!?!` returns to the bottom.</span></span>  
-    
-    :::image type="complex" source="../media/beginners-html-copy1.msft.png" alt-text="Die von Ihnen vorgenommenen Änderungen sind nicht mehr" lightbox="../media/beginners-html-copy1.msft.png":::
-       <span data-ttu-id="84509-246">Die von Ihnen vorgenommenen Änderungen sind nicht mehr</span><span class="sxs-lookup"><span data-stu-id="84509-246">The changes that you've made are gone</span></span>  
-    :::image-end:::  
-    
-1.  <span data-ttu-id="84509-247">Kopieren Sie den folgenden Code.</span><span class="sxs-lookup"><span data-stu-id="84509-247">Copy the code below.</span></span>  
+1.  <span data-ttu-id="ad81b-237">Kopieren Sie den folgenden Code.</span><span class="sxs-lookup"><span data-stu-id="ad81b-237">Copy the following code.</span></span>  
     
     ```html
     <!DOCTYPE html>
@@ -347,41 +298,41 @@ ms.locfileid: "11564567"
     </html>
     ```  
     
-1.  <span data-ttu-id="84509-248">Wechseln Sie zurück zur **Registerkarte Editor,** und ersetzen Sie den Inhalt Ihrer Datei durch den `index.html` Code, den Sie gerade kopiert haben.</span><span class="sxs-lookup"><span data-stu-id="84509-248">Go back to the **editor tab** and replace the contents of your `index.html` file with the code that you just copied.</span></span>  
+1.  <span data-ttu-id="ad81b-238">Wechseln Sie zurück zur **Registerkarte "Editor",** und ersetzen Sie den Inhalt Der `index.html` Datei durch den Code, den Sie kopiert haben.</span><span class="sxs-lookup"><span data-stu-id="ad81b-238">Go back to the **editor tab** and replace the content of your `index.html` file with the code that you copied.</span></span>  
     
-    :::image type="complex" source="../media/beginners-html-copy2.msft.png" alt-text="So sollte ihre index.html aussehen" lightbox="../media/beginners-html-copy2.msft.png":::
-       <span data-ttu-id="84509-250">So sollte `index.html` Ihre Datei aussehen</span><span class="sxs-lookup"><span data-stu-id="84509-250">How your `index.html` file should look</span></span>  
+    :::image type="complex" source="media/beginners-html-copy2.msft.png" alt-text="Aussehen der index.html-Datei" lightbox="media/beginners-html-copy2.msft.png":::
+       <span data-ttu-id="ad81b-240">So sollte Ihre `index.html` Datei aussehen</span><span class="sxs-lookup"><span data-stu-id="ad81b-240">How your `index.html` file should look</span></span>  
     :::image-end:::  
     
-## <a name="next-steps"></a><span data-ttu-id="84509-251">Nächste Schritte</span><span class="sxs-lookup"><span data-stu-id="84509-251">Next steps</span></span>  
+## <a name="next-steps"></a><span data-ttu-id="ad81b-241">Nächste Schritte</span><span class="sxs-lookup"><span data-stu-id="ad81b-241">Next steps</span></span>  
 
-*   <span data-ttu-id="84509-252">Führen Sie das nächste Lernprogramm in dieser Reihe [Erste Schritte css][DevToolsBeginnersCss]aus, um zu erfahren, wie Sie Ihre Seite formatieren und mit Formatänderungen in devTools Microsoft Edge experimentieren.</span><span class="sxs-lookup"><span data-stu-id="84509-252">Complete the next tutorial in this series, [Get Started with CSS][DevToolsBeginnersCss], to learn how to style your page and experiment with style changes in Microsoft Edge DevTools.</span></span>  
-*   <span data-ttu-id="84509-253">Lesen [Sie Einführung in das DOM,][MDNIntroductionDom] um mehr über das DOM zu erfahren.</span><span class="sxs-lookup"><span data-stu-id="84509-253">Read [Introduction to the DOM][MDNIntroductionDom] to learn more about the DOM.</span></span>  
-*   <span data-ttu-id="84509-254">Sehen Sie sich einen Kurs wie [Einführung in die Webentwicklung an,][CourseraIntroductionToWebDevelopment] um mehr praktische Webentwicklungserfahrung zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="84509-254">Check out a course like [Introduction to Web Development][CourseraIntroductionToWebDevelopment] to get more hands-on web development experience.</span></span>  
+*   <span data-ttu-id="ad81b-242">Schließen Sie das nächste Lernprogramm dieser Reihe [ab, Erste Schritte mit CSS,][DevToolsBeginnersCss]um zu erfahren, wie Sie Ihre Seite formatieren und mit Formatvorlagenänderungen in Microsoft Edge DevTools experimentieren.</span><span class="sxs-lookup"><span data-stu-id="ad81b-242">Complete the next tutorial in this series, [Get Started with CSS][DevToolsBeginnersCss], to learn how to style your page and experiment with style changes in Microsoft Edge DevTools.</span></span>  
+*   <span data-ttu-id="ad81b-243">Lesen Sie ["Einführung in das DOM",][MDNIntroductionDom] um mehr über das DOM zu erfahren.</span><span class="sxs-lookup"><span data-stu-id="ad81b-243">Read [Introduction to the DOM][MDNIntroductionDom] to learn more about the DOM.</span></span>  
+*   <span data-ttu-id="ad81b-244">Sehen Sie sich einen Kurs wie ["Einführung in die Webentwicklung"][CourseraIntroductionToWebDevelopment] an, um weitere praktische Webentwicklungserfahrungen zu erhalten.</span><span class="sxs-lookup"><span data-stu-id="ad81b-244">Check out a course like [Introduction to Web Development][CourseraIntroductionToWebDevelopment] for more hands-on web development experience.</span></span>  
 
-## <a name="getting-in-touch-with-the-microsoft-edge-devtools-team"></a><span data-ttu-id="84509-255">Mit dem Microsoft Edge-Entwicklungstools-Team Kontakt aufnehmen</span><span class="sxs-lookup"><span data-stu-id="84509-255">Getting in touch with the Microsoft Edge DevTools team</span></span>  
+## <a name="getting-in-touch-with-the-microsoft-edge-devtools-team"></a><span data-ttu-id="ad81b-245">Mit dem Microsoft Edge-Entwicklungstools-Team Kontakt aufnehmen</span><span class="sxs-lookup"><span data-stu-id="ad81b-245">Getting in touch with the Microsoft Edge DevTools team</span></span>  
 
 [!INCLUDE [contact DevTools team note](../includes/contact-devtools-team-note.md)]  
 
 <!--- links --->  
 
-[DevToolsBeginnersCss]: ./css.md "DevTools für Anfänger: Erste Schritte mit CSS-| Microsoft Docs"  
+[DevToolsBeginnersCss]: ./css.md "DevTools für Anfänger: Erste Schritte mit CSS-| Microsoft-Dokumente"  
 
 [MicrosoftEdgeInsider]: https://www.microsoftedgeinsider.com "Microsoft Edge Insider"  
 
-[CourseraIntroductionToWebDevelopment]: https://www.coursera.org/learn/web-development "Einführung in web development | Coursera"  
+[CourseraIntroductionToWebDevelopment]: https://www.coursera.org/learn/web-development "Einführung in webentwicklungs | Coursera"  
 
-[GlitchAlluringShockIndex]: https://glitch.com/edit/#!/alluring-shock?path=index.html "index.html – verlockende | Glitch"  
+[GlitchAlluringShockIndex]: https://glitch.com/edit/#!/alluring-shock?path=index.html "index.html – | Glitch"  
 
-[MDNGettingStartedHtml]: https://developer.mozilla.org/docs/Learn/HTML/Introduction_to_HTML/Getting_started "Erste Schritte mit HTML-| MDN"  
-[MDNIntroductionDom]: https://developer.mozilla.org/docs/Web/API/Document_Object_Model/Introduction "Einführung in die DOM-| MDN"  
+[MDNGettingStartedHtml]: https://developer.mozilla.org/docs/Learn/HTML/Introduction_to_HTML/Getting_started "Erste Schritte mit HTML-| Mdn"  
+[MDNIntroductionDom]: https://developer.mozilla.org/docs/Web/API/Document_Object_Model/Introduction "Einführung in die DOM-| Mdn"  
 
 > [!NOTE]
-> <span data-ttu-id="84509-262">Teile dieser Seite sind Änderungen, die auf [von Google erstellten und freigegebenen][GoogleSitePolicies] Werken basieren und gemäß den in der [Creative Commons Attribution 4.0 International License][CCA4IL] beschriebenen Bestimmungen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="84509-262">Portions of this page are modifications based on work created and [shared by Google][GoogleSitePolicies] and used according to terms described in the [Creative Commons Attribution 4.0 International License][CCA4IL].</span></span>  
-> <span data-ttu-id="84509-263">Die ursprüngliche Seite wurde [hier gefunden](https://developers.google.com/web/tools/chrome-devtools/beginners/html) und von [Katherine Jackson][KatherineJackson] \(Technical Writer Intern, Chrome DevTools\) verfasst.</span><span class="sxs-lookup"><span data-stu-id="84509-263">The original page was found [here](https://developers.google.com/web/tools/chrome-devtools/beginners/html) and was authored by [Katherine Jackson][KatherineJackson] \(Technical Writer Intern, Chrome DevTools\).</span></span>  
+> <span data-ttu-id="ad81b-252">Teile dieser Seite sind Änderungen, die auf [von Google erstellten und freigegebenen][GoogleSitePolicies] Werken basieren und gemäß den in der [Creative Commons Attribution 4.0 International License][CCA4IL] beschriebenen Bestimmungen verwendet werden.</span><span class="sxs-lookup"><span data-stu-id="ad81b-252">Portions of this page are modifications based on work created and [shared by Google][GoogleSitePolicies] and used according to terms described in the [Creative Commons Attribution 4.0 International License][CCA4IL].</span></span>  
+> <span data-ttu-id="ad81b-253">Die originale Seite wurde [hier](https://developers.google.com/web/tools/chrome-devtools/beginners/html) gefunden und von [Einersine(" ("Technical][KatherineJackson] Writer Intern", "Chrome DevTools\") verfasst.</span><span class="sxs-lookup"><span data-stu-id="ad81b-253">The original page was found [here](https://developers.google.com/web/tools/chrome-devtools/beginners/html) and was authored by [Katherine Jackson][KatherineJackson] \(Technical Writer Intern, Chrome DevTools\).</span></span>  
 
 [![Creative Commons License][CCby4Image]][CCA4IL]  
-<span data-ttu-id="84509-265">Diese Arbeit unterliegt einer [Creative Commons Attribution 4.0 International License][CCA4IL].</span><span class="sxs-lookup"><span data-stu-id="84509-265">This work is licensed under a [Creative Commons Attribution 4.0 International License][CCA4IL].</span></span>  
+<span data-ttu-id="ad81b-255">Diese Arbeit unterliegt einer [Creative Commons Attribution 4.0 International License][CCA4IL].</span><span class="sxs-lookup"><span data-stu-id="ad81b-255">This work is licensed under a [Creative Commons Attribution 4.0 International License][CCA4IL].</span></span>  
 
 [CCA4IL]: https://creativecommons.org/licenses/by/4.0  
 [CCby4Image]: https://i.creativecommons.org/l/by/4.0/88x31.png  
