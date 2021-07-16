@@ -56,7 +56,7 @@ Wenn Sie an einem bestimmten DOM-Knoten interessiert sind, ist **Inspect** eine 
     
     1.  Das **Elementtool** von DevTools wird geöffnet.  `<li>Michelangelo</li>` ist in der **DOM-Struktur**hervorgehoben.  
         
-        :::image type="complex" source="../media/dom-glitch-dom-examples-michelangelo-elements-highlighted.msft.png" alt-text="Hervorheben des Knotens "Knoten"" lightbox="../media/dom-glitch-dom-examples-michelangelo-elements-highlighted.msft.png":::
+        :::image type="complex" source="../media/dom-glitch-dom-examples-michelangelo-elements-highlighted.msft.png" alt-text="Hervorheben des Knotens Knoten" lightbox="../media/dom-glitch-dom-examples-michelangelo-elements-highlighted.msft.png":::
            Hervorheben des `Michelangelo` Knotens  
         :::image-end:::  
         
@@ -264,7 +264,7 @@ Kopieren Sie den JavaScript-Pfad zu einem Knoten, wenn Sie in einem automatisier
     1.  Wählen Sie `Control` + `V` \(Windows, Linux\) oder `Command` + `V` \(macOS\) aus, um den Ausdruck in die Konsole einzufügen.  
     1.  Wählen Sie `Enter` diese Option aus, um den Ausdruck auszuwerten.
         
-        :::image type="complex" source="../media/dom-elements-highlighted-copy-js-path-console-query-selector.msft.png" alt-text="Das Ergebnis des Ausdrucks "JS-Pfad kopieren"" lightbox="../media/dom-elements-highlighted-copy-js-path-console-query-selector.msft.png":::
+        :::image type="complex" source="../media/dom-elements-highlighted-copy-js-path-console-query-selector.msft.png" alt-text="Das Ergebnis des Ausdrucks JS-Pfad kopieren" lightbox="../media/dom-elements-highlighted-copy-js-path-console-query-selector.msft.png":::
            Das Ergebnis des Ausdrucks **"JS-Pfad kopieren"**  
         :::image-end:::  
         

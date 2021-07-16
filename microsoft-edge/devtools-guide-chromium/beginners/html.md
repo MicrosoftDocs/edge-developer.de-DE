@@ -62,13 +62,13 @@ Sie werden eine Website im Glitch-Onlinecode-Editor erstellen.
 
 1.  Öffnen Sie den [Quellcode.][GlitchAlluringShockIndex] Diese Registerkarte wird in diesem Lernprogramm als **Editor-Registerkarte** bezeichnet.  
     
-    :::image type="complex" source="media/beginners-html-setup1.msft.png" alt-text="Die Registerkarte "Editor"" lightbox="media/beginners-html-setup1.msft.png":::
+    :::image type="complex" source="media/beginners-html-setup1.msft.png" alt-text="Die Registerkarte Editor" lightbox="media/beginners-html-setup1.msft.png":::
        Die Registerkarte "Editor"  
     :::image-end:::  
     
 1.  Wählen Sie **"Verallgemählt" aus.** Das Menü **Project Optionen** wird geöffnet.  
     
-    :::image type="complex" source="media/beginners-html-setup2.msft.png" alt-text="Menü "Project-Optionen"" lightbox="media/beginners-html-setup2.msft.png":::
+    :::image type="complex" source="media/beginners-html-setup2.msft.png" alt-text="Menü Project-Optionen" lightbox="media/beginners-html-setup2.msft.png":::
        Menü "Project-Optionen"  
     :::image-end:::  
     
@@ -102,13 +102,13 @@ Ihre Website benötigt weitere Informationen. Führen Sie die folgenden Schritte
         ...
     ```  
     
-    :::image type="complex" source="media/beginners-html-add1.msft.png" alt-text="Der neue Code wird auf der Registerkarte "Editor" hervorgehoben." lightbox="media/beginners-html-add1.msft.png":::
+    :::image type="complex" source="media/beginners-html-add1.msft.png" alt-text="Der neue Code wird auf der Registerkarte Editor hervorgehoben." lightbox="media/beginners-html-add1.msft.png":::
         Der neue Code wird auf der Registerkarte "Editor" hervorgehoben.  
     :::image-end:::  
     
 1. Zeigen Sie Ihre Änderungen auf der **Registerkarte "Live" an.** Der Text `About Me` ist auf der Seite sichtbar. Der Text ist größer als der umgebende Text, da das `<h1>` Element eine Überschrift 1 darstellt.  Ihr Webbrowser formatiert Überschriften automatisch in größeren Schriftgraden.  
     
-    :::image type="complex" source="media/beginners-html-add2.msft.png" alt-text="Die neue Überschrift ist auf der Registerkarte "Live" sichtbar." lightbox="media/beginners-html-add2.msft.png":::
+    :::image type="complex" source="media/beginners-html-add2.msft.png" alt-text="Die neue Überschrift ist auf der Registerkarte Live sichtbar." lightbox="media/beginners-html-add2.msft.png":::
        Die neue Überschrift ist auf der Registerkarte "Live" sichtbar.  
     :::image-end:::  
     
@@ -125,7 +125,7 @@ Ihre Website benötigt weitere Informationen. Führen Sie die folgenden Schritte
     ...
     ```  
 
-    :::image type="complex" source="media/beginners-html-add3.msft.png" alt-text="Der aktualisierte Code wird auf der Registerkarte "Editor" hervorgehoben." lightbox="media/beginners-html-add3.msft.png":::
+    :::image type="complex" source="media/beginners-html-add3.msft.png" alt-text="Der aktualisierte Code wird auf der Registerkarte Editor hervorgehoben." lightbox="media/beginners-html-add3.msft.png":::
         Der aktualisierte Code wird auf der Registerkarte "Editor" hervorgehoben.  
     :::image-end:::  
     
@@ -145,13 +145,13 @@ Ihre Website benötigt weitere Informationen. Führen Sie die folgenden Schritte
     ...
     ```  
 
-    :::image type="complex" source="media/beginners-html-add4.msft.png" alt-text="Der aktualisierte Code wird auch auf der Registerkarte "Editor" hervorgehoben." lightbox="media/beginners-html-add4.msft.png":::
+    :::image type="complex" source="media/beginners-html-add4.msft.png" alt-text="Der aktualisierte Code wird auch auf der Registerkarte Editor hervorgehoben." lightbox="media/beginners-html-add4.msft.png":::
         Der aktualisierte Code wird auch auf der Registerkarte "Editor" hervorgehoben.  
     :::image-end:::  
 
 1. Zeigen Sie die **Live-Registerkarte** an, um sicherzustellen, dass der neue Inhalt korrekt angezeigt wird.  
     
-    :::image type="complex" source="media/beginners-html-add5.msft.png" alt-text="Die neue Liste ist auf der Registerkarte "Live" sichtbar." lightbox="media/beginners-html-add5.msft.png":::
+    :::image type="complex" source="media/beginners-html-add5.msft.png" alt-text="Die neue Liste ist auf der Registerkarte Live sichtbar." lightbox="media/beginners-html-add5.msft.png":::
        Die neue Liste ist auf der Registerkarte "Live" sichtbar.  
     :::image-end:::  
     
