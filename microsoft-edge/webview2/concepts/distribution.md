@@ -10,7 +10,7 @@ ms.technology: webview
 keywords: IWebView2, IWebView2WebView, Webview2, Webview, wpf-Apps, Wpf, Microsoft Edge, ICoreWebView2, ICoreWebView2Host, Browsersteuerung, Edge-HTML
 ms.openlocfilehash: 97ede968e066c572bb1b22e10ed7e758e38e3ca4
 ms.sourcegitcommit: 777b16ef10363f2dfd755f115ee2d4c81a8de46f
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: de-DE
 ms.lasthandoff: 05/07/2021
 ms.locfileid: "11535699"
