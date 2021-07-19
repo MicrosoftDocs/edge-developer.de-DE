@@ -29,7 +29,7 @@ ms.locfileid: "11659428"
 
 In Microsoft Edge Version 91 oder früheren Versionen wird die Schaltfläche **"Schließen"** zum Schließen von DevTools nicht angezeigt, wenn der DevTools-Viewport schmal ist.  In Microsoft Edge Version 92 ist die Schaltfläche **"Schließen"** in den DevTools immer vorhanden, unabhängig von der Breite des DevTools-Viewports.
 
-:::image type="complex" source="../../media/2021/05/close-devtools-button-always-displayed.msft.png" alt-text="Die Schaltfläche "DevTools schließen" ist jetzt auch dann vorhanden, wenn der Viewport schmal ist." lightbox="../../media/2021/05/close-devtools-button-always-displayed.msft.png":::
+:::image type="complex" source="../../media/2021/05/close-devtools-button-always-displayed.msft.png" alt-text="Die Schaltfläche DevTools schließen ist jetzt auch dann vorhanden, wenn der Viewport schmal ist." lightbox="../../media/2021/05/close-devtools-button-always-displayed.msft.png":::
    Die Schaltfläche **"DevTools schließen"** ist jetzt auch dann vorhanden, wenn der Viewport schmal ist.
 :::image-end:::
 
@@ -45,11 +45,11 @@ Um die Registerkarten auf beiden Symbolleisten neu anzuordnen, wählen Sie die R
 
 Das Menü **"Weitere Tools"** war in Microsoft Edge Version 89 als Experiment verfügbar und ist jetzt immer vorhanden.
 
-:::image type="complex" source="../../media/2021/05/more-tools-button.msft.png" alt-text="Die Schaltfläche "Weitere Tools" auf der oberen Symbolleiste und der Schublade-Symbolleiste" lightbox="../../media/2021/05/more-tools-button.msft.png":::
+:::image type="complex" source="../../media/2021/05/more-tools-button.msft.png" alt-text="Die Schaltfläche Weitere Tools auf der oberen Symbolleiste und der Schublade-Symbolleiste" lightbox="../../media/2021/05/more-tools-button.msft.png":::
    Die Schaltfläche **"Weitere Tools"** auf der oberen Symbolleiste und der Schublade-Symbolleiste
 :::image-end:::
 
-:::image type="complex" source="../../media/2021/05/more-tools-menu.msft.png" alt-text="Das Menü "Weitere Tools"" lightbox="../../media/2021/05/more-tools-menu.msft.png":::
+:::image type="complex" source="../../media/2021/05/more-tools-menu.msft.png" alt-text="Das Menü Weitere Tools" lightbox="../../media/2021/05/more-tools-menu.msft.png":::
    Das Menü **"Weitere Tools"**
 :::image-end:::
 
@@ -224,7 +224,7 @@ Um den Verlauf dieses Features im Chromium Open-Source-Projekt zu überprüfen, 
 
 CORS-Fehler (Cross-Origin Resource Sharing) werden nun auf der Registerkarte **"Probleme"** angezeigt.  Es gibt verschiedene mögliche Ursachen für CORS-Fehler.  Klicken Sie, um die einzelnen Probleme zu erweitern, um die möglichen Ursachen und Lösungen zu verstehen.
 
-:::image type="complex" source="../../media/2021/05/cors-debugging-support.msft.png" alt-text="CORS-Probleme auf der Registerkarte "Probleme"" lightbox="../../media/2021/05/cors-debugging-support.msft.png":::
+:::image type="complex" source="../../media/2021/05/cors-debugging-support.msft.png" alt-text="CORS-Probleme auf der Registerkarte Probleme" lightbox="../../media/2021/05/cors-debugging-support.msft.png":::
    CORS-Probleme auf der Registerkarte "Probleme"
 :::image-end:::
 

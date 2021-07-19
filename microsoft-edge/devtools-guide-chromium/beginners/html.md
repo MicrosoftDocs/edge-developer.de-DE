@@ -68,8 +68,8 @@ Sie werden eine Website im Glitch-Online-Code-Editor erstellen.
     
 1.  Wählen Sie **alluring-shock** aus. Das Menü **Project Options** wird geöffnet.  
     
-    :::image type="complex" source="media/beginners-html-setup2.msft.png" alt-text="Menü "Project Options"" lightbox="media/beginners-html-setup2.msft.png":::
-       Menü "Project Options"  
+    :::image type="complex" source="media/beginners-html-setup2.msft.png" alt-text="Menü Project Options" lightbox="media/beginners-html-setup2.msft.png":::
+       Menü Project Options  
     :::image-end:::  
     
 1.  Wählen Sie **Remix Project** aus. Glitch erstellt eine Kopie des Projekts, die Sie bearbeiten können, und generiert einen neuen zufälligen Namen für das Projekt. Der Inhalt ist derselbe wie zuvor.  
